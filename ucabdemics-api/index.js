@@ -1,6 +1,9 @@
-const app = require("express")();
+const app = require('express')();
+const { config } = require('./config/index');
 
-app.use(require("express").json());
-app.use(require("cors")());
+app.use(require('express').json());
+app.use(require('cors')());
 
-app.listen();
+app.listen(config.port, function () {
+  console.log(`Listening on port ${config.port}`);
+});
