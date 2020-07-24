@@ -1,4 +1,4 @@
-const MongoLib = require('../mgLib/db');
+const MongoLib = require('../lib/db');
 
 class UserService {
   constructor() {
