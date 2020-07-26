@@ -7,6 +7,10 @@ function MailApi(app) {
 
   const mailService = new MailService();
 
+  router.get('/', (req, res) => {
+    res.status(200).end('Hello World!');
+  });
+
   router.post('/', (req, res, next) => {
     const { email } = req.body;
     const response = mailService.sendRecovery({ user: email });
