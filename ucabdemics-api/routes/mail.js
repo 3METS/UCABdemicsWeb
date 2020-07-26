@@ -8,7 +8,7 @@ function MailApi(app) {
   const mailService = new MailService();
 
   router.get('/', (req, res) => {
-    res.status(200).end('Hello World!');
+    res.status(200).end('<h1>Bienvenido a UCABdemics!</h1>');
   });
 
   router.post('/', (req, res, next) => {
