@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "antd";
+import { Button, Menu, Space } from "antd";
 import {
   CalendarOutlined,
   FileOutlined,
@@ -8,58 +8,63 @@ import {
   LogoutOutlined,
 } from "@ant-design/icons";
 import "./styles/SideBar.css";
+import { Link } from "react-router-dom";
 
 export default class SideBar extends Component {
+  handleClick = (e) => {
+    console.log("click ", e);
+    if (e.key == "5") {
+    }
+  };
+
   render() {
     return (
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          flexGrow: 16,
-          height: "100%",
-          backgroundColor: "red",
-        }}
-      >
-        <div
-          style={{
-            height: "100%",
-            position: "fixed",
-            backgroundColor: "green",
-            width: "50px",
-            zIndex: "-1",
-          }}
-        ></div>
-        <div
-          id="logo"
-          style={{
-            flexGrow: 4,
-            backgroundColor: "blue",
-          }}
-        ></div>
-        <div
-          id="options"
-          style={{
-            flexGrow: 8,
-            backgroundColor: "white",
-          }}
+      <div>
+        <img src="" alt="Logo Ucabdemics" style={{ padding: "1em" }} />
+        <Menu
+          onClick={this.handleClick}
+          defaultSelectedKeys={["1"]}
+          mode="inline"
+          inlineCollapsed={true}
+          style={{ backgroundColor: "green", height: "100vh" }}
         >
-          <div className="container square"></div>
-          <div className="container icon-container icon-container-selected"></div>
-          <div className="container square"></div>
-          <div className="container icon-container"></div>
-          <div className="container square"></div>
-          <div className="container icon-container"></div>
-          <div className="container square"></div>
-          <div className="container icon-container"></div>
-        </div>
-        <div
-          id="logout"
-          style={{
-            flexGrow: 4,
-            backgroundColor: "black",
-          }}
-        ></div>
+          <div
+            style={{
+              marginTop: "160%",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          ></div>
+          <Menu.Item
+            key="1"
+            style={{
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <FileOutlined size={30} />
+          </Menu.Item>
+          <Menu.Item key="2">
+            <FolderOutlined size={24} />
+          </Menu.Item>
+          <Menu.Item key="3">
+            <CalendarOutlined size={24} />
+          </Menu.Item>
+          <Menu.Item key="4">
+            <BellOutlined size={24} />
+          </Menu.Item>
+          <Menu.Item key="5" style={{ position: "fixed", top: "90%" }}>
+            <Link to="/">
+              <LogoutOutlined size={24} />
+            </Link>
+          </Menu.Item>
+        </Menu>
+        <Menu
+          mode="inline"
+          style={{ backgroundColor: "green", height: "100vh" }}
+        >
+          <Menu.Item key="1">Logoout</Menu.Item>
+        </Menu>
       </div>
     );
   }

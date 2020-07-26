@@ -17,7 +17,7 @@ function ImageViewer(props) {
 }
 
 const styles = {
-  height: "auto",
+  height: "100vh",
   width: "100%",
 };
 
