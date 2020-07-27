@@ -17,8 +17,8 @@ class MongoLib {
   }
 
   connect() {
-    if (!mongoFunction.connection) {
-      mongoFunction.connection = new Promise((resolve, reject) => {
+    if (!MongoLib.connection) {
+      MongoLib.connection = new Promise((resolve, reject) => {
         this.client.connect((err) => {
           if (err) {
             console.log(err);
@@ -30,12 +30,12 @@ class MongoLib {
         });
       });
     }
-    return mongoFunction.connection;
+    return MongoLib.connection;
   }
 
   disconnect() {
     this.client.close();
-    mongoFunction.connection = null;
+    MongoLib.connection = null;
   }
 
   getAll(collection, query) {
@@ -65,7 +65,7 @@ class MongoLib {
           .collection(collection)
           .updateOne(query, { $set: data }, { upsert: true });
       })
-      .then((result) => result.upsertedId || id);
+      .then((result) => result.upsertedId || null);
   }
 
   delete(collection, id) {
