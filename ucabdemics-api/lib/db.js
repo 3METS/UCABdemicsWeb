@@ -1,5 +1,6 @@
-const { MongoClient, ObjectId } = require('mongodb');
+const MongoClient = require('mongodb').MongoClient;
 const { config } = require('../config/index');
+const { ObjectId } = require('mongodb');
 
 const USER = encodeURIComponent(config.dbUser);
 const PASSWORD = encodeURIComponent(config.dbPassword);
@@ -44,9 +45,21 @@ class MongoLib {
     });
   }
 
+  getAllProjection(collection, query, projection) {
+    return this.connect().then((db) => {
+      return db.collection(collection).find(query, projection).toArray();
+    });
+  }
+
   get(collection, query) {
     return this.connect().then((db) => {
       return db.collection(collection).findOne(query);
+    });
+  }
+
+  getProjection(collection, query, projection) {
+    return this.connect().then((db) => {
+      return db.collection(collection).findOne(query, projection);
     });
   }
 
@@ -59,21 +72,15 @@ class MongoLib {
   }
 
   update(collection, query, data) {
-    return this.connect()
-      .then((db) => {
-        return db
-          .collection(collection)
-          .updateOne(query, { $set: data }, { upsert: true });
-      })
-      .then((result) => result.upsertedId || null);
+    return this.connect().then((db) => {
+      return db.collection(collection).updateOne(query, { $set: data });
+    });
   }
 
   delete(collection, id) {
-    return this.connect()
-      .then((db) => {
-        return db.collection(collection).deleteOne({ _id: ObjectId(id) });
-      })
-      .then(() => id);
+    return this.connect().then((db) => {
+      return db.collection(collection).deleteOne({ _id: ObjectId(id) });
+    });
   }
 
   getClient() {
