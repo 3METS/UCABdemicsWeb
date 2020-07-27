@@ -1,11 +1,11 @@
-const { MongoClient, ObjectId } = require('mongodb').MongoClient;
+const { MongoClient, ObjectId } = require('mongodb');
 const { config } = require('../config/index');
 
 const USER = encodeURIComponent(config.dbUser);
 const PASSWORD = encodeURIComponent(config.dbPassword);
 const DB_NAME = encodeURIComponent(config.dbName);
 
-const uri = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}:${config.dbPort}/${DB_NAME}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}/${DB_NAME}?retryWrites=true&w=majority`;
 
 class MongoLib {
   constructor() {
@@ -75,6 +75,10 @@ class MongoLib {
       })
       .then(() => id);
   }
+
+  getClient() {
+    return this.MongoClient;
+  }
 }
 
-module.exports = { MongoLib };
+module.exports = MongoLib;

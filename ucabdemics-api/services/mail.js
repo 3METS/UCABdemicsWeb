@@ -12,27 +12,53 @@ class MailService {
     });
   }
 
-  sendRecovery({ user }) {
+  getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  sendWelcome({ user }) {
     var mailOptions = {
-      from: config.email,
+      from: `"UCABdemics Team" <${config.email}>`,
       to: user,
-      subject: 'Recuperación de contraseña',
-      text: 'Esto es una prueba',
-    };
-    var response = {
-      err: null,
-      info: null,
+      subject: '¡Bienvenido a UCABdemics!',
+      text: `<h1>¡Bienvenido a UCABdemics!</h1>
+      <p>Gracias por registrarse en nuestra aplicación</p>
+      `,
     };
 
-    this.transporter.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        response.err = error;
-      } else {
-        response.info = info.response;
-        console.log('Email sent: ' + info.response);
-      }
+    return new Promise((resolve, reject) => {
+      this.transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+          reject(error);
+          return false;
+        } else {
+          console.log('Email sent: ' + info.response);
+          resolve(true);
+        }
+      });
     });
-    return response;
+  }
+
+  sendRecovery({ user }) {
+    var recoveryCode = this.getRndInteger(100000, 999999);
+    var mailOptions = {
+      from: `"UCABdemics Team" <${config.email}>`,
+      to: user,
+      subject: 'Recuperación de contraseña',
+      text: `Su codigo de recuperacion: ${recoveryCode}`,
+    };
+
+    return new Promise((resolve, reject) => {
+      this.transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+          reject(error);
+          return false;
+        } else {
+          console.log('Email sent: ' + info.response);
+          resolve(recoveryCode);
+        }
+      });
+    });
   }
 }
 
