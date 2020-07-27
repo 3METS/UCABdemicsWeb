@@ -1,5 +1,6 @@
-const { MongoClient, ObjectId } = require('mongodb').MongoClient;
+const MongoClient = require('mongodb').MongoClient;
 const { config } = require('../config/index');
+const { ObjectId } = require('mongodb');
 
 const USER = encodeURIComponent(config.dbUser);
 const PASSWORD = encodeURIComponent(config.dbPassword);
@@ -9,16 +10,13 @@ const uri = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}:${config.dbPort}
 
 class MongoLib {
   constructor() {
-    this.client = new MongoClient(uri, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    this.client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
     this.dbName = DB_NAME;
   }
 
   connect() {
-    if (!mongoFunction.connection) {
-      mongoFunction.connection = new Promise((resolve, reject) => {
+    if (!MongoLib.connection) {
+      MongoLib.connection = new Promise((resolve, reject) => {
         this.client.connect((err) => {
           if (err) {
             console.log(err);
@@ -30,12 +28,12 @@ class MongoLib {
         });
       });
     }
-    return mongoFunction.connection;
+    return MongoLib.connection;
   }
 
   disconnect() {
     this.client.close();
-    mongoFunction.connection = null;
+    MongoLib.connection = null;
   }
 
   getAll(collection, query) {
@@ -44,9 +42,21 @@ class MongoLib {
     });
   }
 
+  getAllProjection(collection, query, projection) {
+    return this.connect().then((db) => {
+      return db.collection(collection).find(query, projection).toArray();
+    });
+  }
+
   get(collection, query) {
     return this.connect().then((db) => {
       return db.collection(collection).findOne(query);
+    });
+  }
+
+  getProjection(collection, query, projection) {
+    return this.connect().then((db) => {
+      return db.collection(collection).findOne(query, projection);
     });
   }
 
@@ -61,9 +71,7 @@ class MongoLib {
   update(collection, query, data) {
     return this.connect()
       .then((db) => {
-        return db
-          .collection(collection)
-          .updateOne(query, { $set: data }, { upsert: true });
+        return db.collection(collection).updateOne(query, { $set: data });
       });
   }
 
@@ -71,8 +79,7 @@ class MongoLib {
     return this.connect()
       .then((db) => {
         return db.collection(collection).deleteOne({ _id: ObjectId(id) });
-      })
-      .then(() => id);
+      });
   }
 }
 
