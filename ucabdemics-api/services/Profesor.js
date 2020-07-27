@@ -1,4 +1,4 @@
-const mongoFunction = require('../lib/db').mongoFunction;
+const mongoFunction = require('../lib/db').MongoLib;
 const { ObjectId } = require('mongodb');
 
 class ProfesorService {
@@ -12,7 +12,7 @@ class ProfesorService {
             correo: profesor.correo
         };
         const existeProfesor = await this.MongoDB.get(this.collection, query);
-        const existeUsuario = await this.MongoDB.get("usuarios", { _id: ObjectId(userID) });
+        const existeUsuario = await this.MongoDB.get("usuarios", { "_id": ObjectId(userID) });
         
         if (!existeProfesor && (existeUsuario != null) && (existeUsuario.correo == profesor.correo)){
             const profesorId = await this.MongoDB.create(this.collection, profesor);
@@ -36,8 +36,8 @@ class ProfesorService {
         }
     };
 
-    async buscar (info){
-        const result = await this.MongoDB.get(this.collection, info);
+    async buscar (query){
+        const result = await this.MongoDB.get(this.collection, query);
 
         if(result != null ){
             return result;
@@ -46,8 +46,8 @@ class ProfesorService {
         }
     };
 
-    async buscarVarios (info){
-        const result = await this.MongoDB.getAll(this.collection, info);
+    async buscarVarios (query){
+        const result = await this.MongoDB.getAll(this.collection, query);
 
         if (result.length > 0){
             return result;

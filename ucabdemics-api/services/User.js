@@ -1,4 +1,4 @@
-const mongoFunction = require('../lib/db').mongoFunction;
+const mongoFunction = require('../lib/db').MongoLib;
 const profesor = require('./Profesor').ProfesorService;
 const { ObjectId } = require('mongodb');
 
@@ -10,10 +10,7 @@ class UsuarioService {
     };
 
     async crear(user){
-        const query = {
-            correo: user.correo, 
-            contrasenia: user.contrasenia};
-        const result = await this.MongoDB.get(this.collection, query);
+        const result = await this.MongoDB.get(this.collection, user);
 
         if (!result){
             const createdUserId = await this.MongoDB.create(this.collection, user);
@@ -24,7 +21,7 @@ class UsuarioService {
     };
 
     async agregarProfesor (userID, profesorID){
-        const query = { _id: ObjectId(userID) };
+        const query = { "_id": ObjectId(userID) };
         const exist = await this.MongoDB.get(this.collection, query );
 
         if(exist == null){
@@ -83,8 +80,8 @@ class UsuarioService {
         }
     };
 
-    async buscar (info){
-        const result = await this.MongoDB.get(this.collection, info);
+    async buscar (query){
+        const result = await this.MongoDB.get(this.collection, query);
 
         if(result != null ){
             return result;
@@ -93,8 +90,8 @@ class UsuarioService {
         }
     };
 
-    async buscarVarios (info){
-        const result = await this.MongoDB.getAll(this.collection, info);
+    async buscarVarios (query){
+        const result = await this.MongoDB.getAll(this.collection, query);
 
         if (result.length > 0){
             return result;
