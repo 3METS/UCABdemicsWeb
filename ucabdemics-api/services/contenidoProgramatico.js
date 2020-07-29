@@ -1,7 +1,7 @@
 const mongoFunction = require('../lib/db').MongoLib;
 const { ObjectId } = require('mongodb');
 
-class AsignaturaService{
+class ContenidoProgramaticoService{
     constructor(){
         this.MongoDB = new mongoFunction();
         this.collection = "contenido-programaticos";
@@ -31,4 +31,4 @@ class AsignaturaService{
 
 }
 
-module.exports = { AsignaturaService };
+module.exports = { ContenidoProgramaticoService };
