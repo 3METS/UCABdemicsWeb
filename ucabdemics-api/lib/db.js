@@ -64,8 +64,7 @@ class MongoLib {
     return this.connect()
       .then((db) => {
         return db.collection(collection).insertOne(data);
-      })
-      .then((result) => result.insertedId);
+      });
   }
 
   update(collection, query, data) {
