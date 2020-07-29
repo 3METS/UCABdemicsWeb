@@ -4,7 +4,7 @@ const joi = require('@hapi/joi');
 const carreraIdSchema = require('./carrera').carreraIdSchema;
 const competenciaIdSchema = require('./competencia').competenciaIdSchema;
 
-const asignaturaIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
+const asignaturaIdSchema = joi.string().max(30);
 
 // const codigoSchema = joi.string().max(20);
 const nombreSchema = joi.string().max(100);
@@ -37,7 +37,7 @@ const prelacionRequisitoSchema = asignaturaIdSchema;
 const asignaturaAporteSchema = asignaturaIdSchema;
 
 const createAsignatura = {
-  // codigo : codigoSchema.required(),
+  codigo : asignaturaIdSchema.required(),
   nombre : nombreSchema.required(),
   carrera : carreraIdSchema.required(),
   departamento : departamentoSchema.required(),
@@ -60,7 +60,7 @@ const createAsignatura = {
 };
 
 const updateAsignatura = {
-  // codigo : codigoSchema,
+  codigo : asignaturaIdSchema,
   nombre : nombreSchema,
   carrera : carreraIdSchema,
   departamento : departamentoSchema,

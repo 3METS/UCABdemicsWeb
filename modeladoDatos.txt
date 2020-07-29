@@ -1,5 +1,5 @@
 Modelado de Datos
-{
+
 Usuarios
 - Profesor                      //Creada//
 - Horario                       //Dentro de Seccion//
@@ -15,7 +15,6 @@ Usuarios
 - Contenido Plan de Clase       //Dentro de Plan de Clase//
 - Unidad Tematica Plan de Clase //Dentro de Contenido Plan de Clase//
 - Evualuacion                   //Dentro de Plan de Clase//
-}
 
 Usuarios{
     correo : String
