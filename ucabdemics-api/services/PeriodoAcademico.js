@@ -24,7 +24,7 @@ class PeriodoService{
         return "No existe"
     }
 
-    async buscarTodos(data){
+    async buscarVarios(data){
         const result = await this.MongoDB.getAll(this.collection, data);
         return result;
     }

@@ -12,10 +12,10 @@ function periodoAcademicoRoute(app){
     this.periodoService = new apiService();
     var params;
      
-    app.get('/buscarTodos',validationHandler(updatePeriodoAcademico), async function(req,res){
+    app.get('/buscarVarios/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
         const body = req.body;
         try {
-            const data = await this.periodoService.buscarTodos(body);
+            const data = await this.periodoService.buscarVarios(body);
             res.json({
                 data:data
             })
@@ -25,7 +25,7 @@ function periodoAcademicoRoute(app){
         
     });
 
-    app.get('/buscarPrimero',validationHandler(updatePeriodoAcademico), async function(req,res){
+    app.get('/buscarPrimero/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
         const body = req.body;
         try {
             const data = await this.periodoService.buscarPrimero(body);
@@ -37,7 +37,7 @@ function periodoAcademicoRoute(app){
         }
     });
     
-    app.post('/crear',validationHandler(createPeriodoAcademico), async function(req,res){
+    app.post('/crear/periodoAcademico',validationHandler(createPeriodoAcademico), async function(req,res){
         const {body : periodo} = req;
         try {
             const data = await this.periodoService.crear(periodo);
@@ -50,17 +50,16 @@ function periodoAcademicoRoute(app){
         
     });
 
-    app.get('/modificar',validationHandler(updatePeriodoAcademico), async function(req,res){
+    app.get('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
         const body = req.body;
-        params = body;
-        const data = await this.periodoService.buscarUno(body);
+        const data = await this.periodoService.buscarPrimero(body);
         params = data;
         res.json({
             data:data
         })
     });
 
-    app.post('/modificar',validationHandler(updatePeriodoAcademico), async function(req,res){
+    app.post('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
         const body = req.body;
         const data = await this.periodoService.modificar(params,body);
         res.json({
@@ -68,7 +67,7 @@ function periodoAcademicoRoute(app){
         })
     });
 
-    app.delete('/eliminar', validationHandler(updatePeriodoAcademico),async function(req,res){
+    app.delete('/eliminar/periodoAcademico', validationHandler(updatePeriodoAcademico),async function(req,res){
         const body = req.body;
         const data = await this.periodoService.eliminar(body);
         res.json({
