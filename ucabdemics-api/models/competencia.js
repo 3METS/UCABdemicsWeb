@@ -1,6 +1,6 @@
 const joi = require('@hapi/joi');
 
-const competenciaIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
+const competenciaIdSchema = joi.string().max(30);
 
 const nombreSchema = joi.string().max(80);
 const descripcionSchema = joi.string().max(300);
@@ -19,12 +19,14 @@ const unidadesSchema = joi.array().items(unidadSchema);
 
 
 const createCompetencia ={
+  codigo : competenciaIdSchema.required(),
   nombre: nombreSchema.required(),
   descripcion: descripcionSchema.required(),
   unidades_Competencia: unidadesSchema.required()
 };
 
 const updateCompetencia = {
+  codigo : competenciaIdSchema,
   nombre: nombreSchema,
   descripcion: descripcionSchema,
   unidades_Competencia: unidadesSchema

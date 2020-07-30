@@ -1,27 +1,26 @@
 const joi = require('@hapi/joi');
 
-const periodoAcademicoIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
+const periodoAcademicoIdSchema = joi.string().max(10);
 
-const nombreSchema = joi.string().max(10);
 const fechaInicioSchema = joi.string().max(20);
 const fechaFinalSchema = joi.string().max(20);
 const decripcionSchema = joi.string().max(300);
 
 const createPeriodoAcademico ={
-  nombre: nombreSchema.required(),
+  codigo: periodoAcademicoIdSchema.required(), //Ej. 2020-25
   fechaInicio: fechaInicioSchema.required(),
   fechaFinal: fechaFinalSchema.required(),
   descripcion: decripcionSchema.required()
 };
 
-const updatePeriodoAcademico = {
-  nombre: nombreSchema,
+const updatePeriodoAcademico = { //Lo llamé rud porque funciona para todo menos create
+  codigo: periodoAcademicoIdSchema,
   fechaInicio: fechaInicioSchema,
   fechaFinal: fechaFinalSchema,
   descripcion: decripcionSchema
 };
 
-module.exports = { 
+module.exports = {
   periodoAcademicoIdSchema,
   createPeriodoAcademico,
   updatePeriodoAcademico

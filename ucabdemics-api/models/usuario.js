@@ -2,7 +2,7 @@ const joi = require('@hapi/joi');
 
 const profesorIdSchema = require('./profesor').profesorIdSchema;
 
-const usuarioIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
+// const usuarioIdSchema = joi.string();
 
 const correoSchema = joi.string().max(300);
 const passwordSchema = joi.string().max(30);
@@ -20,7 +20,6 @@ const updateUsuario = {
 };
 
 module.exports = {
-    usuarioIdSchema,
     createUsuario,
     updateUsuario
 }
