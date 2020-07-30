@@ -74,6 +74,13 @@ class MongoLib {
       });
   }
 
+  updateOption(collection, query, data, option) {
+    return this.connect()
+      .then((db) => {
+        return db.collection(collection).updateOne(query, { $set: data }, option);
+      });
+  }
+
   delete(collection, id) {
     return this.connect()
       .then((db) => {
