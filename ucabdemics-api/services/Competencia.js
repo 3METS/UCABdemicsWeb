@@ -7,6 +7,16 @@ class CompetenciaService{
         this.collection = "competencias";
     }
 
+    async crear(data){
+        const exist = await this.MongoDB.get(this.collection, { "codigo": data.codigo });
+        if (exist == null){
+            const result = await this.MongoDB.create(this.collection, data);
+            return result;
+        }else{
+            return "Ya existe"
+        }
+    }
+
     async buscar(query){
         const result = await this.MongoDB.get(this.collection, query);
 
@@ -29,13 +39,25 @@ class CompetenciaService{
     }
 
     async buscarVarios (data){ // Recibe un array con las competencias. Ex: ["CG2","CPE1"]
-        const query = { "competencia": { $in: data } };
-        const result = await this.MongoDB.getAll(this.collection, query);
+        // const query = { "codigo": { $in: data } };
+        const result = await this.MongoDB.getAll(this.collection, data);
 
         if (result.length > 0){
             return result;
         }else{
             return null;
+        }
+    }
+
+    async eliminar (codigo){
+        const busqueda = await this.MongoDB.get(this.collection, codigo);
+        const id = busqueda._id.toString();
+        const result = await this.MongoDB.delete(this.collection, id);
+
+        if (result.deletedCount > 0){
+            return true;
+        }else{
+            return false;
         }
     }
 }
