@@ -9,6 +9,7 @@ const tipoSchema = joi.string().max(50);
 const horaInicioSchema = joi.string().max(10);
 const duracionSchema = joi.number().integer().min(1);
 const fechaSchema = joi.string().max(50);
+const statusSchema = joi.boolean().default(false);
 
 const createSolicitud = {
     codigo : solicitudIdSchema.required(),
@@ -17,7 +18,8 @@ const createSolicitud = {
     duracion : duracionSchema.required(),
     fecha : fechaSchema.required(),
     profesor : profesorIdSchema.required(),
-    seccion : seccionIdSchema.required()
+    seccion : seccionIdSchema.required(),
+    status : statusSchema
 };
 
 const updateSolicitud = {
@@ -27,7 +29,8 @@ const updateSolicitud = {
     duracion : duracionSchema,
     fecha : fechaSchema,
     profesor : profesorIdSchema,
-    seccion : seccionIdSchema
+    seccion : seccionIdSchema,
+    status : statusSchema
 };
 
 module.exports = {
