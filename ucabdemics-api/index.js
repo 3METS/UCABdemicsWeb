@@ -5,6 +5,11 @@ const { config } = require('./config/index');
 
 const mailApi = require('./routes/mail');
 
+const periodoApi = require('./routes/periodoAcademico');
+const competenciaApi = require('./routes/competencia');
+const carreraApi = require('./routes/carrera');
+const contenidoProgramaticoApi = require('./routes/contenidoProgramatico');
+
 const {
   logErrors,
   errorHandler,
@@ -21,6 +26,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //Routes
 mailApi(app);
+periodoApi(app);
+competenciaApi(app);
+carreraApi(app);
+contenidoProgramaticoApi(app);
 
 //Direcciona a 404 not found
 app.use(notFoundHandler);
