@@ -1,0 +1,3696 @@
+{
+  "escuela": "Facultad de Ingeniería",
+  "carrera": "Ingeniería Informática",
+  "semestre": "Tercero",
+  "seccion": "401",
+  "periodo": "2020-15",
+  "asignatura": "Matemáticas Discretas",
+  "profesor": "Yoel Gutierrez",
+  "competencias": ["CG1","CG3","CPB2"],
+  "contenido": [
+    {
+      "fechaSemana": ["16-09-2019","20-09-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-1"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["23-09-2019","27-09-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-1","2-2"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["30-09-2019","04-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-1"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["07-10-2019","11-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-2","6-3"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["14-10-2019","18-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["21-10-2019","25-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-3","2-4"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Pruba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["21-10-2019"],
+          "ponderacion": 30
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["28-10-2019","01-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-2","1-3"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["04-11-2019","08-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [2,4],
+        "subtemas":["2-5","4-1"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["11-11-2019","15-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-5","2-6"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["18-11-2019","22-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-7"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["25-11-2019","29-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Pruba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["25-11-2019"],
+          "ponderacion": 30
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["02-12-2019","06-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-2"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["09-12-2019","13-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [4,5],
+        "subtemas":["4-4","5-1"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["16-12-2019","18-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-2"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Ejercitación",
+          "instrumento": "Asignación",
+          "evidencia": "Asignación"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["13-01-2020"],
+          "ponderacion": 10
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["07-01-2020","10-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-3","5-4"]
+      },
+      "actividadesDocente":[
+        "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+        "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+        "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+        "Aplicación de los conceptos mediante asignaciones de ejercicios",
+        "Resolución de ejercicios prácticos",
+        "resentaciones y exposiciones con apoyo de un video beam"
+      ],
+      "actividadesEstudiante":[
+        "Escucha y toma notas",
+        "Responde y formula preguntas",
+        "Da opciones de solución a los Problemas propuestos",
+        "Ejecuta las opciones de solución para dar respuesta a los problemas",
+        "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+        "Discuten en equipos las diferentes estrategias de solución de un problema",
+        "Deliberan y seleccionan la estrategia más adecuada",
+        "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+        "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+      ]
+    },
+    {
+      "fechaSemana": ["13-01-2020","17-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CPB2-1-1","CPB2-1-2","CPB2-1-3"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Pruba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["13-01-2020"],
+          "ponderacion": 30
+        }
+      ]
+    }
+  ],
+  "evaluaciones":[
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["21-10-2019"],
+      "temas": ["1-1","2-1","2-2","6-1","6-2","6-3","6-4","6-5"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["25-11-2019"],
+      "temas": ["1-2","1-3","2-5","2-3","2-4","4-1","2-6","2-7"]
+    },
+    {
+      "evidencia": "Asignación",
+      "fecha": ["13-01-2020"],
+      "temas": ["5-2"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["13-01-2020"],
+      "temas": ["3-1","3-2","4-4","5-2","5-3","5-4"]
+    }
+  ]
+}
+{
+  "escuela": "Facultad de Ingeniería",
+  "carrera": "Ingeniería Informática",
+  "semestre": "Primero",
+  "periodo": "2020-15",
+  "asignatura": "Introducción a la Informática",
+  "profesor": "Nidia Marcano",
+  "competencias": ["CG1","CG3","CPE4"],
+  "contenido": [
+    {
+      "fechaSemana": ["16-09-2019","20-09-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-1","1-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por parte del docente sobre la presentación de la materia y plan de evaluación",
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, para la elaboración de una línea de tiempo"
+      ],
+      "actividadesEstudiante":[
+        "Exploraran en el laboratorio el módulo 7 y activaran su correo de la universidad"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Exposición",
+          "instrumento": "Línea de Tiempo",
+          "evidencia": "Línea de Tiempo"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["21-10-2019","22-10-2019","11-11-2019","12-11-2019","16-12-2019","17-12-2019"],
+          "ponderacion": 10
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["23-09-2019","27-09-2019"],
+      "unidadesCompetencia":["CG1-1","CG3-1"],
+      "criterios": ["CG1-1-3","CG3-1-2"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-3"]
+      },
+      "actividadesDocente":[
+        "Previo a la sesión de clase, se organizaran en equipo de 5 personas y se sortearan los temas para cada equipo"
+      ],
+      "actividadesEstudiante":[
+        "Investigará de forma autónoma el tema asignado en clase, usando preguntas guiadas por el docente"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Exposición",
+          "instrumento": "Exposición",
+          "evidencia": "Exposición"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["24-09-2019","25-09-2019"],
+          "ponderacion": 10
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["30-09-2019","04-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG3-1"],
+      "criterios": ["CG1-1-3","CG3-1-2"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-3"]
+      },
+      "actividadesDocente":[
+        "Previo a la sesión de clase, se organizaran en equipo de 5 personas y se sortearan los temas para cada equipo"
+      ],
+      "actividadesEstudiante":[
+        "Investigará de forma autónoma el tema asignado en clase, usando preguntas guiadas por el docente"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Exposición",
+          "instrumento": "Exposición",
+          "evidencia": "Exposición"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["01-10-2019","02-10-2019"],
+          "ponderacion": 10
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["07-10-2019","11-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG3-1"],
+      "criterios": ["CG1-1-3","CG3-1-2"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-3"]
+      },
+      "actividadesDocente":[
+        "Previo a la sesión de clase, se organizaran en equipo de 5 personas y se sortearan los temas para cada equipo"
+      ],
+      "actividadesEstudiante":[
+        "Investigará de forma autónoma el tema asignado en clase, usando preguntas guiadas por el docente"
+      ]
+    },
+    {
+      "fechaSemana": ["14-10-2019","18-10-2019"],
+      "unidadesCompetencia":["CG1-3"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-1","2-2","2-3","2-4","2-5"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Organizará a la clase en grupos de 2 o 4 estudiantes para trabajar en equipo",
+        "Se prepararan ejercicios para construirla solución en la sesión de clases"
+      ],
+      "actividadesEstudiante":[
+        "Investigará de forma autónoma el tema usando unas preguntas guiadas dadas por el docente y estará preparado para dar respuesta"
+      ]
+    },
+    {
+      "fechaSemana": ["21-10-2019","25-10-2019"],
+      "unidadesCompetencia":["CG1-3"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1","3-2","3-3","3-4"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Durante la sección de clase se harán preguntas que ayuden a construir el tema mediante la estimulación de la curiosidad"
+      ],
+      "actividadesEstudiante":[
+        "Elaborar ejercicios preparado por el docente en clase de forma individual"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Pruba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["21-10-2019","22-10-2019"],
+          "ponderacion": 15
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["28-10-2019","01-11-2019"],
+      "unidadesCompetencia":["CG1-3"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1","3-2","3-3","3-4"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Durante la sección de clase se harán preguntas que ayuden a construir el tema mediante la estimulación de la curiosidad"
+      ],
+      "actividadesEstudiante":[
+        "Elaborar ejercicios preparado por el docente en clase de forma individual"
+      ]
+    },
+    {
+      "fechaSemana": ["04-11-2019","08-11-2019"],
+      "unidadesCompetencia":["CG1-3"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1","3-2","3-3","3-4"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Durante la sección de clase se harán preguntas que ayuden a construir el tema mediante la estimulación de la curiosidad"
+      ],
+      "actividadesEstudiante":[
+        "Elaborar ejercicios preparado por el docente en clase de forma individual"
+      ]
+    },
+    {
+      "fechaSemana": ["11-11-2019","15-11-2019"],
+      "unidadesCompetencia":["CG1-3"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-5"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Se organizará en grupos de 2 o 4 estudiantes para trabajar en equipo",
+        "Se les asignara un ejercicio a cada grupo para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo de 5 personas y elaborar ejercicios preparado por el docente"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Pruba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["11-11-2019","12-11-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["18-11-2019","22-11-2019"],
+      "unidadesCompetencia":["CG1-3"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-5"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Se organizará en grupos de 2 o 4 estudiantes para trabajar en equipo",
+        "Se les asignara un ejercicio a cada grupo para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo de 5 personas y elaborar ejercicios preparado por el docente"
+      ]
+    },
+    {
+      "fechaSemana": ["25-11-2019","29-11-2019"],
+      "unidadesCompetencia":["CG3-1"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-6"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Se organizará en grupos de 2 o 4 estudiantes para trabajar en equipo",
+        "Se les asignara un ejercicio a cada grupo para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo de 5 personas y elaborar ejercicios preparado por el docente"
+      ]
+    },
+    {
+      "fechaSemana": ["02-12-2019","06-12-2019"],
+      "unidadesCompetencia":["CG3-1"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-6"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Se organizará en grupos de 2 o 4 estudiantes para trabajar en equipo",
+        "Se les asignara un ejercicio a cada grupo para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo de 5 personas y elaborar ejercicios preparado por el docente"
+      ]
+    },
+    {
+      "fechaSemana": ["09-12-2019","13-12-2019"],
+      "unidadesCompetencia":["CG3-1"],
+      "criterios": ["CG3-1-2"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-6"]
+      },
+      "actividadesDocente":[
+        "Previo a la sección de clase se les indicara a los alumnos que efectué una investigación sobre el tema, utilizando preguntas guiadas",
+        "Se realizara una exposición verbal por parte del docente de forma introductoria sobre el tema",
+        "Se organizará en grupos de 2 o 4 estudiantes para trabajar en equipo",
+        "Se les asignara un ejercicio a cada grupo para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo de 5 personas y elaborar ejercicios preparado por el docente"
+      ]
+    },
+    {
+      "fechaSemana": ["16-12-2019","18-12-2019"],
+      "unidadesCompetencia":["CPE4-1"],
+      "criterios": ["CPE4-1-3"],
+      "actividadesDocente":[
+        "Se organizará en grupos para trabajar en equipo",
+        "Se les asignara un Problema para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo para la realización de su proyecto"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estratégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["16-12-2019","17-12-2019"],
+          "ponderacion": 25
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["07-01-2020","10-01-2020"],
+      "unidadesCompetencia":["CPE4-1"],
+      "criterios": ["CPE4-1-3"],
+      "actividadesDocente":[
+        "Se organizará en grupos para trabajar en equipo",
+        "Se les asignara un Problema para la realización de un proyecto"
+      ],
+      "actividadesEstudiante":[
+        "Se organizaran en equipo para la realización de su proyecto"
+      ]
+    },
+    {
+      "fechaSemana": ["13-01-2020","17-01-2020"],
+      "unidadesCompetencia":["CPE4-1"],
+      "criterios": ["CPE4-1-3"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Proyecto Final",
+          "instrumento": "Proyecto",
+          "evidencia": "Proyecto"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["13-01-2020","14-01-2020"],
+          "ponderacion": 10
+        }
+      ]
+    }
+  ],
+  "evaluaciones":[
+    {
+      "evidencia": "Línea de Tiempo",
+      "fecha": ["21-10-2019","22-10-2019","11-11-2019","12-11-2019","16-12-2019","17-12-2019"],
+      "temas": ["1-3"]
+    },
+    {
+      "evidencia": "Exposición",
+      "fecha": ["24-09-2019","25-09-2019","01-10-2019","02-10-2019"],
+      "temas": ["1-3"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["21-10-2019","22-10-2019"],
+      "temas": ["1-3","2-1","2-2","2-3","2-4"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["11-11-2019","12-11-2019"],
+      "temas": ["2-5"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["16-12-2019","17-12-2019"],
+      "temas": ["2-6"]
+    },
+    {
+      "evidencia": "Proyecto",
+      "fecha": ["13-01-2020","14-01-2020"]
+    }
+  ]
+}
+{
+  "escuela": "Facultad de Ingeniería",
+  "carrera": "Ingeniería Informática",
+  "semestre": "Tercero",
+  "periodo": "2020-15",
+  "asignatura": "Algoritmos y Porgramación II",
+  "profesor": "José Saad",
+  "competencias": ["CG1","CG3","CPE4"],
+  "contenido": [
+    {
+      "fechaSemana": ["16-09-2019","20-09-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-1","1-2","1-3","1-4"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas"
+      ]
+    },
+    {
+      "fechaSemana": ["23-09-2019","27-09-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas": ["1-1","1-2","1-3","1-4"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas"
+      ]
+    },
+    {
+      "fechaSemana": ["30-09-2019","04-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas": ["1-1","1-2","1-3","1-4"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares"
+      ]
+    },
+    {
+      "fechaSemana": ["07-10-2019","11-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1","3-2","3-3","3-4"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas"
+      ]
+    },
+    {
+      "fechaSemana": ["14-10-2019","18-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-4","3-5"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas"
+      ]
+    },
+    {
+      "fechaSemana": ["21-10-2019","25-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-2"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["22-10-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["28-10-2019","01-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-1"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ]
+    },
+    {
+      "fechaSemana": ["04-11-2019","08-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas":["2-2","2-3"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ]
+    },
+    {
+      "fechaSemana": ["11-11-2019","15-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [4,5],
+        "subtemas":["4-1","4-2","4-3","5-1","5-2"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ]
+    },
+    {
+      "fechaSemana": ["18-11-2019","22-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-3","5-4"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["19-11-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["25-11-2019","29-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-2"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Proyecto Final",
+          "instrumento": "Proyecto",
+          "evidencia": "Proyecto"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["26-11-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["02-12-2019","06-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-1"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ]
+    },
+    {
+      "fechaSemana": ["09-12-2019","13-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-2"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ]
+    },
+    {
+      "fechaSemana": ["16-12-2019","18-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-3"]
+      },
+      "actividadesDocente":[
+        "Clase magistral",
+        "Preguntas generadoras y preguntas guías"
+      ],
+      "actividadesEstudiante":[
+        "Participación en clase",
+        "Ronda de preguntas",
+        "Análisis a fondo de la inplementación y soluciones similares",
+        "Resolución de ejercicios"
+      ]
+    },
+    {
+      "fechaSemana": ["07-01-2020","10-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["13-01-2020","17-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-2","CG1-3-2","CG3-1-2","CPE4-1-2"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Proyecto Final",
+          "instrumento": "Proyecto",
+          "evidencia": "Proyecto"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["17-12-2019"],
+          "ponderacion": 20
+        },
+        {
+          "fecha": ["24-01-2020"],
+          "ponderacion": 20
+        }
+      ]
+    }
+  ],
+  "evaluaciones":[
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["22-10-2019"],
+      "temas": ["1-1","1-2","1-3","1-4","3-1","3-2","3-3","3-4","3-5"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["20-11-2019"],
+      "temas": ["4-1","4-2","4-3","4-4","5-1","5-2","5-3","5-4"]
+    },
+    {
+      "evidencia": "Primera entrega de Proyecto",
+      "fecha": ["22-11-2019"]
+    },
+    {
+      "evidencia": "Taller Grupal",
+      "fecha": ["16-12-2019"],
+      "temas": ["5-5","5-6","6-1","6-2","6-3","6-4"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["18-12-2019"],
+      "temas": ["5-5","5-6","6-1","6-2","6-3","6-4"]
+    },
+    {
+      "evidencia": "Proyecto",
+      "fecha": ["15-01-2020","16-01-2020","17-01-2020"]
+    }
+  ]
+}
+{
+   "escuela":"Facultad de Ingeniería",
+   "carrera":"Ingeniería Informática",
+   "semestre":"Segundo",
+   "periodo":"2020-15",
+   "asignatura":"Lógica Computacional",
+   "profesor":"Yoel Gutierrez",
+   "competencias":[
+      "CG1",
+      "CG3",
+      "CPB2"
+   ],
+   "contenido":[
+      {
+         "fechaSemana":[
+            "16-09-2019",
+            "20-09-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               1
+            ],
+            "subtemas":[
+               "1-1"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "23-09-2019",
+            "27-09-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               1
+            ],
+            "subtemas":[
+               "1-2",
+               "1-3"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "30-09-2019",
+            "04-10-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               1
+            ],
+            "subtemas":[
+               "1-2",
+               "1-3"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "07-10-2019",
+            "11-10-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               1
+            ],
+            "subtemas":[
+               "1-4",
+               "1-5"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "14-10-2019",
+            "18-10-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               1
+            ],
+            "subtemas":[
+               "1-6",
+               "1-7"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "21-10-2019",
+            "25-10-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               2
+            ],
+            "subtemas":[
+               "2-1",
+               "2-2"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ],
+         "estrategiaEvaluacion":[
+            {
+               "tipo":"Sumativa",
+               "tecnica":"Pruba Estatégica",
+               "instrumento":"Prueba Escrita",
+               "evidencia":"Prueba Escrita"
+            }
+         ],
+         "fechayPonderacion":[
+            {
+               "fecha":[
+                  "21-10-2019"
+               ],
+               "ponderacion":30
+            }
+         ]
+      },
+      {
+         "fechaSemana":[
+            "28-10-2019",
+            "01-11-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               2
+            ],
+            "subtemas":[
+               "2-3",
+               "2-4",
+               "2-5"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "04-11-2019",
+            "08-11-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-1",
+               "3-2",
+               "3-3",
+               "3-4",
+               "3-5"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "11-11-2019",
+            "15-11-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-6",
+               "3-7"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "18-11-2019",
+            "22-11-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-8",
+               "3-9"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "25-11-2019",
+            "29-11-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-10",
+               "3-11",
+               "3-12"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ],
+         "estrategiaEvaluacion":[
+            {
+               "tipo":"Sumativa",
+               "tecnica":"Pruba Estatégica",
+               "instrumento":"Prueba Escrita",
+               "evidencia":"Prueba Escrita"
+            }
+         ],
+         "fechayPonderacion":[
+            {
+               "fecha":[
+                  "25-11-2019"
+               ],
+               "ponderacion":30
+            }
+         ]
+      },
+      {
+         "fechaSemana":[
+            "02-12-2019",
+            "06-12-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-13",
+               "3-14"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "09-12-2019",
+            "13-12-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-15"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "16-12-2019",
+            "18-12-2019"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-16"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ],
+         "estrategiaEvaluacion":[
+            {
+               "tipo":"Sumativa",
+               "tecnica":"Ejercitación",
+               "instrumento":"Asignación",
+               "evidencia":"Asignación"
+            }
+         ],
+         "fechayPonderacion":[
+            {
+               "fecha":[
+                  "13-01-2020"
+               ],
+               "ponderacion":10
+            }
+         ]
+      },
+      {
+         "fechaSemana":[
+            "07-01-2020",
+            "10-01-2020"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "unidadTematica":{
+            "temas":[
+               3
+            ],
+            "subtemas":[
+               "3-16"
+            ]
+         },
+         "actividadesDocente":[
+            "Uso de técnica de preguntas para promover el pensamiento crítico, mantener la atención y favorecer la práctica, retención y obtención de información relevante",
+            "Formulación de ejercicios y problemas para que los estudiantes den opciones de solución y los resuelvan",
+            "Empleo de organizadores gráficos que mejoran los procesos de  comprensión y aprendizaje",
+            "Aplicación de los conceptos mediante asignaciones de ejercicios",
+            "Resolución de ejercicios prácticos",
+            "resentaciones y exposiciones con apoyo de un video beam"
+         ],
+         "actividadesEstudiante":[
+            "Escucha y toma notas",
+            "Responde y formula preguntas",
+            "Da opciones de solución a los Problemas propuestos",
+            "Ejecuta las opciones de solución para dar respuesta a los problemas",
+            "Lista situaciones problemas de la vida real, donde pueda aplicar los  conocimientos adquiridos, para sus posibles soluciones",
+            "Discuten en equipos las diferentes estrategias de solución de un problema",
+            "Deliberan y seleccionan la estrategia más adecuada",
+            "Asignan responsabilidad a cada miembro del equipo en la solución del problema",
+            "Deliberan la solución obtenida del problema, para ver si satisface todas las soluciones requeridas"
+         ]
+      },
+      {
+         "fechaSemana":[
+            "13-01-2020",
+            "17-01-2020"
+         ],
+         "unidadesCompetencia":[
+            "CG1-1",
+            "CG1-3",
+            "CG3-1",
+            "CPB2-1"
+         ],
+         "criterios":[
+            "CG1-1-1",
+            "CG1-1-3",
+            "CG1-1-4",
+            "CG1-3-2",
+            "CG1-3-3",
+            "CG1-3-4",
+            "CG3-1-2",
+            "CPB2-1-1",
+            "CPB2-1-2",
+            "CPB2-1-3"
+         ],
+         "estrategiaEvaluacion":[
+            {
+               "tipo":"Sumativa",
+               "tecnica":"Pruba Estatégica",
+               "instrumento":"Prueba Escrita",
+               "evidencia":"Prueba Escrita"
+            }
+         ],
+         "fechayPonderacion":[
+            {
+               "fecha":[
+                  "13-01-2020"
+               ],
+               "ponderacion":30
+            }
+         ]
+      }
+   ],
+   "evaluaciones":[
+      {
+         "evidencia":"Prueba Escrita",
+         "fecha":[
+            "21-10-2019"
+         ],
+         "temas":[
+            "1-1",
+            "1-2",
+            "1-3",
+            "1-4",
+            "1-5",
+            "1-6",
+            "1-7"
+         ]
+      },
+      {
+         "evidencia":"Prueba Escrita",
+         "fecha":[
+            "25-11-2019"
+         ],
+         "temas":[
+            "2-1",
+            "2-2",
+            "2-3",
+            "2-4",
+            "2-5",
+            "3-1",
+            "3-2",
+            "3-3",
+            "3-4",
+            "3-5",
+            "3-6",
+            "3-7",
+            "3-8",
+            "3-9"
+         ]
+      },
+      {
+         "evidencia":"Asignación",
+         "fecha":[
+            "13-01-2020"
+         ],
+         "temas":[
+            "3-16"
+         ]
+      },
+      {
+         "evidencia":"Prueba Escrita",
+         "fecha":[
+            "13-01-2020"
+         ],
+         "temas":[
+            "3-10",
+            "3-11",
+            "3-12",
+            "3-13",
+            "3-14",
+            "3-15",
+            "3-16"
+         ]
+      }
+   ]
+}
+{
+  "escuela": "Facultad de Ingeniería",
+  "carrera": "Ingeniería Informática",
+  "semestre": "Segundo",
+  "periodo": "2020-15",
+  "asignatura": "Algoritmos y Porgramación I",
+  "profesor": "Franklin Bello",
+  "competencias": ["CG1","CG3","CPE1","CPE4"],
+  "contenido": [
+    {
+      "fechaSemana": ["16-09-2019","20-09-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas":["1-1","1-2","1-3"]
+      },
+      "actividadesDocente":[
+        "Presentación del Plan de Clases",
+        "Exploración de experiencias educativas anteriores, intereses, expectativas y conocimientos previos del estudiante sobre la asignatura",
+        "Discusiones profesor-alumno con preguntas guiadas sobre la unidad temática a tratar",
+        "Presentaciones y explicaciones con ayuda de las TICs"
+      ],
+      "actividadesEstudiante":[
+        "Participación en las discusiones guiadas por el profesor",
+        "Lectura previa a clases  asociados a la unidad temática tratada"
+      ]
+    },
+    {
+      "fechaSemana": ["23-09-2019","27-09-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-2"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas": ["2-1","2-2","2-3","2-4","2-5","2-6","2-7"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Presentación de ejemplo de programas en Pascal"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de  ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["30-09-2019","04-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de problemas por parte del profesor y los estudiantes"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["07-10-2019","11-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPE4-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-3-2","CPE4-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas":["3-1"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["14-10-2019","18-10-2019"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Taller grupal",
+          "evidencia": "Taller grupal"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["14-10-2019"],
+          "ponderacion": 0
+        },
+        {
+          "fecha": ["16-10-2019"],
+          "ponderacion": 15
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["21-10-2019","25-10-2019"],
+      "unidadesCompetencia":["CG1-1","CPE4-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CPE4-1-2","CPE4-1-3"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-2"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["28-10-2019","01-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CPE4-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-3","5-4"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["04-11-2019","08-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CPE4-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "unidadTematica":{
+        "temas": [4],
+        "subtemas":["4-1","4-2","4-3","4-4"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["11-11-2019","15-11-2019"],
+      "unidadesCompetencia":["CG1-3","CPE4-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-1"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["18-11-2019","22-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB2-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Taller grupal",
+          "evidencia": "Taller grupal"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Seguimiento",
+          "instrumento": "Entrega",
+          "evidencia": "Primera entrega de Proyecto"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["18-11-2019"],
+          "ponderacion": 0
+        },
+        {
+          "fecha": ["20-11-2019"],
+          "ponderacion": 20
+        },
+        {
+          "fecha": ["22-11-2019"],
+          "ponderacion": 5
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["25-11-2019","29-11-2019"],
+      "unidadesCompetencia":["CG1-3","CPE4-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "unidadTematica":{
+        "temas": [5],
+        "subtemas":["5-5","5-6"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["02-12-2019","06-12-2019"],
+      "unidadesCompetencia":["CG1-3","CPE4-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-1","6-2","6-3","6-4"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["09-12-2019","13-12-2019"],
+      "unidadesCompetencia":["CG1-3","CPE4-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "unidadTematica":{
+        "temas": [6],
+        "subtemas":["6-4"]
+      },
+      "actividadesDocente":[
+        "Formulación de problemas por parte del profesor"
+      ],
+      "actividadesEstudiante":[
+        "Resolución de problemas en grupos en el aula"
+      ]
+    },
+    {
+      "fechaSemana": ["16-12-2019","18-12-2019"],
+      "unidadesCompetencia":["CG1-3","CPE4-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Taller grupal",
+          "evidencia": "Taller grupal"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["16-12-2019"],
+          "ponderacion": 0
+        },
+        {
+          "fecha": ["18-12-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["07-01-2020","10-01-2020"],
+      "unidadesCompetencia":["CG1-3","CPE4-1"],
+      "criterios": ["CG1-3-2","CG1-3-3","CPE4-1-2","CPE4-1-3","CPE4-1-4"],
+      "unidadTematica":{
+        "temas": [7],
+        "subtemas":["7-1","7-2","7-3","7-4"]
+      },
+      "actividadesDocente":[
+        "Discusiones profesor-alumno con preguntas guiadas por el profesor sobre el tema tratado",
+        "Presentaciones por parte del profesor",
+        "Resolución de ejercicios  y problemas en clase"
+      ],
+      "actividadesEstudiante":[
+        "Búsqueda autónoma de información",
+        "Análisis de contenidos asociados a la unidad curricular a tratar",
+        "Participación en las discusiones guiadas por el profesor y en la resolución de ejercicios en clases"
+      ]
+    },
+    {
+      "fechaSemana": ["13-01-2020","17-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CPE1-3","CPE4-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CPE1-3-2","CPE4-1-2","CPE4-1-3"],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Proyecto Final",
+          "instrumento": "Proyecto",
+          "evidencia": "Proyecto"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["15-01-2020","16-01-2020","17-01-2020"],
+          "ponderacion": 15
+        }
+      ]
+    }
+  ],
+  "evaluaciones":[
+    {
+      "evidencia": "Taller Grupal",
+      "fecha": ["14-10-2019"],
+      "temas": ["1-1","1-2","1-3","2-1","2-2","2-3","2-4","2-5","2-6","2-7","3-1"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["16-10-2019"],
+      "temas": ["1-1","1-2","1-3","2-1","2-2","2-3","2-4","2-5","2-6","2-7","3-1"]
+    },
+    {
+      "evidencia": "Taller Grupal",
+      "fecha": ["18-11-2019"],
+      "temas": ["4-1","4-2","4-3","4-4","5-1","5-2","5-3","5-4"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["20-11-2019"],
+      "temas": ["4-1","4-2","4-3","4-4","5-1","5-2","5-3","5-4"]
+    },
+    {
+      "evidencia": "Primera entrega de Proyecto",
+      "fecha": ["22-11-2019"]
+    },
+    {
+      "evidencia": "Taller Grupal",
+      "fecha": ["16-12-2019"],
+      "temas": ["5-5","5-6","6-1","6-2","6-3","6-4"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["18-12-2019"],
+      "temas": ["5-5","5-6","6-1","6-2","6-3","6-4"]
+    },
+    {
+      "evidencia": "Proyecto",
+      "fecha": ["15-01-2020","16-01-2020","17-01-2020"]
+    }
+  ]
+}
+{
+  "escuela": "Facultad de Ingeniería",
+  "carrera": "Ingeniería Informática",
+  "semestre": "Cuarto",
+  "periodo": "2020-15",
+  "asignatura": "Estructura del Computador",
+  "profesor": "Oriana Renaud",
+  "competencias": ["CG1","CG3","CPB1"],
+  "contenido": [
+    {
+      "fechaSemana": ["16-09-2019","20-09-2019"],
+      "actividadesDocente":[
+        "Primer día de Clase: presentación de cada estudiante, conocimientos previos, expectativas, hobbies, etc, para elaborar perfil del grupo.",
+        "Discusión del plan de clases, unidades temáticas y anuncio de calendarización de evaluaciones."
+      ],
+      "actividadesEstudiante":[
+        "Participación en las discusiones guiadas por el profesor",
+        "Lectura previa a clases  asociados a la unidad temática tratada"
+      ]
+    },
+    {
+      "fechaSemana": ["23-09-2019","27-09-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4"],
+      "unidadTematica":{
+        "temas": [1,2],
+        "subtemas": ["1-1","1-2","1-3","1-4","2-2","2-3"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Discusión y análisis colectivo de la información conceptual empírica de los estudiantes.",
+        "Dar consultas Individuales o Grupales",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["30-09-2019","04-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4"],
+      "unidadTematica":{
+        "temas": [1,2],
+        "subtemas": ["1-1","1-2","1-3","1-4","2-2","2-3"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Discusión y análisis colectivo de la información conceptual empírica de los estudiantes.",
+        "Dar consultas Individuales o Grupales",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["07-10-2019","11-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4"],
+      "unidadTematica":{
+        "temas": [1,2],
+        "subtemas": ["1-1","1-2","1-3","1-4","2-2","2-3"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Discusión y análisis colectivo de la información conceptual empírica de los estudiantes.",
+        "Dar consultas Individuales o Grupales",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["14-10-2019","18-10-2019"],
+      "unidadesCompetencia":["CG1-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4"],
+      "unidadTematica":{
+        "temas": [1,2],
+        "subtemas": ["1-1","1-2","1-3","1-4","2-2","2-3"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Discusión y análisis colectivo de la información conceptual empírica de los estudiantes.",
+        "Dar consultas Individuales o Grupales",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["17-10-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["21-10-2019","25-10-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["28-10-2019","01-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["04-11-2019","08-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Exposición",
+          "instrumento": "Exposición",
+          "evidencia": "Exposición"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["18-11-2019","07-11-2019"],
+          "ponderacion": 15
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["11-11-2019","15-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["18-11-2019","22-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["21-11-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["25-11-2019","29-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["02-12-2019","06-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["09-12-2019","13-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["16-12-2019","18-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["07-01-2020","10-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["13-01-2020","17-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estratégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Proyecto Final",
+          "instrumento": "Proyecto",
+          "evidencia": "Proyecto"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["14-01-2020"],
+          "ponderacion": 20
+        },
+        {
+          "fecha": ["16-01-2020"],
+          "ponderacion": 25
+        }
+      ]
+    }
+  ],
+  "evaluaciones":[
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["17-10-2019"],
+      "temas": ["1-1","1-2","1-3","2-2","2-3"]
+    },
+    {
+      "evidencia": "Exposición",
+      "fecha": ["05-11-2019","07-11-2019"],
+      "temas": ["4-1","4-2"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["21-11-2019"],
+      "temas": ["1-4","3-2","3-3","4-1","4-2"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["14-01-2020"],
+      "temas": ["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+    },
+    {
+      "evidencia": "Proyecto",
+      "fecha": ["16-01-2020"]
+    }
+  ]
+}
+{
+  "escuela": "Facultad de Ingeniería",
+  "carrera": "Ingeniería Informática",
+  "semestre": "Quinto",
+  "periodo": "2020-15",
+  "asignatura": "Circuitos Electrónicos",
+  "profesor": "Oriana Renaud",
+  "competencias": ["CG1","CG3","CPB2","CPE3"],
+  "contenido": [
+    {
+      "fechaSemana": ["16-09-2019","20-09-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas": ["1-1","1-2","1-3","1-4"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los análisis y teoremas de circuitos eléctricos en DC",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con el análisis y teoremas de circuitos"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Analizar artículos y documentos asociados al análisis y teoremas de circuitos",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["23-09-2019","27-09-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [1],
+        "subtemas": ["1-1","1-2","1-3","1-4"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los análisis y teoremas de circuitos eléctricos en DC",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con el análisis y teoremas de circuitos"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Analizar artículos y documentos asociados al análisis y teoremas de circuitos",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["30-09-2019","04-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [2],
+        "subtemas": ["2-1","2-2","2-3","2-4"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los diodos en DC y AC",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con los diodos"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, sobre los diodos",
+        "Analizar artículos y documentos asociados sobre diodos",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["07-10-2019","11-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [1,2],
+        "subtemas": ["1-5","1-6","2-1","2-2","2-3","2-4"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los diodos en DC y AC",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con los diodos"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, sobre los diodos",
+        "Analizar artículos y documentos asociados sobre diodos",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prácticas de Laboratorio",
+          "instrumento": "Laboratorios",
+          "evidencia": "Laboratorio 1"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        },
+        {
+          "fecha": ["09-10-2020","10-10-2020"],
+          "ponderacion": 2
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["14-10-2019","18-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [2,3],
+        "subtemas": ["2-3","2-6","3-1","3-2","3-3","3-4"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los transistores",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con transistores"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, sobre transistores",
+        "Analizar artículos y documentos asociados sobre los transistores",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prácticas de Laboratorio",
+          "instrumento": "Laboratorios",
+          "evidencia": "Laboratorio 2"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        },
+        {
+          "fecha": ["16-10-2020","17-10-2020"],
+          "ponderacion": 3
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["21-10-2019","25-10-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [3],
+        "subtemas": ["3-1","3-2","3-3","3-4"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los transistores",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con transistores"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, sobre transistores",
+        "Analizar artículos y documentos asociados sobre los transistores",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["28-10-2019","01-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-3-2","CG1-3-3","CG1-3-4","CG3-1-2","CG3-1-3"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas": ["3-5","3-6","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Activación de conocimientos previos de los estudiantes mediante el empleo de preguntas divergentes que  promuevan y potencien el pensamiento crítico",
+        "Exposición oral  y a través de ejemplos teóricos y prácticos de los transistores",
+        "Plantear problemas y casos de circuitos para la discusión y participación",
+        "Acompañar, Orientar y apoyar durante las actividades grupales o individuales asignadas",
+        "Discutir y analizar información conceptual empírica de los estudiantes",
+        "Mostrar videos de YouTube relacionados con transistores"
+      ],
+      "actividadesEstudiante":[
+        "Práctica guiada en la solución de problemas en  forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, sobre transistores",
+        "Analizar artículos y documentos asociados sobre los transistores",
+        "Solución de problemas en casa en forma individual y en equipo",
+        "Investigación en Internet sobre foros y videos, en forma individual y en equipo, de análisis y teoremas de circuitos",
+        "Presentaciones y exposiciones con apoyo en herramientas tecnológicas digitales de lo mandado a investigar",
+        "Participación en foros virtuales (con Skype, WhatsApp, etc.) que permitan la discusión y aclaración de dudas"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Formativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Quiz",
+          "evidencia": "Quiz sin aviso"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prácticas de Laboratorio",
+          "instrumento": "Laboratorios",
+          "evidencia": "Laboratorio 3"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "ponderacion": 0
+        },
+        {
+          "fecha": ["16-10-2020","17-10-2020"],
+          "ponderacion": 3
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["04-11-2019","08-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Exposición",
+          "instrumento": "Exposición",
+          "evidencia": "Exposición"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["18-11-2019","07-11-2019"],
+          "ponderacion": 15
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["11-11-2019","15-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ]
+    },
+    {
+      "fechaSemana": ["18-11-2019","22-11-2019"],
+      "unidadesCompetencia":["CG1-1", "CG1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4"],
+      "unidadTematica":{
+        "temas": [3,4],
+        "subtemas":["3-2","3-3","4-1","4-2"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estatégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        }
+      ],
+      "fechayPonderacion":[
+        {
+          "fecha": ["21-11-2019"],
+          "ponderacion": 20
+        }
+      ]
+    },
+    {
+      "fechaSemana": ["25-11-2019","29-11-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["02-12-2019","06-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["09-12-2019","13-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["16-12-2019","18-12-2019"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["07-01-2020","10-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ]
+    },
+    {
+      "fechaSemana": ["13-01-2020","17-01-2020"],
+      "unidadesCompetencia":["CG1-1","CG1-3","CG3-1","CPB1-2","CPB1-3"],
+      "criterios": ["CG1-1-1","CG1-1-3","CG1-1-4","CG1-2-2","CG1-2-3","CG1-2-4","CG3-1-2","CG3-1-3","CPB1-2-2","CPB1-3-1","CPB1-3-2"],
+      "unidadTematica":{
+        "temas": [5,6],
+        "subtemas":["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+      },
+      "actividadesDocente":[
+        "Exposición por el Profesor, apoyado en presentaciones de Power Point",
+        "Discusión en Clase, promover el pensamiento independiente, elaborar guía de estudio con lecturas recomendadas, problemas y preguntas de interpretación",
+        "Dar consultas individuales o grupales, comprendiendo ejercicios prácticos",
+        "Interrogatorios en clase aplicando el Método Socrático",
+        "Orientar para la resolución de problemas en clase con participación del grupo"
+      ],
+      "actividadesEstudiante":[
+        "Estrategias de estudio y de ayudas anexas: Toma de notas marginales, subrayar en lecturas recomendadas, repasar lo visto en clases y resumir",
+        "Discusión en grupo",
+        "Realizar actividades matemagénicas: aplicar ayudas mientras realiza las lecturas recomendadas, cuaderno de aprendizaje, resolver problemas y preguntas en guía de estudio",
+        "Realizar consultas al profesor",
+        "Participar en la resolución de problemas en clase",
+        "Investigar en Literaturas y Páginas WEB Especializadas",
+        "Buscar Asesorías con Especialistas",
+        "Elaboración de la presentación y entrega de trabajo escrito"
+      ],
+      "estrategiaEvaluacion": [
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Prueba Estratégica",
+          "instrumento": "Prueba Escrita",
+          "evidencia": "Prueba Escrita"
+        },
+        {
+          "tipo": "Sumativa",
+          "tecnica": "Proyecto Final",
+          "instrumento": "Proyecto",
+          "evidencia": "Proyecto"
+        }
+      ],
+      "fechayPonderacion": [
+        {
+          "fecha": ["14-01-2020"],
+          "ponderacion": 20
+        },
+        {
+          "fecha": ["16-01-2020"],
+          "ponderacion": 25
+        }
+      ]
+    }
+  ],
+  "evaluaciones":[
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["17-10-2019"],
+      "temas": ["1-1","1-2","1-3","2-2","2-3"]
+    },
+    {
+      "evidencia": "Exposición",
+      "fecha": ["05-11-2019","07-11-2019"],
+      "temas": ["4-1","4-2"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["21-11-2019"],
+      "temas": ["1-4","3-2","3-3","4-1","4-2"]
+    },
+    {
+      "evidencia": "Prueba Escrita",
+      "fecha": ["14-01-2020"],
+      "temas": ["5-1","5-2","5-3","6-1","6-2","6-3","6-4","6-5"]
+    },
+    {
+      "evidencia": "Proyecto",
+      "fecha": ["16-01-2020"]
+    }
+  ]
+}

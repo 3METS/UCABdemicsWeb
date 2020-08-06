@@ -1,11 +1,11 @@
 const mongoFunction = require('../lib/db').MongoLib;
-const { ObjectId } = require('mongodb');
+//const { ObjectId } = require('mongodb');
 
-class CarreraService{
-    constructor(){
-        this.MongoDB = new mongoFunction();
-        this.collection = "carreras";
-    }
+class CarreraService {
+  constructor() {
+    this.MongoDB = new mongoFunction();
+    this.collection = 'carreras';
+  }
 
     async crear(data){
         const exist = await this.MongoDB.get(this.collection, { "codigo": data.codigo });
@@ -20,15 +20,19 @@ class CarreraService{
     }
 
     async buscarAsignaturas(query){
-        const projection = { projection: { "asignaturas": 1, "_id": 0 } }
-        const result = await this.MongoDB.getProjection(this.collection, query, projection);
+      const projection = { projection: { asignaturas: 1, _id: 0 } }
+      const result = await this.MongoDB.getProjection(
+        this.collection,
+        query,
+        projection
+      );
 
-        if (result != null){
-            return result;
-        }else{
-            return null;
-        }
-    }
+      if (result != null) {
+        return result;
+      } else {
+        return null;
+      }
+  }
 }
 
 module.exports = { CarreraService };

@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const { config } = require('./config/index');
 
 const mailApi = require('./routes/mail');
+const docManagerApi = require('./routes/docManager');
 
 const periodoApi = require('./routes/periodoAcademico');
 const competenciaApi = require('./routes/competencia');
@@ -26,6 +27,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //Routes
 mailApi(app);
+docManagerApi(app);
 periodoApi(app);
 competenciaApi(app);
 carreraApi(app);

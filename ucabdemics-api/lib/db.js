@@ -6,11 +6,14 @@ const USER = encodeURIComponent(config.dbUser);
 const PASSWORD = encodeURIComponent(config.dbPassword);
 const DB_NAME = encodeURIComponent(config.dbName);
 
-const uri = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}:${config.dbPort}/${DB_NAME}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}/${DB_NAME}?retryWrites=true&w=majority`;
 
 class MongoLib {
   constructor() {
-    this.client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+    this.client = new MongoClient(uri, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     this.dbName = DB_NAME;
   }
 
@@ -68,10 +71,9 @@ class MongoLib {
   }
 
   update(collection, query, data) {
-    return this.connect()
-      .then((db) => {
-        return db.collection(collection).updateOne(query, { $set: data });
-      });
+    return this.connect().then((db) => {
+      return db.collection(collection).updateOne(query, { $set: data });
+    });
   }
 
   updateOption(collection, query, data, option) {
@@ -82,11 +84,14 @@ class MongoLib {
   }
 
   delete(collection, id) {
-    return this.connect()
-      .then((db) => {
-        return db.collection(collection).deleteOne({ _id: ObjectId(id) });
-      });
+    return this.connect().then((db) => {
+      return db.collection(collection).deleteOne({ _id: ObjectId(id) });
+    });
+  }
+
+  getClient() {
+    return this.MongoClient;
   }
 }
 
-module.exports = { MongoLib };
+module.exports = MongoLib;

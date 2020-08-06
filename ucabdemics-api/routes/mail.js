@@ -7,21 +7,34 @@ function MailApi(app) {
 
   const mailService = new MailService();
 
-  router.get('/', (req, res) => {
-    res.status(200).end('<h1>Bienvenido a UCABdemics!</h1>');
+  router.get('/', async (req, res) => {
+    res.status(200).end(`<h1>Bienvenido a UCABdemics</h1>`);
   });
 
-  router.post('/', (req, res, next) => {
-    const { email } = req.body;
-    const response = mailService.sendRecovery({ user: email });
-
-    if (!response.err) {
-      next(response.err);
+  router.post('/recovery', async (req, res, next) => {
+    const { name, email } = req.body;
+    try {
+      const recoveryValue = mailService.sendRecovery({ name, email, res });
+      res.status(201).json({
+        recoveryValue,
+        message: 'job in queue',
+      });
+    } catch (err) {
+      next(err);
     }
-    res.status(201).json({
-      data: response.info,
-      message: 'mail sent',
-    });
+  });
+
+  router.post('/welcome', async (req, res, next) => {
+    const { email } = req.body;
+    try {
+      const job = await mailService.sendWelcome({ email, res });
+      res.status(201).json({
+        job,
+        message: 'job in queue',
+      });
+    } catch (err) {
+      next(err);
+    }
   });
 }
 

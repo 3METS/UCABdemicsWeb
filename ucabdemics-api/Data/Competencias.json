@@ -1,0 +1,602 @@
+{
+  "competencia": "CG1",
+  "nombre": "Aprender a Aprender con Calidad",
+  "descripcion": "utiliza estrategias de forma autónoma para incorporar e incrementar conocimientos, habilidades y destrezas en el contexto de los avances científicos y culturales requeridos para un ejercicio profesional globalmente competitivo",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Abstrae, analiza, y sintetiza información",
+      "definicion": "Descompone en partes, identifica factores comunes y resume lo realizado, en situaciones que requieran manejar información",
+      "criterios": [
+        "Identifica elementos comunes en diferentes situaciones o contextos",
+        "Descompone, identifica, clasifica y jerarquiza elementos comunes",
+        "Resume información de forma clara y ordenada",
+        "Integra los elementos de forma coherente",
+        "Valora críticamente la información"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Aplica los conocimientos en la práctica",
+      "definicion": "Emplea conceptos, principios, procedimientos, actitudes y valores para plantear y resolver problemas en situaciones habituales, académicas, sociales y laborales",
+      "criterios": [
+        "Selecciona la información que resulta relevante para resolver una situación.",
+        "Elabora una síntesis para sí mismo o para comunicarla a otras personas.",
+        "Establece y evalúa la eficacia y la eficiencia de los cursos de acción a seguir de acuerdo con la información disponible.",
+        "Implementa el proceso a seguir para alcanzar los objetivos mediante acciones, recursos y tiempo disponible.",
+        "Evalúa los resultados obtenidos."
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Identifica, plantea y resuelve problemas",
+      "definicion": "Detecta la discrepancia entre la situación actual y la deseada, especifica lo que se necesita resolver y ejecuta acciones de manera eficiente para transformar la necesidad en logro",
+      "criterios": [
+        "Reconoce diferencias entre una situación actual y la deseada.",
+        "Analiza el problema y obtiene la información requerida para solucionarlo.",
+        "Formula opciones de solución que responden a su conocimiento, reflexión y experiencia previa.",
+        "Selecciona la opción de solución que resulta más pertinente, programa las acciones y las ejecuta.",
+        "Evalúa el resultado de las acciones ejecutadas."
+      ]
+    },
+    {
+      "unidad": 4,
+      "nombre": "Incorpora conocimientos y se actualiza permanentemente",
+      "definicion": "Busca y comparte información útil, capitaliza la experiencia de otros y la propia y se prepara de manera continua y evolutiva para afrontar nuevas tareas",
+      "criterios": [
+        "Establece sus propios objetivos de aprendizaje.",
+        "Busca activamente nueva información.",
+        "Adopta y adapta sus estrategias de aprendizaje de manera autónoma en cada situación.",
+        "Incorpora, analiza, resume y sintetiza la información de manera continua, crítica y flexible.",
+        "Integra y transfiere conocimientos entre distintos modelos y teorías en una síntesis personal y creativa que responde a las necesidades profesionales."
+      ]
+    },
+    {
+      "unidad": 5,
+      "nombre": "Se comunica eficazmente de forma oral y escrita",
+      "definicion": "Expresa en forma oral y escrita lo que realmente pretende comunicar",
+      "criterios": [
+        "Estructura lógicamente el discurso oral y escrito",
+        "Adapta el discurso oral y escrito a las características de la audiencia",
+        "Muestra complementariedad entre el lenguaje oral y corporal.",
+        "Demuestra un estilo propio en la organización y expresión del contenido de escritos largos y complejos.",
+        "Comunica eficazmente, en forma oral y escrita de ideas, conocimientos y sentimientos en situaciones individuales, conversacionales y de grupo."
+      ]
+    },
+    {
+      "unidad": 6,
+      "nombre": "Demuestra conocimiento sobre su área de estudio y profesión",
+      "definicion": "Domina con precisión y rapidez la terminología, procedimientos y aplicaciones de su carrera profesional",
+      "criterios": [
+        "Identifica términos, definiciones y ejemplos del lenguaje técnico de la profesión",
+        "Explica las conceptualizaciones, métodos y aplicaciones de su disciplina",
+        "Aplica con fluidez la terminología del área de estudio y profesión",
+        "Aplica los procedimientos de la disciplina para resolver problemas y aportar soluciones.",
+        "Pondera críticamente las bondades y limitaciones de su carrera profesional"
+      ]
+    },
+    {
+      "unidad": 7,
+      "nombre": "Realiza investigaciones",
+      "definicion": "Genera conocimientos teóricos y prácticos en diversos contextos mediante la aplicación de criterios metodológicos propios de los paradigmas que orientan el análisis de la realidad.",
+      "criterios": [
+        "Realiza búsquedas de información, exhaustivas y sistemáticas, en fuentes impresas y digitales, relacionadas con temas de investigación de su interés",
+        "Formula interrogantes cuya resolución requiere la aplicación de los criterios metodológicos establecidos por las comunidades científicas",
+        "Diseña proyectos de investigación de factible ejecución",
+        "Recolecta datos, organiza y procesa la información cuantitativa y cualitativa requerida para demostrar el logro de los objetivos del proyecto",
+        "Analiza los resultados obtenidos mediante el uso de herramientas estadísticas y técnicas cualitativas y elabora conclusiones"
+      ]
+    },
+    {
+      "unidad": 8,
+      "nombre": "Trabaja con altos estándares de calidad",
+      "definicion": "Busca la superación permanente en la actividad personal, académica y profesional, orientada a resultados con calidad",
+      "criterios": [
+        "Busca activamente oportunidades para mejorar su actuación personal y académica",
+        "Toma la iniciativa en procesos de mejora continua en el grupo.",
+        "Actúa efectiva, eficiente y eficazmente: cuida los detalles, planifica acciones y comprueba lo que hace y cómo lo hace.",
+        "Actúa conforme a las normas y exigencias que denotan la calidad de su actuación.",
+        "Actúa de acuerdo con la deontología profesional de su carrera."
+      ]
+    },
+    {
+      "unidad": 9,
+      "nombre": "Busca y procesa información de diversas fuentes",
+      "definicion": "Recopila información más allá de las preguntas rutinarias, la procesa y analiza a profundidad.",
+      "criterios": [
+        "Revisa periódicamente información actualizada sobre su disciplina.",
+        "Identifica con destreza fuentes, impresas y digitales, de recopilación de datos.",
+        "Organiza la información proveniente de diversos medios.",
+        "Analiza la información y la incorpora en los procesos de toma de decisiones.",
+        "Establece procedimientos de recopilación y revisión de información necesaria para situaciones futuras."
+      ]
+    },
+    {
+      "unidad": 10,
+      "nombre": "Trabaja en forma autónoma",
+      "definicion": "Realiza tareas con efectividad, en un lugar y tiempo regulado internamente y de forma independiente. Conoce sus fortalezas y debilidades al asumir retos y emprender nuevos proyectos.",
+      "criterios": [
+        "Distingue los recursos y limitaciones propias y del entorno para la óptima realización de actividades personales y académicas.",
+        "Autogestiona tareas a corto, mediano y largo plazo",
+        "Autoevalúa su desempeño y realiza ajustes necesarios para el logro de metas",
+        "Toma iniciativas para mejorar su actividad académica.",
+        "Trabaja de forma independiente para cumplir sus metas con calidad"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CG2",
+  "nombre": "Aprender a Convivir y Servir",
+  "descripcion": "Reconoce, aprecia y cultiva de manera reflexiva, ética, responsable y comprometida, su relación con otras personas y con el medio ambiente físico y sociocultural, local y global, para contribuir al bienestar colectivo",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Se involucra con su medio sociocultural",
+      "descripcion": "Comprende y asume la realidad y se deja interpelar por ella, conecta los conocimientos con su realidad sociocultural para proponer y ejecutar, con sentido humano y ético, soluciones que promuevan el bienestar común",
+      "criterios": [
+        "Identifica y asume como propias las problemáticas de su contexto sociocultural",
+        "Propone soluciones desde su campo disciplinar a problemas de su entorno.",
+        "Comparte con el otro su compromiso con el medio sociocultural.",
+        "Actúa, con sentido humano y ético, para mejorar su entorno socio- cultural.",
+        "Valora su compromiso con el medio socio-cultural"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Valora y respeta la diversidad y multiculturalidad",
+      "descripcion": "Reconoce, acepta y aprovecha la pluralidad sociocultural como elemento enriquecedor e indispensable para la convivencia inclusiva y sin fronteras",
+      "criterios": [
+        "Reconoce la diversidad cultural como un fenómeno humano",
+        "Interactúa con otros respetando la diversidad",
+        "Promueve la integración mediante la práctica del diálogo",
+        "Fomenta la convivencia sin discriminaciones de sexo, edad, religión, etnia e ideología",
+        "Valora el respeto a la multiculturalidad como práctica indispensable en el logro del bienestar colectivo"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Participa y se involucra en actividades comunitarias y ciudadanas",
+      "descripcion": "Interviene de forma sistemática y comprometida en acciones comunitarias y ciudadanas",
+      "criterios": [
+        "Identifica actividades comunitarias y ciudadanas",
+        "Participa en actividades ciudadanas y comunitarias",
+        "Valora actividades comunitarias y ciudadanas.",
+        "Gestiona actividades comunitarias y ciudadanas",
+        "Lidera la participación de otros en actividades comunitarias y ciudadanas"
+      ]
+    },
+    {
+      "unidad": 4,
+      "nombre": "Participa activamente en la preservación del medio ambiente",
+      "descripcion": "Coopera eficientemente en el cuidado y mantenimiento del medio ambiente para el desarrollo sustentable",
+      "criterios": [
+        "Identifica los elementos del medio ambiente que requieren cuidado y mantenimiento",
+        "Participa en actividades para el cuidado y mantenimiento del ambiente",
+        "Promueve la participación de los miembros de la comunidad en el cuidado y mantenimiento del medio ambiente",
+        "Genera acciones que promueven el desarrollo sustentable",
+        "Lidera proyectos sustentables"
+      ]
+    },
+    {
+      "unidad": 5,
+      "nombre": "Reflexiona y cuestiona su propia actuación",
+      "descripcion": "Examina y valora críticamente su quehacer personal relativo al bienestar de los otros",
+      "criterios": [
+        "Revisa su quehacer personal y en relación con el otro",
+        "Valora su actuación en relación con el otro",
+        "Actúa en concordancia con su reflexión",
+        "Implementa cambios a nivel personal que inciden en el bienestar de otros",
+        "Promueve en otros la reflexión y valoración crítica de la actuación personal"
+      ]
+    },
+    {
+      "unidad": 6,
+      "nombre": "Actúa según valores éticos compartidos",
+      "descripcion": "Acepta y se conduce éticamente de acuerdo a valores acordados con su sociedad y cultura",
+      "criterios": [
+        "Identifica los valores de la sociedad y la cultura",
+        "Comparte los valores de la sociedad y la cultura donde se desenvuelve",
+        "Demuestra valores éticos en sus acciones cotidianas",
+        "Transmite los valores morales y éticos compartidos en su cultura",
+        "Promueve, con su ejemplo, comportamientos éticos en el otro"
+      ]
+    },
+    {
+      "unidad": 7,
+      "nombre": "Se solidariza con el otro",
+      "descripcion": "Coincide y participa en ideas, sentimientos o acciones con el otro, que contribuyan al bienestar colectivo",
+      "criterios": [
+        "Demuestra empatía con las ideas, sentimientos y acciones del otro",
+        "Comparte ideas, sentimientos y acciones en pro del bienestar colectivo",
+        "Aprecia la solidaridad como un valor colectivo",
+        "Participa en acciones en pro del bienestar colectivo",
+        "Promueve en otros la realización de acciones solidarias"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CG3",
+  "nombre": "Aprender a Trabajar con el Otro",
+  "descripcion": "Interactúa con otros en situaciones diversas y complejas para alcanzar objetivos comunes, en un entorno donde el equilibrio de los roles: colaborador o líder y la fluidez comunicativa procuran resultados beneficiosos para todos",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Participa y trabaja en equipo",
+      "descripcion": "Se integra en equipos asumiendo diversidad de roles y tareas, orientado hacia el logro de una meta común",
+      "criterios": [
+        "Identifica roles y funciones de todos los miembros del equipo",
+        "Realiza las tareas establecidas por el equipo",
+        "Cumple diversos roles dentro del equipo",
+        "Utiliza formas de comunicación que favorecen las relaciones de interdependencia.",
+        "Coordina las acciones del equipo hacia el logro de la meta común"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Motiva y conduce a otros hacia metas comunes",
+      "descripcion": "Promueve el interés, la participación y orienta el esfuerzo de otros en el logro de metas comunes",
+      "criterios": [
+        "Identifica claramente objetivos, metas y propósitos comunes",
+        "Dialoga directa y respetuosamente con los otros para favorecer su identificación con las metas",
+        "Promueve la construcción conjunta de planes y estrategias para el logro de las metas",
+        "Conduce la participación de los otros en actividades orientadas hacia el logro de las metas",
+        "Aplica estrategias para superar limitaciones en el logro de las metas"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Toma decisiones efectivas para resolver problemas",
+      "descripcion": "Aplica un proceso sistemático de toma de decisiones para elegir la mejor alternativa en la resolución de problemas en beneficio propio y de los otros",
+      "criterios": [
+        "Identifica el problema",
+        "Analiza el problema",
+        "Plantea alternativas de solución",
+        "Ejecuta la opción que considera más adecuada para la solución del problema.",
+        "Promueve los cambios necesarios para asegurar la calidad de los resultados en el tiempo"
+      ]
+    },
+    {
+      "unidad": 4,
+      "nombre": "Actúa eficazmente en nuevas situaciones",
+      "descripcion": "Utiliza recursos, medios y estrategias idóneas para responder a nuevas situaciones de modo adaptativo y valora las consecuencias de su acción para sí mismo y para el otro.",
+      "criterios": [
+        "Identifica los cambios que ocurren en su entorno",
+        "Analiza las demandas y los recursos disponibles para afrontar la nueva situación",
+        "Propone diversas opciones para abordar nuevas situaciones",
+        "Ejecuta exitosamente acciones para afrontar nuevas situaciones",
+        "Valora el impacto de su acción en sí mismo y en otros"
+      ]
+    },
+    {
+      "unidad": 5,
+      "nombre": "Se comunica, interactúa y colabora con el otro",
+      "descripcion": "Se relaciona de manera armónica, asertiva, respetuosa y cooperativa con otras personas",
+      "criterios": [
+        "Expresa en sus propias palabras lo que otras personas le comunican",
+        "Valora las ideas y opiniones de otras personas",
+        "Defiende sus derechos y opiniones en sus comunicaciones sin agredir al otro",
+        "Propicia la comunicación para conciliar posturas opuestas",
+        "Ayuda al otro a comunicarse efectivamente"
+      ]
+    },
+    {
+      "unidad": 6,
+      "nombre": "Organiza y planifica el tiempo",
+      "descripcion": "Gestiona el uso del tiempo a corto, mediano y largo plazo para planificar y desarrollar actividades individuales y colectivas",
+      "criterios": [
+        "Determina el tiempo idóneo para cumplir con objetivos individuales y colectivos",
+        "Jerarquiza las actividades en el corto, mediano o largo plazo.",
+        "Ejecuta las actividades planificadas de acuerdo con el cronograma establecido",
+        "Evalúa sistemáticamente el cumplimiento del cronograma",
+        "Ajusta el cronograma de acuerdo con los resultados de la evaluación"
+      ]
+    },
+    {
+      "unidad": 7,
+      "nombre": "Formula y gestiona proyectos",
+      "descripcion": "Diseña, dirige y evalúa la realización de proyectos en diversos contextos y en colaboración con otros, para garantizar el logro de los propósitos del proyecto.",
+      "criterios": [
+        "Diagnostica necesidades que pueden ser abordadas por proyectos",
+        "Formula proyectos de acuerdo a las necesidades del contexto",
+        "Gestiona las acciones del equipo para ejecutar el proyecto",
+        "Evalúa los resultados del proyecto",
+        "Comunica a otros las lecciones aprendidas en el desarrollo del proyecto"
+      ]
+    },
+    {
+      "unidad": 8,
+      "nombre": "Actúa creativamente ante diversas situaciones",
+      "descripcion": "Crea y aplica, de manera personal y colectiva, alternativas novedosas, valiosas y eficaces para responder a diversas situaciones",
+      "criterios": [
+        "Identifica, personal o colectivamente, situaciones que requieren soluciones creativas",
+        "Propone opciones novedosas de solución",
+        "Analiza críticamente las opciones propuestas.",
+        "Aplica la solución de mayor beneficio-costo",
+        "Evalúa, individual o colectivamente, la solución aplicada en términos de novedad, valor y eficacia"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CG4",
+  "nombre": "Aprender a Interactuar en el Contexto Global",
+  "descripcion": "Actúa y se integra a los escenarios globales mediante el dominio de otros idiomas y de las tecnologías de la información y comunicación, esenciales para su interacción en el escenario global.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Se desempeña eficazmente en contextos internacionales.",
+      "descripcion": "Interactúa exitosamente con personas de distintas culturas en escenarios académicos y sociales, en situaciones reales o simuladas, bajo la modalidad presencial o virtual.",
+      "criterios": [
+        "Describe la realidad internacional actual",
+        "Valora la diversidad cultural en escenarios globales",
+        "Se integra a los distintos contextos internacionales",
+        "Participa en grupos multiculturales cooperativamente bajo la modalidad presencial o virtual",
+        "Transfiere prácticas culturales efectivas a otros contextos"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Maneja adecuadamente las tecnologías de información y comunicación",
+      "descripcion": "Utiliza con destreza equipos y aplicaciones tecnológicas de comunicación e información para interactuar con otros en el contexto global",
+      "criterios": [
+        "Emplea recursos de internet como herramienta comunicacional",
+        "Gestiona adecuadamente los programas y aplicaciones de uso frecuente",
+        "Valida la información que consulta en Internet",
+        "Se actualiza permanentemente en las tecnologías de información y comunicación y en las medidas de seguridad y protección de estos sistemas",
+        "Interactúa en grupos de trabajo empleando las tecnologías de información y comunicación"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Se comunica con fluidez en un segundo idioma",
+      "descripcion": "Se expresa de manera oral y escrita en un segundo idioma, con fluidez y de acuerdo con la estructura y códigos lingüísticos propios del otro idioma",
+      "criterios": [
+        "Domina instrumentalmente la lectura en un segundo idioma",
+        "Produce textos escritos en un segundo idioma",
+        "Realiza presentaciones orales en un segundo idioma",
+        "Produce discursos orales coherentes y con soltura en interacciones con otros",
+        "Participa en equipos cooperativos con personas que hablan otro idioma"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CPE1",
+  "nombre": "Gestiona proyectos informáticos",
+  "descripcion": "Planifica, dirige y evalúa proyectos informáticos de forma efectiva en distintos ambientes organizacionales, participando activamente en equipos de trabajo interdisciplinarios, orientados a la búsqueda de soluciones con sentido ético.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Planifica y desarrolla un proceso de evaluación integral de un sistema informático.",
+      "descripcion": "Elabora un plan del proceso de evaluación del desempeño de un sistema informático, realiza y analiza la información resultante de este proceso y presenta las observaciones y recomendaciones del caso.",
+      "criterios": [
+        "Planifica el proceso de evaluación de un sistema",
+        "Diagnostica el sistema con base en los criterios de evaluación y las variables definidas",
+        "Recomienda acciones para un efectivo funcionamiento del sistema"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Planifica y controla el desarrollo de un proyecto de tecnología de Información",
+      "descripcion": "Elabora un plan de desarrollo de un proyecto informático, controlando cada fase utilizando los principios y metodologías propios de la Ingeniería Informática en función del alcance de los objetivos del proyecto",
+      "criterios": [
+        "Define la metodología para el desarrollo de un proyecto informático",
+        "Planifica el proyecto",
+        "Ajusta la planificación cuando sea necesario"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Documenta técnica y funcionalmente un sistema informático",
+      "descripcion": "Realiza la documentación técnica y funcional de un sistema informático",
+      "criterios": [
+        "Elabora el manual de usuario de un sistema informático",
+        "Elabora el manual de referencia técnica de un sistema informático"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CPE2",
+  "nombre": "Emprende negocios de Ingeniería",
+  "descripcion": "Identifica la oportunidad de negocio, crea la empresa y desarrolla el negocio.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Identifica oportunidades de negocio",
+      "descripcion": "Detecta la necesidad, elabora el plan de negocio y valida su factibilidad.",
+      "criterios": [
+        "Diagnostica las necesidades del entorno identificando oportunidades de emprendimiento",
+        "Formula el plan de negocios.",
+        "Evalúa la factibilidad técnica y económica del negocio."
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Ejecuta el plan de negocio",
+      "descripcion": "Lleva a cabo el plan y evalúa la ejecución.",
+      "criterios": [
+        "Dirige y controla la ejecución del plan de negocios",
+        "Evalúa la ejecución"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CPE3",
+  "nombre": "Desarrolla sistemas telemáticos",
+  "descripcion": "Diseña, implementa, construye circuitos electrónicos y sistemas de comunicación seguros y confiables en distintos ambientes operativos.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Diseña y construye dispositivos electrónicos",
+      "descripcion": "Diseña y construye dispositivos de hardware usando micro controladores, que se utilicen como medios de interacción entre el humano y el computador o entre cualquier otro dispositivo y el computador.",
+      "criterios": [
+        "Utiliza herramientas de software para la simulación, diseño y construcción de circuitos electrónicos",
+        "Desarrolla algoritmos para sistemas micro controlados de pequeña y mediana escala"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Diseña, instala y administra redes de voz y datos",
+      "descripcion": "Evalúa, diseña e implanta redes de voz y datos siguiendo metodologías de diseño y aplicando estándares internacionales.",
+      "criterios": [
+        "Diseña e instala equipos necesarios para la implementación de una red de voz y datos",
+        "Aplica comandos necesarios para la configuración de los distintos equipos en las redes",
+        "Diseña y configura redes en ambientes LAN y WAN"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Diseña e implementa sistemas de seguridad en redes",
+      "descripcion": "Aplica políticas de seguridad que garantizan un ambiente de red idóneo, con sentido de responsabilidad ante la problemática de seguridad en redes, con orientación hacia el administrador y no al intruso.",
+      "criterios": [
+        "Selecciona y aplica políticas de seguridad en una red",
+        "Instala y configura herramientas para la creación de una red segura"
+      ]
+    },
+    {
+      "unidad": 4,
+      "nombre": "Administra y mantiene sistemas operativos",
+      "descripcion": "Configura y administra sistemas operativos",
+      "criterios": [
+        "Aplica comandos para el manejo de diferentes sistemas operativos",
+        "Utiliza herramientas para el manejo de sistemas operativos",
+        "Recomienda el uso de un sistema operativo de acuerdo con los requerimientos de un proyecto informático"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CPE4",
+  "nombre": "Desarrolla software de aplicación",
+  "descripcion": "Identifica, analiza, diseña, implementa, evalúa y mantiene software de aplicación de manera efectiva.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Diseña e implementa algoritmos robustos y eficientes de forma modular",
+      "descripcion": "Utiliza la abstracción para diseñar e implementar en forma modular y sistemática una solución algorítmica robusta y eficiente",
+      "criterios": [
+        "Utiliza la abstracción para diseñar de manera eficiente la solución de un problema",
+        "Descompone un problema en sub problemas más simples para resolverlo en forma modular",
+        "Implementa la solución algorítmica",
+        "Identifica y resuelve las situaciones excepcionales de un programa para lograr una solución robusta"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Analiza las necesidades de los usuarios, diseña e implementa el software de aplicación sobre arquitecturas centralizadas o distribuidas",
+      "descripcion": "Resuelve un problema en forma lógica, analítica y estructurada argumentando correctamente cualquier solución que se plantee en el área de diseño de software, sea centralizada o distribuida.",
+      "criterios": [
+        "Identifica y analiza las necesidades de los usuarios",
+        "Evalúa diferentes paradigmas de diseño y programación",
+        "Diseña la solución planteada",
+        "Implementa la solución planteada"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Diseña y ejecuta planes de pruebas de los sistemas informáticos",
+      "descripcion": "Elabora un plan de pruebas de un sistema informático, controlando el desarrollo de cada fase.",
+      "criterios": [
+        "Define el plan de pruebas funcionales y técnicas",
+        "Aplica el plan de pruebas",
+        "Recomienda y/o aplica las mejoras identificadas en la ejecución del plan de pruebas"
+      ]
+    },
+    {
+      "unidad": 4,
+      "nombre": "Identifica, selecciona y aplica la metodología apropiada para el desarrollo de software de aplicación",
+      "descripcion": "Analiza el software de aplicación a desarrollar para seleccionar y aplicar la metodología de desarrollo que mejor se adapte",
+      "criterios": [
+        "Identifica necesidades que puedan resolverse a través del desarrollo de un sistema informático",
+        "Elige y aplica el marco metodológico más efectivo para el éxito del sistema informático"
+      ]
+    },
+    {
+      "unidad": 5,
+      "nombre": "Diseña, implementa y administra un Sistema de Base de Datos",
+      "descripcion": "Diseña, implementa y administra un Sistema de Base de Datos",
+      "criterios": [
+        "Modela las necesidades de información de una organización o proceso",
+        "Diseña un sistema de base de datos que garantice la integridad de la información modelada",
+        "Implementa un sistema de base de datos efectivo haciendo uso de técnicas y herramientas pertinentes"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CPB1",
+  "nombre": "Formula proyectos de ingeniería",
+  "descripcion": "Formula, planifica y evalúa proyectos de ingeniería de forma efectiva en distintos ambientes organizacionales, participando activamente en equipos de trabajo interdisciplinarios, orientados a la búsqueda de soluciones con sentido ético.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Evalúa la factibilidad técnica y/o económica de un proyecto de ingeniería",
+      "descripcion": "Realiza un estudio técnico y/o económico sobre la factibilidad de un proyecto de ingeniería a fin de obtener la mayor rentabilidad",
+      "criterios": [
+        "Identifica los indicadores para evaluar la factibilidad técnica y/o económica de un proyecto de ingeniería",
+        "Valora los indicadores definidos",
+        "Analiza la factibilidad del proyecto de ingeniería"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Cumple con el código de ética profesional y el marco legal vigente",
+      "descripcion": "Se desempeña con responsabilidad y ética profesional cumpliendo con el marco legal correspondiente",
+      "criterios": [
+        "Diferencia casos que están fuera de la ética profesional en la Ingeniería",
+        "Aplica el código de ética en su ambiente profesional",
+        "Cumple con el marco legal vigente"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Formula y planifica el desarrollo de un proyecto de ingeniería",
+      "descripcion": "Formula y elabora un plan de desarrollo de un proyecto de ingeniería utilizando los principios de la ingeniería en función del alcance de los objetivos del proyecto",
+      "criterios": [
+        "Formula el proyecto",
+        "Planifica el proyecto"
+      ]
+    }
+  ]
+}
+{
+  "competencia": "CPB2",
+  "nombre": "Modela para la toma de decisiones",
+  "descripcion": "Representa a través de modelos matemáticos situaciones de la vida real, para apoyar de forma efectiva la toma de decisiones en base a un objetivo planteado.",
+  "unidadesCompetencia": [
+    {
+      "unidad": 1,
+      "nombre": "Modela matemáticamente situaciones reales para apoyar la toma de decisiones",
+      "descripcion": "Apoya la toma decisiones basadas en criterios objetivos de datos experimentales, científicos o de simulación, usando modelos matemáticos que representan la situación real.",
+      "criterios": [
+        "Identifica el modelo que represente la situación real para lograr el objetivo planteado",
+        "Formula matemáticamente el modelo seleccionado",
+        "Resuelve el modelo matemático",
+        "Realiza análisis de post-optimización"
+      ]
+    },
+    {
+      "unidad": 2,
+      "nombre": "Simula computacionalmente situaciones de la vida real",
+      "descripcion": "Apoya la toma de decisiones basándose en un diagnóstico producto de los resultados obtenidos en simulaciones computacionales",
+      "criterios": [
+        "Recolecta datos de la vida real",
+        "Utiliza herramientas de software para la simulación de los datos recolectados",
+        "Realiza un diagnóstico en función de los resultados de la simulación para apoyar la toma de decisiones"
+      ]
+    },
+    {
+      "unidad": 3,
+      "nombre": "Formula y planifica el desarrollo de un proyecto de ingeniería",
+      "descripcion": "Formula y elabora un plan de desarrollo de un proyecto de ingeniería utilizando los principios de la ingeniería en función del alcance de los objetivos del proyecto",
+      "criterios": [
+        "Formula el proyecto",
+        "Planifica el proyecto"
+      ]
+    }
+  ]
+}

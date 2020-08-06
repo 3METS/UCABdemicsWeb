@@ -1,38 +1,28 @@
-const { config } = require('../config/index');
-const nodemailer = require('nodemailer');
+const BullService = require('./bull');
 
 class MailService {
   constructor() {
-    this.transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: config.email,
-        pass: config.emailPassword,
-      },
+    this.bullService = new BullService('email');
+  }
+
+  getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  sendWelcome({ email, res }) {
+    return this.bullService.addJobs({
+      data: { email, option: 'welcome' },
+      res,
     });
   }
 
-  sendRecovery({ user }) {
-    var mailOptions = {
-      from: config.email,
-      to: user,
-      subject: 'Recuperación de contraseña',
-      text: 'Esto es una prueba',
-    };
-    var response = {
-      err: null,
-      info: null,
-    };
-
-    this.transporter.sendMail(mailOptions, function (error, info) {
-      if (error) {
-        response.err = error;
-      } else {
-        response.info = info.response;
-        console.log('Email sent: ' + info.response);
-      }
+  sendRecovery({ name, email, res }) {
+    var recoveryCode = this.getRndInteger(100000, 999999);
+    this.bullService.addJobs({
+      data: { name, email, recoveryCode, option: 'recovery' },
+      res,
     });
-    return response;
+    return recoveryCode;
   }
 }
 

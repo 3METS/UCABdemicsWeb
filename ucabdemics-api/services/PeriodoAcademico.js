@@ -1,21 +1,22 @@
 const mongoFunction = require('../lib/db').MongoLib;
-const { ObjectId } = require('mongodb');
 
-class PeriodoService{
-    constructor(){
-        this.MongoDB = new mongoFunction();
-        this.collection = "periodos-academico"
-    }
+class PeriodoService {
+  constructor() {
+    this.MongoDB = new mongoFunction();
+    this.collection = 'periodos-academico';
+  }
 
-    async crear(data){
-        const exist = await this.MongoDB.get(this.collection, { "codigo": data.codigo });
-        if (exist == null){
-            const result = await this.MongoDB.create(this.collection, data);
+    async crear(data) {
+        const exist = await this.MongoDB.get(this.collection, {
+        codigo: data.codigo,
+        });
+        if (exist == null) {
+        const result = await this.MongoDB.create(this.collection, data);
             return result;
-        }else{
-            return "Ya existe"
+        } else {
+            return 'Ya existe';
         }
-    }
+    }   
 
     async buscar(data){
         const result = await this.MongoDB.get(this.collection, data);
@@ -49,14 +50,14 @@ class PeriodoService{
         }
     }
 
-    async eliminar (codigo){
+    async eliminar(codigo) {
         const busqueda = await this.MongoDB.get(this.collection, codigo);
         const id = busqueda._id.toString();
         const result = await this.MongoDB.delete(this.collection, id);
 
-        if (result.deletedCount > 0){
+        if (result.deletedCount > 0) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
