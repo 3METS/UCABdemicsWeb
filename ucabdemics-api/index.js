@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const { config } = require('./config/index');
 
 const mailApi = require('./routes/mail');
+const docManagerApi = require('./routes/docManager');
 
 const {
   logErrors,
@@ -21,6 +22,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //Routes
 mailApi(app);
+docManagerApi(app);
 
 //Direcciona a 404 not found
 app.use(notFoundHandler);
