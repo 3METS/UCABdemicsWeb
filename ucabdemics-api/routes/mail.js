@@ -1,23 +1,23 @@
 const express = require('express');
-const AgendaService = require('../services/agenda');
+const MailService = require('../services/mail');
 
 function MailApi(app) {
   const router = express.Router();
   app.use('/api/mail', router);
 
-  const agendaService = new AgendaService();
+  const mailService = new MailService();
 
-  router.get('/', (req, res) => {
-    res.status(200).end('<h1>Bienvenido a UCABdemics!</h1>');
+  router.get('/', async (req, res) => {
+    res.status(200).end(`<h1>Bienvenido a UCABdemics</h1>`);
   });
 
   router.post('/recovery', async (req, res, next) => {
-    const { email } = req.query;
+    const { name, email } = req.body;
     try {
-      const response = await agendaService.sendWelcome({ user: email });
+      const recoveryValue = mailService.sendRecovery({ name, email, res });
       res.status(201).json({
-        data: response,
-        message: 'mail sent',
+        recoveryValue,
+        message: 'job in queue',
       });
     } catch (err) {
       next(err);
@@ -25,16 +25,12 @@ function MailApi(app) {
   });
 
   router.post('/welcome', async (req, res, next) => {
-    const { email } = req.query;
+    const { email } = req.body;
     try {
-      const response = await AgendaService.agenda.on('ready', function () {
-        AgendaService.agenda.now('welcome email', {
-          user: email,
-        });
-      });
+      const job = await mailService.sendWelcome({ email, res });
       res.status(201).json({
-        data: response,
-        message: 'mail sent',
+        job,
+        message: 'job in queue',
       });
     } catch (err) {
       next(err);
