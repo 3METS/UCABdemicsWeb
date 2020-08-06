@@ -17,7 +17,7 @@ class PeriodoService{
         }
     }
 
-    async buscarPrimero(data){
+    async buscar(data){
         const result = await this.MongoDB.get(this.collection, data);
         if (result)
             return result;
@@ -26,7 +26,9 @@ class PeriodoService{
 
     async buscarVarios(data){
         const result = await this.MongoDB.getAll(this.collection, data);
-        return result;
+        if (result)
+            return result;
+        return "No existe"
     }
 
     async buscarCodigos (){

@@ -13,7 +13,7 @@ const createPeriodoAcademico ={
   descripcion: decripcionSchema.required()
 };
 
-const updatePeriodoAcademico = { //Lo llamé rud porque funciona para todo menos create
+const updatePeriodoAcademico = { 
   codigo: periodoAcademicoIdSchema,
   fechaInicio: fechaInicioSchema,
   fechaFinal: fechaFinalSchema,

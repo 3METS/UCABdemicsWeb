@@ -10,7 +10,6 @@ const { validationHandler } = require('../utils/middlewares/validationHandlers')
 function competenciaRoute(app){
 
     this.competenciaService = new apiService();
-    var params;
      
     app.get('/buscarVarios/competencia',validationHandler(updateCompetencia), async function(req,res){
         const body = req.body;
@@ -25,10 +24,11 @@ function competenciaRoute(app){
         
     });
 
-    app.get('/buscarPrimero/competencia',validationHandler(updateCompetencia), async function(req,res){
+    app.get('/buscarUnidades/competencia',validationHandler(updateCompetencia), async function(req,res){
         const body = req.body;
         try {
-            const data = await this.competenciaService.buscar(body);
+            const competencia = await this.competenciaService.buscar(body);
+            const data = await this.competenciaService.buscarUnidades(competencia);
             res.json({
                 data:data
             })

@@ -4,7 +4,17 @@ const { ObjectId } = require('mongodb');
 class ContenidoProgramaticoService{
     constructor(){
         this.MongoDB = new mongoFunction();
-        this.collection = "contenido-programaticos";
+        this.collection = "contenidos-programaticos";
+    }
+
+    async crear(data){
+        const exist = await this.MongoDB.get(this.collection, { "codigo": data.codigo });
+        if (exist == null){
+            const result = await this.MongoDB.create(this.collection, data);
+            return result;
+        }else{
+            return "Ya existe"
+        }
     }
 
     async buscarAsignatura (query){

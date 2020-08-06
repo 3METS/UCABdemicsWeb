@@ -25,17 +25,17 @@ function periodoAcademicoRoute(app){
         
     });
 
-    app.get('/buscarPrimero/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
-        const body = req.body;
-        try {
-            const data = await this.periodoService.buscarPrimero(body);
-            res.json({
-                data:data
-            })
-        } catch (error) {
-            console.log(error);
-        }
-    });
+    // app.get('/buscar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
+    //     const body = req.body;
+    //     try {
+    //         const data = await this.periodoService.buscar(body);
+    //         res.json({
+    //             data:data
+    //         })
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // });
     
     app.post('/crear/periodoAcademico',validationHandler(createPeriodoAcademico), async function(req,res){
         const {body : periodo} = req;
@@ -50,16 +50,16 @@ function periodoAcademicoRoute(app){
         
     });
 
-    app.get('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
+    app.get('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){//Buscar el periodo quese modificara
         const body = req.body;
-        const data = await this.periodoService.buscarPrimero(body);
+        const data = await this.periodoService.buscar(body);
         params = data;
         res.json({
             data:data
         })
     });
 
-    app.post('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
+    app.post('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){//Hace las modificaciones
         const body = req.body;
         const data = await this.periodoService.modificar(params,body);
         res.json({
