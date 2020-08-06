@@ -1,7 +1,7 @@
 const apiService = require('../services/contenidoProgramatico').ContenidoProgramaticoService;
 
-const createContenidoProgramatico = require('../models/contenidoProgramatico').createContenidoProgramatico;
-const updateContenidoProgramatico = require('../models/contenidoProgramatico').updateContenidoProgramatico;
+const createContenidoProgramatico = require('../utils/models/contenidoProgramatico').createContenidoProgramatico;
+const updateContenidoProgramatico = require('../utils/models/contenidoProgramatico').updateContenidoProgramatico;
 
 const { validationHandler } = require('../utils/middlewares/validationHandlers');
 
