@@ -1,0 +1,135 @@
+Modelado de Datos
+
+Usuarios
+- Profesor                      //Creada//
+- Horario                       //Dentro de Seccion//
+- Seccion                       //Creada//
+- Periodo Academico             //Creada//
+- Carrera                       //Creada//
+- Competencia                   //Creada//
+- Unidad                        //Dentro de Competencia//
+- Asignatura                    //Creada//
+- Unidad Tematica Asignatura    //Dentro de Asignatura//
+- Solicitud                     //Creada//
+- Plan de Clase                 //Creada//
+- Contenido Plan de Clase       //Dentro de Plan de Clase//
+- Unidad Tematica Plan de Clase //Dentro de Contenido Plan de Clase//
+- Evualuacion                   //Dentro de Plan de Clase//
+
+Usuarios{
+    correo : String
+    contrasenia : String
+    profesor : Referencia a "Profesores"
+}
+
+Periodo Academico{
+    NumeroID : Numero
+    FechaInicio : String
+    FechaFinal : String
+    Descripcion : String
+}
+
+Profesores{
+    nombre : String
+    correo : String
+    Password : String
+    Carrera : String
+    Secciones {
+        Codigo : Referencia "Secciones"
+        plan_de_clase : Referencia "Plan de Clase"
+        Seguimiento : Referencia "Contenido Plan de Clase"
+    }
+}
+
+Asignaturas{
+    codigo : String
+    nombre : String
+    Carrera : Referencia "Carrera"
+    departamento : String
+    regimen : String
+    UC : Numero
+    semestre : String
+    Tipo_Asignatura : String
+    horasSemanales : {
+        teoricas: Numero,
+        practica_seminario: Numero,
+        laboratorios: Numero,
+    }
+    Prelacion_Requisito : Referencia a "Asignatura"
+    Asignatura_Aporte : Referencia a "Asignatura"
+    Unidad_Tematica_Asignatura : {[
+        Tema : Numero
+        Descripcion : String
+        Subtemas : String
+    ]}
+    EstrategiaAprendizaje : String
+    EstrategiaEvaluacion : String
+}
+
+Seccion{
+    NRC : String
+    Asignatura : Referencia a "Asignaturas"
+    Profesor : Referencia a "Profesores"
+    Horarios : [{
+        HoraInicio : Numero
+        HoraFinal : Numero
+        Dia_Semana : String
+        Aula : String
+    }]
+    PeriodoAcademico : Referencia a "Periodo Academico"
+    plan_de_clase : Referencia a "Plan de Clase"
+}
+
+Carrera{
+    ID : String
+    Nombre : String
+    Competencias : {[
+        competencia : [Referencia a "Competencia"]
+    ]}
+}
+
+Competencia{
+    Codigo : String
+    Nombre : String
+    Descripcion : String
+    Unidades_Competencia: {[
+        Unidad : Numero
+        Criterios : [String]
+    ]}
+}
+
+Plan de Clase{
+    Codigo : String
+    Escuela : String
+    Contenido_Plan_Clase : [{
+        Codigo : String
+        Fecha_Semana : String
+        ActividadDocente : [String]
+        ActividadEstudiante : [String]
+        Fecha : String
+        Unidad_Tematica_Plan_Clase : [{
+            Tema : String
+            Subtema : String
+            Porcentaje_Progreso : Numero
+        }]
+    }]
+    Evualuacion : [{
+        Codigo : String
+        Evidencia : String
+        Ponderacion : Numero
+        Fecha : String
+        Temas : String
+        Tipo : String
+        Intrumento : String
+        Tecnica : String
+    }]
+}
+
+Solicitud{
+    Tipo : String
+    HoraInicio : String
+    HoraFinal : String
+    Fecha : String
+    Profesor : Referencia a "Profesores"
+    Seccion : Referencia a "Secciones"
+}

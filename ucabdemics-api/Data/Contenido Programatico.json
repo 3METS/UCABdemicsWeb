@@ -1,0 +1,4014 @@
+{
+  "codigo": "II",
+  "nombreAsignatura": "Introducción a la Informática",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "I",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "asignaturasAporte": [
+    "Lógica Computacional", "Algoritmos y Programación I"
+  ],
+  "justificacion": "La unidad curricular Introducción a la Informática inicia al estudiante en el mundo de la tecnología de la información, dándole una visión general del perfil del egresado de un ingeniero en informática y sentando las bases para un desempeño académico exitoso. Esto se fundamenta en el aprendizaje de las nociones básicas de la lógica simbólica y el inicio del desarrollo del pensamiento algorítmico del estudiante, mediante la resolución teórica y práctica de problemas sencillos en forma algorítmica. El estudiante comienza a familiarizarse con las estructuras de control de la programación estructurada resolviendo problemas de complejidad sencilla en forma algorítmica y codificando esta solución en un lenguaje de programación. De esta forma se pretende sentar las bases necesarias para lo que hará en las siguientes unidades relativas a Algoritmos y Programación y aproximarlo a su futura labor profesional.",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción a la Informática",
+      "subtemas": [
+        "Generalidades de la carrera y de la escuela de Ingeniería Informática",
+        "Uso de la plataforma Virtual de la UCAB (Módulo 7 – CANVAS)",
+        "Introducción a los temas: Arquitectura del computador, Sistemas Operativos, Paradigmas de Programación, Lenguajes de Programación, Software, Ingeniera de Software, Virus, Delitos, Compiladores, Sistemas de información"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Introducción a la Lógica Proposicional",
+      "subtemas": [
+        "Semántica",
+        "Conectores",
+        "Modelación Lógica",
+        "Interpretación de una fórmula",
+        "Tablas de verdad"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Algoritmos",
+      "subtemas": [
+        "Definición de Algoritmos",
+        "Tipos de errores",
+        "Estructura de un programa en Pascal",
+        "Entrada y Salida de datos",
+        "Estructuras selectivas",
+        "Estructuras repetitivas"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), investigaciones, presentaciones, preguntas generadoras y preguntas guías, resolución de ejercicios y problemas, participación en clase, talleres y método de proyectos",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, talleres de ejercicios y problemas y portafolio"
+}
+{
+  "codigo": "API",
+  "nombreAsignatura": "Algoritmos y Programación I",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "II",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Matemática Básica", "ntroducción a la Informática"
+  ],
+  "asignaturasAporte": [
+    "Lógica Computacional", "Algoritmos y Programación II"
+  ],
+  "justificacion": "La unidad curricular Algoritmos y Programación I contribuye a desarrollar el pensamiento algorítmico, mediante el análisis de problemas, el diseño de una solución en forma metódica y la traducción de esta solución en un lenguaje de programación. Esto se logra mediante el conocimiento teórico y práctico de las estructuras básicas de la programación estructurada, del manejo estático de memoria y el aprendizaje de un lenguaje de programación, base fundamental para el desempeño académico exitoso en el área de algoritmos y en la futura labor profesional del estudiante. El estudiante requiere ser capaz de analizar un problema de complejidad simple a intermedia, diseñar una solución usando estructuras de datos estáticas y codificar la solución en un lenguaje bajo el paradigma de programación estructurada, como primer paso para lograr que adquiera la habilidad futura de programar en cualquier entorno, bajo otros paradigmas de programación y resolver problemas más complejos,  contribuyendo así con la autonomía gradual de su aprendizaje",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 3,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Diseño y desarrollo de Algoritmos",
+      "subtemas": [
+        "Concepto de Algoritmos y su representación",
+        "Pseudocódigo",
+        "Verificación de Algoritmos"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Introducción al Lenguaje de Programación",
+      "subtemas": [
+        "Características y estructura de un Lenguaje de Programación",
+        "Concepto de Tipos de Datos",
+        "Tipos de datos primitivos y operaciones válidas",
+        "Constantes, variables y expresiones",
+        "Operadores relacionales y conectores lógicos",
+        "Operaciones de Entrada/Salida",
+        "Estructura general de un programa"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Programación Estructurada",
+      "subtemas": [
+        "Estructuras de Control: Secuenciales, Selectivas e Iterativas"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Subprogramas",
+      "subtemas": [
+        "Concepto de Subprograma",
+        "Tipos de Subprogramas: Procedimientos y Funciones",
+        "Anidamiento de Subprogramas",
+        "Variables globales y locales. Alcance",
+        "Definición de Parámetros",
+        "Tipo de Parámetros: formales y actuales",
+        "Paso de parámetros: por valor y por referencia",
+        "Corrida en frío de programas"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Tipos de datos estructurados",
+      "subtemas": [
+        "Cadena de Caracteres y su manejo",
+        "Estructuras de datos: Arreglos (vectores, matrices y cubos)",
+        "Arreglos como parámetros",
+        "Algoritmos de manejo de arreglos. Codificación",
+        "Estructura de datos: Registros (fijos y variantes). Arreglos de registros",
+        "Estructura de datos: Conjuntos, Subrangos y Enumerados"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Archivos",
+      "subtemas": [
+        "Definición de archivos",
+        "Tipos de archivos según su contenido y acceso",
+        "Operaciones con archivos. Funciones para usar archivos",
+        "Recorrido de archivos secuenciales"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Introducción a la Recursividad",
+      "subtemas": [
+        "Definición de Recursividad",
+        "Tipos de recursividad: directa e indirecta",
+        "Algoritmo Iterativo versus Algoritmo Recursivo",
+        "Ejemplos clásicos de recursividad"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas, participación en clase, talleres y método de proyectos",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, resolución de ejercicios y problemas y proyectos"
+}
+{
+  "codigo": "LC",
+  "nombreAsignatura": "Lógica Computacional",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "II",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Introducción a la Informática", "Matemática Básica"
+  ],
+  "asignaturasAporte": [
+    "Matemáticas Discretas", "Algoritmos y Programación I"
+  ],
+  "justificacion": "La unidad curricular Lógica Computacional incentiva el desarrollo del razonamiento lógico en los estudiantes, de tal manera que adquieran una adecuada capacidad de formulación, argumentación y resolución de problemas, esenciales en el área académica y profesional de un Ingeniero en Informática. La capacidad de razonamiento es una herramienta fundamental para la vida personal y profesional, ya que analizar, seleccionar, demostrar y refutar son esenciales en el desempeño exitoso de un ser humano y por ende, también fomenta la formación integral de profesionales con mayor capacidad de análisis para la solución de problemas. Labores como la programación y el desarrollo de software son procesos creativos que requieren la habilidad de abstracción, la construcción de especificaciones formales  y  la capacidad de razonamiento, donde la unidad curricular Lógica Computacional contribuye al desarrollo de estas aptitudes",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Lógica Proposicional",
+      "subtemas": [
+        "Definiciones básicas: proposición, conectivos lógicos (negación, disyunción, conjunción, condicional, doble condicional), fórmula proposicional, implicación, doble implicación, premisa, conclusión, razonamiento",
+        "Métodos semánticos: tablas de verdad, árboles semánticos  y demostración por contradicción",
+        "Interpretación de una fórmula proposicional: satisfactoria, tautológica o contradictoria",
+        "Modelación en lógica proposicional",
+        "Equivalencias e implicaciones lógicas. Reglas de inferencia básicas y teoremas básicos",
+        "Derivaciones (o inferencia lógica) con proposiciones usando el método de Fitch",
+        "Formas normales: disyuntiva (FND) y conjuntiva (FNC)"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Lógica de Predicados",
+      "subtemas": [
+        "Definiciones básicas: predicado, variable, constante, cuantificador universal, cuantificador existencial, fórmula cuantificacional",
+        "Validación de fórmulas cuantificacionales dado el dominio (tablas de verdad)",
+        "Modelación en lógica de predicados",
+        "Reglas de inferencia básicas y teoremas básicos en lógica de predicados",
+        "Derivaciones (o inferencia lógica) con predicados y cuantificadores usando el método de Fitch"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Teoría de Conjuntos y Relaciones Binarias",
+      "subtemas": [
+        "Noción de conjunto, elemento de un conjunto y la relación *pertenece a*",
+        "Determinación de un conjunto por extensión y por comprensión",
+        "Los conjuntos numéricos, el conjunto universal y el conjunto vacío",
+        "Cardinal de un conjunto finito",
+        "Inclusión, igualdad e inclusión propia de conjuntos",
+        "Operaciones con conjuntos (complemento, unión, intersección, diferencia y diferencia simétrica)",
+        "Propiedades de la inclusión, la igualdad y las operaciones con conjuntos",
+        "Conjuntos disjuntos",
+        "Conjunto potencia o conjunto de partes de un conjunto. Propiedades",
+        "Partición de un conjunto",
+        "Pares ordenados. Producto cartesiano",
+        "Relaciones binarias. Dominio y rango de una relación binaria",
+        "Propiedades de una relación binaria: reflexividad, irreflexividad, simetría, antisimetría, asimetría, transitividad y completitud",
+        "Relaciones inversas. Composición de relaciones",
+        "Relaciones de equivalencia. Clases de equivalencia y conjuntos cocientes. Teorema fundamental de las relaciones de equivalencia",
+        "Relaciones de orden: parcial, total y estricto"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, resolución de ejercicios y, problemas y portafolio"
+}
+{
+  "codigo": "APII",
+  "nombreAsignatura": "Algoritmos y Programación II",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "III",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Algoritmos y Programación I"
+  ],
+  "asignaturasAporte": [
+    "Algoritmos y Programación III"
+  ],
+  "justificacion": "La unidad curricular Algoritmos y Programación II contribuye a incentivar el pensamiento algorítmico, mediante el análisis de problemas, el diseño de una solución en forma metódica y la traducción de esta solución en un lenguaje de programación. Esto se logra mediante el conocimiento teórico y práctico de las estructuras de control de la programación estructurada, en particular del manejo dinámico de memoria, lo cual constituye la base para el desarrollo del perfil académico y profesional del estudiante. Con la unidad Algoritmos y Programación II, el estudiante conocerá nuevas técnicas de programación, usando memoria dinámica y estructuras de datos enlazadas tanto secuenciales como jerárquicas, tanto en forma iterativa como recursiva, aspectos que constituyen la base de muchas aplicaciones en el mercado laboral. Adicionalmente, aprenderá a analizar, especificar e implementar estructuras de datos desde la perspectiva de  tipo abstracto de datos, lo cual le proporcionará una visión más amplia y conceptualizada en la implementación de una solución, base fundamental para iniciar al estudiante  en la programación orientada a objetos útil para la unidad curricular Algoritmos y Programación III y para su labor profesional futura",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 3,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Estructuras dinámicas de información",
+      "subtemas": [
+        "Gestión de memoria dinámica: apuntadores",
+        "Definición de apuntadores y su utilidad",
+        "Operadores: dirección y contenido",
+        "Operaciones básicas con apuntadores"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Recursividad",
+      "subtemas": [
+        "Utilidad de la recursividad",
+        "Backtracking",
+        "Uso de la pila de activación (Active Stack)"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Algoritmos de búsqueda y ordenamiento",
+      "subtemas": [
+        "Búsqueda lineal",
+        "Búsqueda binaria",
+        "Consideraciones sobre los algoritmos de búsqueda",
+        "Algoritmos de ordenamiento: Inserción directa (Baraja), Selección directa, Intercambio directo (Burbuja) y Ordenamiento rápido (Quicksort)",
+        "Consideraciones sobre los algoritmos ordenamiento"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Tipos abstractos de datos (TAD)",
+      "subtemas": [
+        "Definición de TAD. Características y operaciones primitivas",
+        "Especificaciones formales",
+        "Implementación de TAD"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Estructuras dinámicas secuenciales",
+      "subtemas": [
+        "Representaciones estáticas versus representaciones dinámicas",
+        "TAD Lista (simples, dobles, circulares y multienlazadas)",
+        "TAD Pila",
+        "TAD Cola"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Estructuras dinámicas jerárquicas",
+      "subtemas": [
+        "Representaciones estáticas versus representaciones dinámicas",
+        "TAD Árbol: Árbol Binario de Búsqueda (ABB), árboles AVL, árboles B-tree, árboles 2-3",
+        "Algoritmos de ordenamiento basados en árboles (montículos): Heapsort"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas, participación en clase, talleres y método de proyectos",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, resolución de ejercicios y problemas y proyectos"
+}
+{
+  "codigo": "MD",
+  "nombreAsignatura": "Matemáticas Discretas",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "III",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Lógica Computacional"
+  ],
+  "asignaturasAporte": [
+    "Circuitos Electrónicos", "Algoritmos y Programación III"
+  ],
+  "justificacion": "La unidad curricular Matemáticas Discretas introduce al estudiante en los conceptos fundamentales de las estructuras algebraicas, con el fin de manejar modelos discretos propios del Ingeniero en Informática. Adicionalmente, incentiva el desarrollo de competencias esenciales para un ingeniero, tales como, la capacidad de formalizar, de razonar rigurosamente y de modelar adecuadamente.  Por otra parte, sienta la base necesaria para el análisis y construcción de Circuitos Electrónicos, unidad curricular que el estudiante cursará posteriormente. Las construcciones computacionales en Ingeniería en Informática requieren de un alto sentido abstracto que van desde la comprensión de requerimientos en un dominio no estructurado hasta su representación en un dominio estructurado para luego codificar la solución. Sin la modelación apropiada de un problema, es imposible obtener su solución computacional. Las Matemáticas Discretas colaboran en el paso de lo no estructurado a la representación formal, ya que aportan simbolismo y rigurosidad para la abstracción que se requiere para obtener soluciones válidas, confiables y robustas exigidas en el contexto laboral de un Ingeniero en Informática",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Congruencias en ℤ",
+      "subtemas": [
+        "La relación “divide a” en ℤ",
+        "Congruencias en ℤ. Propiedades básicas",
+        "Los conjuntos ℤn. Operaciones. Propiedades de la operaciones en ℤn"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Teoría de Grupos",
+      "subtemas": [
+        "Operaciones. Propiedades",
+        "Tabla de una operación binaria (Tablas de Cayley)",
+        "Grupos. Grupos abelianos. Propiedades. Potenciación",
+        "Grupos finitos. Grupo simétrico",
+        "Subgrupos. Retículo de los subgrupos. Teorema de Lagrange",
+        "Subgrupos cíclicos y generadores. Orden de un elemento de un grupo. Grupo cíclico",
+        "Clases laterales. Subgrupos normales. Grupos cocientes"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Anillos, dominios de integridad y cuerpos",
+      "subtemas": [
+        "Anillos. Anillos conmutativos. Anillos con identidad. Unidades y divisores de cero de un anillo. Propiedades de los anillos. Subanillos",
+        "Dominios de integridad. Cuerpos"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Homomorfismos e Isomorfismos",
+      "subtemas": [
+        "Homomorfismos de grupos. Tipos de homomorfismos (mono-morfismos, epimorfismos, isomorfismos, endomorfismos, auto-morfismos). Propiedades de los homomorfismos de grupos",
+        "Kernel e imagen de un homomorfismo de grupos",
+        "Grupos isomorfos. Propiedades",
+        "Homomorfismo de anillos. Kernel e imagen de un homomorfismo de anillos. Isomorfismo de anillos"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Teoría de la codificación",
+      "subtemas": [
+        "Elementos de la teoría de la codificación",
+        "La métrica de Hamming",
+        "Matrices generadoras y de verificación de paridad",
+        "Códigos de grupo"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Álgebra de Boole",
+      "subtemas": [
+        "Retículas. Principio de dualidad. Tipos de retículas",
+        "Álgebra de Boole. Propiedades de las álgebras de Boole finitas",
+        "Funciones y expresiones booleanas",
+        "Formas normales disyuntivas y formas normales conjuntivas",
+        "Optimización de expresiones booleanas. Mapas de Karnaugh"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, resolución de ejercicios y, problemas y portafolio"
+}
+{
+  "codigo": "APIII",
+  "nombreAsignatura": "Algoritmos y Programación III",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "IV",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Algoritmos y Programación II"
+  ],
+  "asignaturasAporte": [
+    "Ingeniería de Software"
+  ],
+  "justificacion": "La unidad curricular Algoritmos y Programación III contribuye a desarrollar un nivel más alto de abstracción, a través del conocimiento y práctica del paradigma de Programación Orientada a Objetos (POO) en todo lo relativo a la especificación, diseño, desarrollo y documentación de un sistema de información, empleando como técnica gráfica de documentación el Lenguaje Unificado de Modelado (UML).  En las unidades curriculares anteriores relativas a Algoritmos y Programación, el estudiante desarrolla soluciones utilizando estructuras estáticas y dinámicas de información bajo el enfoque de programación estructurada. En Algoritmos y Programación III, el alumno se enfrenta por primera vez con el enfoque de programación orientada a objetos, una forma distinta de afrontar  los  problemas, que marca un antes y un después en su pensamiento algorítmico con un nivel de abstracción mayor. Con el enfoque de POO, el alumno adquiere la base para la habilidad de resolución de problemas similares a los que enfrentará como Ingeniero en Informática en un entorno profesional",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Fundamentos del trabajo en equipo",
+      "subtemas": [
+        "¿Qué es trabajo en equipo?",
+        "Importancia del trabajo en equipo",
+        "Características principales del trabajo en equipo",
+        "Estrategias para trabajo en equipo e impacto en una organización. Ejercicio vivencial",
+        "Pautas y roles para el desarrollo de un proyecto en equipo"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Elaboración de un documento de visión",
+      "subtemas": [
+        "Lineamientos para la elaboración de un documento de visión de un proyecto",
+        "Realización de un documento de visión"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Lenguaje Unificado de Modelado (UML)",
+      "subtemas": [
+        "Orígenes, principios y notaciones de UML",
+        "Diagrama de Casos de Uso",
+        "Modelo de dominio y relaciones: asociación, agregación y generalización/especialización",
+        "Diagrama de Clases",
+        "Diagrama de Secuencia y Comunicación",
+        "Aplicaciones y análisis de casos"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Programación orientada a objetos (POO)",
+      "subtemas": [
+        "Evolución de los lenguajes desde la programación funcional hasta la programación orientada a objetos",
+        "Introducción a la Ingeniería de Software",
+        "Fundamentos de la programación orientada a objetos: abstracción, encapsulamiento, ocultamiento de información, polimorfismo, herencia",
+        "Definición de Clases y Objetos, Atributos, Métodos, pase de mensajes. Aplicaciones y ejemplos",
+        "Principio de alta cohesión-bajo acoplamiento"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Fundamentos del Lenguaje Java bajo el paradigma orientado a objetos",
+      "subtemas": [
+        "Máquina Virtual de Java (JVM)",
+        "Entorno de ejecución Java (IDE)",
+        "Tareas de la JVM",
+        "Cargador de clases",
+        "Verificador de códigos de byte",
+        "Convenciones de codificación",
+        "Declaración de clases",
+        "Declaración de atributos",
+        "Declaración de métodos",
+        "Acceso a miembros de un objeto",
+        "Instrucción package",
+        "Instrucción import",
+        "Disposición de los directorios y los paquetes",
+        "API de Java",
+        "Tipos de referencia",
+        "Construcción e inicialización de objetos",
+        "Expresiones y control de flujo",
+        "Instrucción for each",
+        "Arrays"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Conceptos Avanzados de Java bajo el paradigma orientado a objetos",
+      "subtemas": [
+        "Constructores (declaración e implementación)",
+        "Referencia this",
+        "Sobrecarga. Herencia.  Sobreescritura. Polimorfismo",
+        "Clases Abstractas e interfaces",
+        "Componentes Swing",
+        "Gestión de Eventos",
+        "Cast",
+        "Manejo de Excepciones",
+        "Colecciones (Set, List, Map y subcategorías derivadas)",
+        "Principios básicos de E/S. Flujo estándar",
+        "Archivos. Serialización. Archivos XML"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas, participación en clase, talleres y método de proyectos",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, resolución de ejercicios y problemas (en aula y laboratorio), análisis de casos y proyectos por fases"
+}
+{
+  "codigo": "EC",
+  "nombreAsignatura": "Estructura del Computador",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Programación",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "IV",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Algoritmos y Programación II"
+  ],
+  "asignaturasAporte": [
+    "Sistemas de Operación"
+  ],
+  "justificacion": "La unidad curricular Estructura del Computador contribuye en la comprensión de los estudiantes en la organización y el funcionamiento general de un computador, así como la estructura e implementación de programas de sistemas, en particular los ensambladores, cargadores y enlazadores. Con esta unidad curricular se pretende lograr que el estudiante conozca el proceso de generación de códigos objeto, códigos ejecutables y bibliotecas de procedimientos. Adicionalmente, se pretende que el estudiante obtenga un conocimiento más profundo de cómo funciona un procesador, registros y manejo de memoria y buses, operaciones aritméticas realizadas por la Unidad Lógica Aritmética de un computador (ALU) y operaciones lógicas de los circuitos combinacionales, aprendizajes necesarios para el ejercicio profesional de un Ingeniero en Informática",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción",
+      "subtemas": [
+        "Definiciones: Computador, arquitectura, máquina virtual, traductores e intérpretes",
+        "Organización estructurada de computadores",
+        "Hitos en la evolución de los computadores",
+        "Sistemas de numeración"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Organización general de un computador",
+      "subtemas": [
+        "Modelo de máquinas de Von Neumann, organización y arquitectura básica del computador, CPU, unidad de control, unidad lógico aritmética, registros, memoria: características y organización, bits, bytes, palabras, direcciones de memoria, registros asociados; elementos de interconexión: buses; ciclo de máquina de un computador y ejecución de instrucciones (el lazo de búsqueda – ejecución de instrucciones), lenguaje de transferencia",
+        "Subsistema de entrada/salida",
+        "Casos de estudio"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Representación de programas a nivel de máquina",
+      "subtemas": [
+        "Representación y manipulación de la información: Tipos de datos numéricos y no numéricos, representación de enteros, representación de punto flotante. Formato de instrucciones: criterios de diseño, expansión de códigos de operación, ordenamiento de bytes (big and little endian), máquinas de cero, uno, dos y tres direcciones, modos de direccionamiento",
+        "Tipos de instrucción: movimiento de datos, aritméticas, lógicas, código de condición, transferencia de control, alineación de datos e instrucciones",
+        "Casos de estudio"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Subsistema de memoria",
+      "subtemas": [
+        "Tecnologías, métricas de rendimiento de memoria, jerarquía de memoria, memoria cache",
+        "Representación de objetos en memoria: apuntadores, arreglos, estructuras"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Procesadores de lenguaje",
+      "subtemas": [
+        "El lenguaje ensamblador: Conceptos, instrucciones, pseudoinstrucciones, constantes, literales, etiquetas, repertorio de instrucciones, macroinstrucciones",
+        "Subrutinas e instrucciones para su desarrollo, convenciones de enlace, subrutinas abiertas y cerradas",
+        "Ensambladores: funciones características, ensambladores de uno y dos pasos, diseño general de ensambladores, estructura general de un módulo objeto",
+        "Macroprocesadores",
+        "Enlazadores: enlaces entre secciones de control, diseño general de un enlazador, enlaces estáticos y dinámicos",
+        "Cargadores: relocalización y carga, diseño general de un cargador"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Traps y excepciones",
+      "subtemas": [
+        "Uso para extender la memoria de la máquina",
+        "Entrada Salida a memoria y aislada",
+        "Buses",
+        "Interrupciones y vectores de interrupciones",
+        "Prioridades",
+        "Llamadas al sistema",
+        "Elementos sobre protección de memoria (Base y Límite)"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (exposiciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas, participación en clase, talleres y método de proyectos",
+  "estrategiaEvaluacion": "Técnica de la pregunta reflexiva, pruebas escritas, resolución de ejercicios y problemas y proyectos"
+}
+{
+  "codigo": "CE",
+  "nombreAsignatura": "Circuitos Electrónicos",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "V",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 0,
+    "laboratorios": 2
+  },
+  "prelacion_requisito":[
+    "Matemáticas Discretas", "Física Eléctrica", "Laboratorio de Física Eléctrica"
+  ],
+  "asignaturasAporte": [
+    "Arquitectura del Computador"
+  ],
+  "justificacion": "La unidad curricular tiene como propósito  que el estudiante se familiarice con los distintos componentes electrónicos tanto de la electrónica analógica como la digital, para así  poder entender de una manera básica el comportamiento de los distintos componentes electrónicos que puedan formar parte de un computador, aspecto esencial en el desempeño exitoso de un Ingeniero en Informática",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Técnicas de análisis de circuitos",
+      "subtemas": [
+        "Análisis de voltajes de nodo y lazos de corriente",
+        "Teorema de Thevenin y Norton",
+        "Teorema de superposición",
+        "Teorema de transformación de fuentes",
+        "Uso de los Equipos de Laboratorio",
+        "El protoboard y los equipos de mediciones: osciloscopio, multímetro, generador de señales, etc"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Diodos Semiconductores",
+      "subtemas": [
+        "Diodo ideal",
+        "Circuito equivalente para diodos",
+        "Circuitos con diodos en corriente DC",
+        "Circuitos con diodos en corriente AC",
+        "Diodo LED",
+        "Rectificador de media onda y onda completa",
+        "El transformador. Construcción de in circuito limitador",
+        "Medición de las características del diodo Zener"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "El Transistor",
+      "subtemas": [
+        "Operación del transistor bipolar",
+        "Análisis de circuitos con el transistor bipolar",
+        "Modelaje del transistor como amplificador e interruptor",
+        "Transistor de efecto de campo",
+        "Montaje de un circuito emisor común",
+        "Medición de los parámetros de transistor en DC",
+        "Medición de las características en AC (Ganancia de Voltaje)",
+        "Aplicaciones del transistor como un interruptor controlado"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Amplificadores Operacionales",
+      "subtemas": [
+        "Amplificador operacional básico",
+        "Circuitos prácticos con amplificador operacional",
+        "Circuitos lineales con operacionales",
+        "Circuitos no-lineales con operacionales",
+        "Computación analógica",
+        "Diferentes configuraciones de los amplificadores operacionales. Aplicaciones de los operacionales como conparador"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Algebra Booleana y Compuertas Lógicas",
+      "subtemas": [
+        "Sistemas Numéricos",
+        "Compuertas lógicas",
+        "Teoremas del algebra Booleana",
+        "Familias lógicas",
+        "Descripción de los integrados",
+        "Verificar las distintas tablas de la verdad de las compuertas lógicas"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Simplificación de Funciones Booleanas",
+      "subtemas": [
+        "Método de mapas Karnaugh",
+        "Minimización de suma o productos",
+        "Implementación con NOR y NAND",
+        "Verificación de la tabla de la verdad de un arreglo lógico de compuertas"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Lógica Combinacional",
+      "subtemas": [
+        "Procedimiento de diseño",
+        "Sumadores",
+        "Restadores",
+        "Conversión de código",
+        "Comparador de magnitud",
+        "Decodificadores",
+        "Multiplexores",
+        "Construcción de un circuito decodificador para un display de 7 segmentos",
+        "Verificar la tabla de funcionamiento de un multiplexor y un demultiplexor integrados"
+      ]
+    },
+    {
+      "tema": 8,
+      "descripcion": "Lógica Secuencial",
+      "subtemas": [
+        "Flip-flops",
+        "Disparo del flip-flop",
+        "Circuitos secuenciales temporizados",
+        "Tablas de excitación flip-flop",
+        "Aplicaciones de los flip-flop",
+        "Contrucción de un circuito antirebotes con FF",
+        "Uso de los FF tipo JK",
+        "El LM555 con biestable, monoestable y estable",
+        "Circuitos contadores integrados"
+      ]
+    },
+    {
+      "tema": 9,
+      "descripcion": "Conversión Analógica-Digital",
+      "subtemas": [
+        "Convertidor analógico-digital",
+        "Teoría del muestreo",
+        "Tipos de convertidores digital-analógico",
+        "Aplicaciones de los convertidores DAC y ADC",
+        "Montaje de un convertidor analógico-digital"
+      ]
+    },
+    {
+      "tema": 10,
+      "descripcion": "Diseño y Construcción de circuitos impresos",
+      "subtemas": [
+        "Utilización del software para el diseño del impreso",
+        "Técnicas de transferencia del impreso",
+        "Técnicas de soldadura",
+        "Diseño y construcción de un circuito impreso"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas, videos y talleres",
+  "estrategiaEvaluacion": "Observación, pruebas escritas, proyecto, simulación, pruebas de ejecución o desempeño y portafolio"
+}
+{
+  "codigo": "IS",
+  "nombreAsignatura": "Ingeniería del Software",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "V",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Algoritmos y Programación III"
+  ],
+  "asignaturasAporte": [
+    "Sistemas de Base de Datos I"
+  ],
+  "justificacion": "La unidad curricular Ingeniería del Software contribuye a la formación de ingenieros en informática éticos competentes en el desarrollo y mantenimiento de software, centrado en la calidad del diseño e implementación de un sistema informático involucrando los procesos, métodos y herramientas. Refuerza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Algoritmos y Programación III e introduce a diferentes asignaturas futuras como Base de Datos, Interacción Humano Computador, Sistemas Distribuidos, Redes, Gestión de Proyectos de Software, Desarrollo de Software y las asignaturas con marco científico en la toma de decisiones. Refuerza y amplia especialmente lo que se refiere al aprendizaje crítico, reflexivo, colaborativo y autónomo favoreciendo el aumento de las actitudes de liderazgo, gestión, compromiso con el bienestar del otro y compromiso con la excelencia",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,4]
+        },
+        {
+          "unidad": 9,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2,3]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Ingeniería del Software de hoy",
+      "subtemas": [
+        "Evolución del software",
+        "Ingeniería del Software de hoy",
+        "Mitos",
+        "Código de ética y principios de IS"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "El proceso de desarrollo de Software",
+      "subtemas": [
+        "El ciclo de desarrollo del software: Análisis, Diseño, Implementación y Pruebas",
+        "La importancia de las especificaciones",
+        "Análisis: Conceptos y métodos",
+        "Análisis de Requerimientos",
+        "Diseño",
+        "Modularidad. Acoplamiento. Cohesión",
+        "Toma de Decisiones"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Reusabilidad",
+      "subtemas": [
+        "Desarrollo de TDA (Abstract Data Types)",
+        "Frameworks y Patrones de Diseño",
+        "Niveles de Reusabilidad",
+        "Portabilidad"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Pruebas",
+      "subtemas": [
+        "Manejo de Excepciones",
+        "Selección de la data de prueba",
+        "Evaluación del plan de prueba",
+        "Debugging"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Documentación",
+      "subtemas": [
+        "Importancia de la documentación de programas",
+        "Documentación interna y externa"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Arquitectura del Software",
+      "subtemas": [
+        "Diferentes tipos de arquitectura",
+        "Selección de la arquitectura según Proyecto",
+        "Sistemas Distribuidos y Cliente/Servidor"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases Magistrales (para ilustrar los contenidos se utilizan presentaciones), Preguntas Generadoras y Preguntas Guías, Videos, Talleres, Resolución de ejercicios y problemas",
+  "estrategiaEvaluacion": "Observación, Pruebas escritas, Proyecto con el ciclo de vida SW, Informe del proyecto, Manuales del proyecto a desarrollar, Evaluación del proyecto en ejecución verificando los diferentes puntos de calidad (robustez, escalabilidad, modularidad, etc.)"
+}
+{
+  "codigo": "IHC",
+  "nombreAsignatura": "Interacción Humano Computador",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "V",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Ingeniería del Software"
+  ],
+  "asignaturasAporte": [
+    "Metodología del Software"
+  ],
+  "justificacion": "La unidad curricular Interacción Humano Computador contribuye a la formación de ingenieros en informática éticos competentes en el diseño y desarrollo de software de aplicación, promoviendo la ampliación de habilidades que le permitan reconocer los aspectos psicológicos, estéticos y culturales que influyen en todo sistema de computación a ser utilizado por los humanos, independientemente de sus capacidades técnicas, físicas o cognitivas. Complementa las unidades curriculares de Ingeniería de Software, Metodología de Software y Desarrollo de Software, en cuanto a la promoción del análisis reflexivo, tanto individual como colectivo y la búsqueda de soluciones colaborativas creativas, metódicas y éticas a los problemas derivados de las distintas maneras que tienen las personas para interactuar con un sistema informático, ampliando así el compromiso con el bienestar del otro, compromiso con la calidad y actitudes de liderazgo del futuro ingeniero en informática",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        },
+        {
+          "unidad": 9,
+          "criterios": [1,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción a la Interacción Humano-Computador",
+      "subtemas": [
+        "¿Por qué diseñar para usabilidad?",
+        "Perspectiva histórica: maquinarias, computadores personales, interfaces gráficas de usuarios, la Web"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Fundamentos - Percepción Humana y presentación de la información",
+      "subtemas": [
+        "Rendimiento Humano: habilidades y limitaciones de las personas",
+        "Fundamentos científicos del diseño de interfaces de usuario: el proceso cognitivo",
+        "Presentación visual de la información (Visualización de la información)",
+        "Diseño gráfico y el color",
+        "Experimentos de Diseño",
+        "Metodología para el diseño de interfaces de usuarios en computadores"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Estilos de interacción",
+      "subtemas": [
+        "Metáforas, estilos y paradigmas de interacción: Preguntas y respuestas, Formularios, Lenguaje de Comandos, Menús, Lenguaje natural, Manipulación directa, Realidad virtual, Realidad aumentada, Otros estilos de interacción entre la persona y el computador"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "El Proceso de diseño y evaluación",
+      "subtemas": [
+        "Prototipado",
+        "Evaluación y pruebas de diseño de interfaces",
+        "Criterios y lineamientos para diseñar interfaces de usuario (lineamientos de usabilidad)"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Software para la especificación y construcción de interfaces de usuario",
+      "subtemas": [
+        "Lenguajes y herramientas para especificar y construir  interfaces",
+        "Enfoque UIMS (User Interface Management Systems)",
+        "Herramientas de soporte"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Dispositivos, técnicas de interacción y tareas de interacción",
+      "subtemas": [
+        "Dispositivos de entrada y Ergonomía",
+        "Tareas de interacción",
+        "Técnicas de interacción",
+        "Modelos de interacción básicos",
+        "Técnicas de interacción emergentes: voz, gestos, movimiento del ojo, interfaces tangibles, Interfaces Cerebro-Computador"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Estándares",
+      "subtemas": [
+        "Accesibilidad para personas con discapacidades, internacionalización de productos de software",
+        "Estándares y guías para el diseño de Interfaces Humano-Computador"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Exposición, Consulta en diferentes fuentes (digitales, impresas, bibliográficas, hemerográficas, revistas de investigación), Videos, Seminarios y talleres, Resolución de ejercicios y problemas, Estudio de Casos, Enseñanza en pirámide, Ejercicio del pensamiento independiente, Método de proyectos",
+  "estrategiaEvaluacion": "Observación, Pruebas escritas y orales, Resolución de ejercicios y problemas, Proyectos, Exposiciones, Portafolio, Técnica de la pregunta reflexiva"
+}
+{
+  "codigo": "SO",
+  "nombreAsignatura": "Sistemas de Operación",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "V",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Estructura del Computador"
+  ],
+  "asignaturasAporte": [
+    "Redes de Computadores I"
+  ],
+  "justificacion": "La unidad curricular Sistemas de Operación contribuye a que el estudiante comprenda los conceptos, la estructura y los mecanismos de los sistemas operativos. Afianza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Estructura del Computador. Contribuye con el desarrollo de las competencias generales: aprender a aprender con calidad y aprender a trabajar con el otro, en particular, en lo que respecta al desarrollo de la capacidad de análisis, abstracción, la formulación y resolución eficaz de problemas, ya sea en forma individual o en equipo; contribuye con el desarrollo de la competencia específica profesional del Ingeniero en Informática: desarrolla sistemas telemáticos, con énfasis en la administración y mantenimiento de sistemas operativos. Todas ellas claves para el desempeño exitoso de un Ingeniero en Informática ético que domina su profesión",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción a los Sistemas Operativos",
+      "subtemas": [
+        "Funciones y objetivos de los SOs. Evolución de los SOs",
+        "Multiprogramación, multiprocesamiento, ambientes monousuario, multiusuario y multitarea, paralelismo lógico y real, reentrancia",
+        "Arquitectura general de un computador y apoyo hardware al SO",
+        "Interrupciones: las interrupciones y el ciclo de instrucción, tratamiento de interrupciones"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Procesos e Hilos",
+      "subtemas": [
+        "Definición de proceso",
+        "Ciclo de vida de un proceso",
+        "Descripción de procesos",
+        "Procesos e hilos",
+        "Tipos de hilos",
+        "Descripción y control de hilos",
+        "Servicios Posix y Win32 para gestión de procesos e hilos",
+        "Procesos independientes y dependientes",
+        "Condiciones de Bernstein",
+        "Condición de carrera",
+        "Recursos críticos y sección critica",
+        "Algoritmo de Decker",
+        "Soluciones por hardware al problema de exclusión mutua",
+        "Semáforos",
+        "Monitores",
+        "Comunicación entre procesos",
+        "Mensajes",
+        "Tuberías",
+        "Señales",
+        "Servicios Posix y Win32 para la coordinación entre procesos",
+        "Interbloqueo: Prevención, detección y predicción de un abrazo mortal"
+
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Administración del procesador",
+      "subtemas": [
+        "Tipos de planificación",
+        "Algoritmos de planificación, criterios de planificación y comparación de rendimientos",
+        "Planificación de hilos",
+        "Planificación de multiprocesadores",
+        "Planificación en tiempo real",
+        "Planificación en Linux y Windows"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Administración de la memoria",
+      "subtemas": [
+        "Objetivos del administrador de memoria",
+        "Generación de un ejecutable",
+        "Vínculo de direcciones (address binding)",
+        "Asignación contigua simple",
+        "Asignación de memoria particionada: principios de operación, soporte de hardware, reubicación, protección, compartición, ventajas y desventajas",
+        "Sistema de colegas (buddy systems)",
+        "Paginación simple: principios de operación, soporte de hardware, protección, compartición, ventajas y desventajas",
+        "Memoria virtual",
+        "Paginación bajo demanda: principios de operación, soporte hardware, posibilidad de interrumpir instrucciones, tablas multinivel y tablas de páginas invertidas",
+        "Administración de la memoria virtual: localidad de referencias, políticas de sustitución y asignación, hiperpaginación, gestión del conjunto residente, compartición de páginas, archivos proyectados en memoria",
+        "Segmentación",
+        "Segmentación / Paginación",
+        "Servicios Posix y Win32 para la gestión de la memoria"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Administración del subsistema de entrada y salida",
+      "subtemas": [
+        "Hardware de entrada y salida",
+        "Dispositivos de bloques y de caracteres",
+        "Estructura de dispositivos de acceso directo",
+        "Políticas de planificación de acceso a discos",
+        "Interfaz de E/S de las aplicaciones",
+        "El flujo general de una operación de e/s",
+        "Cache de discos",
+        "Administración del espacio en disco",
+        "Servicios Posix y Win32 de entrada y salida"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Administración de Archivos",
+      "subtemas": [
+        "Archivos: concepto, nombres, estructura, métodos de acceso",
+        "Directorios: concepto, estructura, nombres jerárquicos, construcción de la jerarquía de directorios",
+        "Sistemas de archivos: estructura e implantación",
+        "Montaje de sistemas de archivos",
+        "Compartición de archivos",
+        "Protección",
+        "Servicios Posix y Win32 para archivos y directorios",
+        "Casos de estudios"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas, videos y talleres",
+  "estrategiaEvaluacion": "Observación, pruebas escritas, proyecto, simulación, pruebas de ejecución o desempeño y portafolio"
+}
+{
+  "codigo": "AC",
+  "nombreAsignatura": "Arquitectura del Computador",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "VI",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 0,
+    "laboratorios": 2
+  },
+  "prelacion_requisito":[
+    "Circuitos Electrónicos"
+  ],
+  "asignaturasAporte": [
+    "Redes de Computadores I"
+  ],
+  "justificacion": "La unidad curricular Arquitectura del Computador contribuye a que el estudiante se familiarice con los distintos componentes electrónicos tanto de la electrónica analógica como digital, para así poder entender de una manera básica el comportamiento de los distintos electrónicos que puedan formar parte de un computador, El Ingeniero en Informática debe ser capaz no sólo de desarrollar y evaluar software, sino también es necesario que se a competente en el análisis y la evaluación de los requerimientos de hardware, aspecto clave en el desempeño de un Ingeniero en Informática",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,3]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Máquinas de estados finitos",
+      "subtemas": [
+        "Diagramas de estado",
+        "Contadores sincrónicos",
+        "Secuencias de temporizado",
+        "Teoremas y definiciones",
+        "Máquinas de estado Moore y de Mealy",
+        "Minimización del número de estados",
+        "Construcción de un Contador Asíncrono y una máquina de estado finita síncrona"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Registros, Controladores y Unidad de Memoria",
+      "subtemas": [
+        "Diodo ideal",
+        "Registros",
+        "Registros con corrimiento",
+        "Unidad de Memoria",
+        "Construcción de un buffer y un registro"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Buses de Sistema",
+      "subtemas": [
+        "Operación del transistor bipolar",
+        "Componentes del computador",
+        "Estructuras de interconexión",
+        "Jerarquía de Buses",
+        "Diagramas de tiempos",
+        "Elementos de diseño de un bus",
+        "Construcción de una arquitectura de bus de datos e intecambio de información entre registros"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Amplificadores Operacionales",
+      "subtemas": [
+        "Amplificador operacional básico",
+        "Circuitos prácticos con amplificador operacional",
+        "Circuitos lineales con operacionales",
+        "Circuitos no-lineales con operacionales",
+        "Computación analógica",
+        "Diferentes configuraciones de los amplificadores operacionales. Aplicaciones de los operacionales como comparador"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Unidad de memoria",
+      "subtemas": [
+        "Memoria Interna",
+        "Memoria Principal y Cache",
+        "Clasificación de memorias",
+        "Memoria Externa",
+        "Dispositivos de almacenamiento masivo",
+        "Montaje de una memoria electrónica y prueba de ciclos de escritura y lectura"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Unidad Aritmético-Lógica",
+      "subtemas": [
+        "Unidad aritmético-lógica",
+        "Sumador básico y sumador completo",
+        "Complemento a dos",
+        "Representación entera y de punto flotante",
+        "Aritmética de punto flotante",
+        "Montaje de una unidad aritmético lógica de 4 bits. Prueba de operaciones básicas"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Aquitectura y Funcionamiento de la CPU",
+      "subtemas": [
+        "Introducción y clasificación",
+        "Arquitectura de Von Newman",
+        "Arquitectura Harvard",
+        "Organización de registros",
+        "Unidad de control",
+        "Micro-instrucciones",
+        "Segmentación de instrucciones",
+        "Medición del rendimiento de la CPU",
+        "Procesadores Superescalares",
+        "Utilización de software de simulación de procesadores"
+      ]
+    },
+    {
+      "tema": 8,
+      "descripcion": "Organización Paralela",
+      "subtemas": [
+        "La taxonimía de Flynn",
+        "Multiprocesamiento",
+        "Procesadores Paralelos",
+        "Computación Vectorial",
+        "Multicomputadores y Multiprocesadores"
+      ]
+    },
+    {
+      "tema": 9,
+      "descripcion": "Microcontroladores",
+      "subtemas": [
+        "Convertidor analógico-digital",
+        "Diferencias entre microcontroladores y microprocesadores",
+        "Arquitectura interna del microcontrolador",
+        "Set de instrucciones y comandos",
+        "SAplicaciones en dispositivos de E/S en un computador",
+        "Utilización de software de simulación para microcontroladores",
+        "Montaje y programación de los microcontroladores, prueba de las distintas instrucciones y recursos del microcontrolador. Proyecto con microcontroladores"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas, videos y talleres",
+  "estrategiaEvaluacion": "Observación, pruebas escritas, proyecto, simulación, pruebas de ejecución o desempeño y portafolio"
+}
+{
+  "codigo": "RCI",
+  "nombreAsignatura": "Redes de Computadores I",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "VI",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 0,
+    "laboratorios": 2
+  },
+  "prelacion_requisito":[
+    "Sistemas de Operación", "Arquitectura del Computador"
+  ],
+  "asignaturasAporte": [
+    "Redes de Computadores II", "Seguridad Computacional"
+  ],
+  "justificacion": "La unidad curricular inicia al estudiante en el conocimiento de las redes de comunicaciones a través del estudio de los modelos de redes, lo cual favorece en el manejo de la terminología y tecnologías de los equipos, en redes de ambiente LAN, con el propósito que el estudiante se familiarice con las primeras capas de los sistemas de redes de computadores",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Conceptos Básicos",
+      "subtemas": [
+        "Modelo general de comunicaciones",
+        "Topologías de Redes",
+        "Unidades de datos",
+        "Arquitectura de protocolos. Estándares. Modelos OSI y TCP/IP",
+        "Encapsulamiento",
+        "Flujo de datos",
+        "Identificación de los distintos equipos y componentes que forman una red"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Codificación de señales",
+      "subtemas": [
+        "Datos digitales, señales digitales",
+        "Datos digitales, señales analógicas",
+        "Datos analógicos, señales digitales",
+        "Datos analógicos, señales analógicas",
+        "Conexión de dos PC con el puerfo Serial y observar de la trama de datos en esciloscopio. Construcción de una red tipo anillo con PC"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Transmisión de datos",
+      "subtemas": [
+        "Transmisión de datos analógica y digital. Modulación",
+        "Dificultades en la transmisión",
+        "Capacidad del canal",
+        "Construcción de un modulador ASK"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Comunicación de datos Digitales",
+      "subtemas": [
+        "Transmisión síncrona y asíncrona. Detección y corrección de errores.",
+        "Control de Flujo. HDLC y sus variantes",
+        "Uso del simulador de HDLC y análisis de las tramas obtenidas"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Multiplexación",
+      "subtemas": [
+        "Multiplexación por división de frecuencias",
+        "Multiplexación por división del tiempo síncrona y asíncrona",
+        "Construcción de un multiplexor y demultiplexor digital integrado"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Medios de Transmisión",
+      "subtemas": [
+        "Medios de transmisión guiados",
+        "Transmisión inalámbrica",
+        "Transmisión en la trayectoria visual",
+        "Fabricación y ensamblaje de cablas UTP (directos, cruzados, trasnpuestos, etc), coaxiales de fobra óptica"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Espectro expandido",
+      "subtemas": [
+        "Conceptos",
+        "Salto de frecuencia (FHSS)",
+        "Secuencia directa (DSSS)",
+        "División de código (CDMA)",
+        "OFDM",
+        "Configuración de puntos de acceso y routers inalámbricos"
+      ]
+    },
+    {
+      "tema": 8,
+      "descripcion": "Redes de área Local",
+      "subtemas": [
+        "El protocolo ARP",
+        "Acceso aleatorio al medio",
+        "Ethernet (802.3)",
+        "Canal de fibra",
+        "Redes LAN inalámbricas (802.11)"
+      ]
+    },
+    {
+      "tema": 9,
+      "descripcion": "Direccionamiento Lógico",
+      "subtemas": [
+        "IPv4",
+        "Subredes, Mascaras de subred de longitud variable (VLSM)",
+        "Protocolo de control de mensajes de Internet (ICMP)",
+        "Protocolo de configuración dinámico de estaciones (DHCP)",
+        "IPv6",
+        "Construcción de una red tipo estrella con un switch, verificación del protocolo ARP, en los PC y el switch"
+      ]
+    },
+    {
+      "tema": 10,
+      "descripcion": "Conmutación",
+      "subtemas": [
+        "Conmutación de circuitos y de paquetes",
+        "Circuitos virtuales (FR y ATM)",
+        "Control de congestión",
+        "Pruebas con el protocolo ICMP y el comando Tracert"
+      ]
+    },
+    {
+      "tema": 11,
+      "descripcion": "VLAN",
+      "subtemas": [
+        "Que son la Virtual LAN",
+        "Creación de la VLAN",
+        "Administración de las VLAN",
+        "Utilización del VTP"
+      ]
+    },
+    {
+      "tema": 12,
+      "descripcion": "Spanning Tree",
+      "subtemas": [
+        "Que es el protocolo Spanning Tree",
+        "Configuración del protocolo Spaning Tree",
+        "Importancia de la redundancia en las conexiones"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas, videos y talleres",
+  "estrategiaEvaluacion": "Observación, pruebas escritas, proyecto, simulación, pruebas de ejecución o desempeño y portafolio"
+}
+{
+  "codigo": "SBDI",
+  "nombreAsignatura": "Sistemas de Base de Datos I",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "VI",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Ingeniería del Software"
+  ],
+  "asignaturasAporte": [
+    "Sistemas de Base de Datos II", "Metodología del Software"
+  ],
+  "justificacion": "La unidad curricular Sistemas de Bases de Datos I contribuye a la formación de ingenieros en informática éticos competentes en el desarrollo de software de aplicación, específicamente en el diseño e implementación de un sistema de base de datos a través de un software de aplicación usando un manejador de base de datos relacional. Afianza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Algoritmos y Programación III e Ingeniería del Software, especialmente en lo que se refiere al aprendizaje crítico, reflexivo, colaborativo y autónomo favoreciendo el aumento de las actitudes de liderazgo, compromiso con el bienestar del otro y compromiso con la excelencia. El proyecto que se diseña e implementa durante el semestre es de aplicación práctica inmediata, ayudando al estudiante a enriquecer su currículo profesional aún antes de graduarse en la línea de desarrollo de software, la cual representa una de las áreas de experticia del Ingeniero en Informática de la UCAB",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4,5]
+        },
+        {
+          "unidad": 10,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 5,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción a las Bases de Datos",
+      "subtemas": [
+        "Conceptos Básicos",
+        "Características de las Bases de Datos",
+        "Miembros que participan en el entorno de las Bases de Datos",
+        "Ventajas y Desventajas",
+        "Arquitectura de SGBD",
+        "Ciclo de Desarrollo de una Base de Datos"
+
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Diseño Conceptual",
+      "subtemas": [
+        "Conceptos Básicos",
+        "Modelo Entidad Relación",
+        "Modelo Entidad Relación Extendido"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Diseño Lógico",
+      "subtemas": [
+        "Conceptos Básicos",
+        "Transformación Modelo ER a Modelo Relacional",
+        "Reglas de Integridad",
+        "Dependencias Funcionales",
+        "Normalización"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Diseño Físico",
+      "subtemas": [
+        "Lenguaje SQL",
+        "Creación de Estructuras de Almacenamiento",
+        "Métodos de acceso"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Exposición, Discusión, Consultas en diferentes fuentes, Aprendizaje con dispositivos móviles,  Videoconferencia,  Blogs,  Estudio de Casos, Preguntas generadoras y preguntas guías,  Discusión, Resolución de ejercicios y problemas, Método de proyectos",
+  "estrategiaEvaluacion": "Observación, Pruebas escritas y orales, Resolución de ejercicios y problemas, Proyectos, Exposiciones, Portafolio, Mapas conceptuales"
+}
+{
+  "codigo": "INI",
+  "nombreAsignatura": "Inglés I",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Sin Catedra",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "VII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "asignaturasAporte": [
+    "Inglés II"
+  ],
+  "justificacion": "La unidad curricular Inglés I es elemental en cuanto al manejo de un segundo idioma para ser un profesional verdaderamente competitivo en ámbitos internacionales hoy en día. Los Ingenieros Informáticos se desenvolverán mayormente en contextos globales, por lo que para ellos el manejo de otra lengua, además del español, es una prioridad. Incluir la unidad curricular Inglés I contribuirá al desarrollo de la competencia general “aprender a interactuar en el contexto global” y además permitirá capacitar a dichos profesionales para que tenga una mejor comunicación y un mejor desempeño en las actividades académicas y profesionales que desarrollen en ámbitos nacionales e internacionales",
+  "competencias": [
+    {
+      "competencia": "CG4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 4,
+          "criterios": [1,2,3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Who are you?",
+      "subtemas": [
+        "Hello! I am… ",
+        "Revisión de estructuras básicas (artículos, pronombres, adverbios, preposiciones y conjunciones)",
+        "My life ",
+        "Tiempos verbales",
+        "Cómo buscar en el diccionario"
+
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "What do you like?",
+      "subtemas": [
+        "El Likes and dislikes",
+        "Tiempos verbales (continuación)",
+        "Verbos modales",
+        "Wh questions – Yes/No questions",
+        "Let’s talk about music",
+        "Presente Perfecto y Presente Perfecto Continuo"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "What do you think about…?",
+      "subtemas": [
+        "Giving opinions and advises",
+        "Gerundios e infinitivos (cambio en el significado)",
+        "Structure of a short speech"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "What is your opinion about technology?",
+      "subtemas": [
+        "Technology in our life",
+        "Noun clauses",
+        "Estructura del párrafo (thesis statement, linkers...)",
+        "Párrafo argumentativo",
+        "Estrategias de lectura"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "How do you describe someone?",
+      "subtemas": [
+        "Importancia de la documentación de programas",
+        "Documentación interna y externa"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "How do you describe someone?",
+      "subtemas": [
+        "Characters and attitudes",
+        "Adjective clauses",
+        "Discurso persuasivo",
+        "Estrategias de lectura"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Exposición, discusión, dramatizaciones o juegos de roles, formulación de preguntas y trabajo en equipo.  Con respecto a las de aprendizaje se incluirán estrategias metacognoscitivas y de adquisición, de almacenamiento y de utilización. El uso de la tecnología será elemental en esta materia tanto para la presentación de los contenidos por parte del profesor —a través de herramientas como Presentaciones en Power Point, videos, artículos de periódicos internacionales, Google Drive…—, como para las actividades que han de realizar los alumnos —a través de herramientas como Google Docs, foros, quices en línea…—",
+  "estrategiaEvaluacion": "Evaluaciones que permitan identificar el uso de la gramática, el vocabulario y algunas expresiones en contextos determinados, Actividades para desarrollar la producción escrita (ensayos), Exámenes escritos que incluyan comprensión escrita y auditiva y producción escrita y oral, Proyecto en grupo"
+}
+{
+  "codigo": "MS",
+  "nombreAsignatura": "Metodología del Software",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 6,
+  "semestre": "VII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 0,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Interacción Humano Computador", "Sistemas de Base de Datos I"
+  ],
+  "asignaturasAporte": [
+    "Desarrollo de Software", "Seminario de Trabajo de Grado"
+  ],
+  "justificacion": "La unidad curricular Metodología del Software contribuye a la formación de Ingenieros en Informática éticos competentes en el análisis de requerimientos, en la planificación y en el control de un proyecto de TI (Tecnología de Información), a través de la elección justificada y la aplicación adecuada de metodologías, técnicas y herramientas propias de la profesión. Afianza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Interacción Humano Computador, Ingeniería del Software y Sistemas de Bases de Datos I, especialmente en lo que se refiere al aprendizaje crítico, reflexivo, colaborativo y autónomo favoreciendo el aumento de las actitudes de liderazgo, compromiso con el bienestar del otro y compromiso con la excelencia. Durante la ejecución de la unidad curricular el estudiante propone, planifica, analiza y diseña un sistema informático, guiado por estándares y normas internacionales del proceso de Desarrollo de Software, cuyo objetivo fundamental es llevar mejoras tangibles a las actividades del día a día de las organizaciones clientes",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,4]
+        },
+        {
+          "unidad": 5,
+          "criterios": [5]
+        },
+        {
+          "unidad": 6,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        },
+        {
+          "unidad": 10,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        },
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,3]
+        },
+        {
+          "unidad": 4,
+          "criterios": [1,2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Concepción de Sistemas",
+      "subtemas": [
+        "Componentes de un sistema",
+        "Sistemas abiertas y cerrados",
+        "Control y retroalimentación"
+
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Sistemas Informáticos",
+      "subtemas": [
+        "Los sistemas informáticos como sistemas",
+        "Sistemas de Información vs Sistemas Informáticos",
+        "Clasificación de los sistemas informáticos según los procesos de negocio que soportan"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "El Proceso de Desarrollo de Software",
+      "subtemas": [
+        "Ciclo de Vida del Desarrollo de Software – principios",
+        "Técnica de caja de procesos para la representación del Proceso de Desarrollo de Software",
+        "CMM (Modelo de Capacidad y Madurez)"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Metodologías para el Desarrollo de Software",
+      "subtemas": [
+        "Conceptos y elementos de una metodología",
+        "Modelos metodológicos clásicos para el Desarrollo de Software",
+        "Modelos metodológicos ágiles para el Desarrollo de Software",
+        "Planificación del proyecto según el marco metodológico elegido"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Inicio del Proyecto",
+      "subtemas": [
+        "Actividades, técnicas y entregables de la etapa de Inicio del Proceso de Desarrollo de Software",
+        "Declaración de oportunidad / Planteamiento del problema. Antecedentes, causas, síntomas. Objetivo general y específicos. Alcance y limitaciones",
+        "Factibilidad técnica, operacional y económica de un proyecto informático",
+        "Técnicas de levantamiento de información: Entrevistas y cuestionarios. Revisión documental. Observación. Prototipos",
+        "Propuesta del Proyecto – Documento de Visión"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Análisis",
+      "subtemas": [
+        "Actividades, técnicas y entregables de la etapa de Análisis del Proceso de Desarrollo de Software",
+        "Técnicas de análisis de requerimientos: Clasificación de Requerimientos Funcionales y No Funcionales. Diagramas de procesos. Diagramas de casos. Modelo E-R – Estrella",
+        "Documento de Especificación de Requerimientos del Software (SRS)"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Diseño Global",
+      "subtemas": [
+        "Actividades, técnicas y entregables de la etapa de Diseño Global del Proceso de Desarrollo de Software",
+        "Diseño Arquitectónico",
+        "Diseño de Datos",
+        "Diseño de Interfaces"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Aprendizaje autónomo; exposiciones; revisión documental (fuentes digitales o impresas); formulación de preguntas (generadoras y guías); talleres; estudios de casos; método de proyectos.",
+  "estrategiaEvaluacion": "Casos de estudio; autoevaluación y coevaluación; pruebas escritas; informes; exposiciones; pruebas de ejecución o desempeño; proyecto"
+}
+{
+  "codigo": "RCII",
+  "nombreAsignatura": "Redes de Computadores II",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 9,
+  "semestre": "VII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 0,
+    "laboratorios": 2
+  },
+  "prelacion_requisito":[
+    "Redes de Computadores I"
+  ],
+  "asignaturasAporte": [
+    "Redes de Computadores III",  "Sistemas Distribuidos"
+  ],
+  "justificacion": "La unidad curricular inicia al estudiante en el conocimiento de las redes de área extensa a través del estudio de los protocolos de enrutamiento y de los protocolos en la capa de aplicación, lo cual favorece en el manejo de la terminología y tecnologías de los equipos, en redes de ambiente WAN, con el propósito que el estudiante se familiarice con el funcionamiento de redes de área extensa, necesario para luego extender sus conocimientos en otros dominios",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Nivel de aplicación",
+      "subtemas": [
+        "Servidor de Nombre de Dominio (DNS) ",
+        "Conexión remota segura (SSH) ",
+        "Correo Electrónico (SMTP, POP, IMAP) ",
+        "Administración de redes (SNMP)",
+        "Transferencia segura de archivos (SFTP)",
+        "Video, Audio y Voz sobre IP (VoIP)",
+        "Capa 2 del modelo OSI Mac-address"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Capa de transporte",
+      "subtemas": [
+        "Direccionamiento por puerto",
+        "Protocolos de transporte: TCP y UDP ",
+        "Aplicaciones cliente/servidor concurrentes",
+        "Capa 3 del modelo OSI IP y Subnetting en Windows, utilización de un software buffer para captura de apquetes y análisis de los mismos"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Control de congestión y calidad de servicio",
+      "subtemas": [
+        "Control de congestión vs control de flujo. Calidad de servicio Fluctuación Confiabilidad Ancho de banda, Retardo, Servicios integrados y diferenciados",
+        "Capa 3 del modelo OSI IP y Subnetting en Linux"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Telefonía fija y móvil",
+      "subtemas": [
+        "Codificación de troncales (PCM)",
+        "Conmutación y señalización",
+        "Numeración telefónica",
+        "Protocolos de troncales internacionales (SONET/SDH)",
+        "Cable submarino",
+        "Telefonía móvil",
+        "Línea de Abonado Digital (xDSL)",
+        "MODEMS múltiples para conexión a redes (ADSL)"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Redes inalámbricas y satélites",
+      "subtemas": [
+        "Servicios satelitales y protocolos",
+        "Orbitas o Baja altitud (LEO) o Altitud Media (MEO y GPS) o Geoestacionarios (GEO). Redes metropolitanas inalámbricas (WIMAX)",
+        "Redes inalámbricas de área personal (Bluetooth, UWB y ZigBee)",
+        "Redes Zigbee, redes Bluetooth"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Redes de área amplia",
+      "subtemas": [
+        "Redes orientadas a flujos (MPLS)",
+        "Ethernet de área metropolitana (MetroEthernet)",
+        "Red numérica de servicios integrados (ISDN: ATM y Frame Relay)"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Capa de red: Enrutamiento",
+      "subtemas": [
+        "Traducción de direcciones privadas (NAT)",
+        "Problemática de la distribución y asignación de direcciones ",
+        "IPv4 vs IPv6",
+        "Características de las tablas de enrutamiento",
+        "Sistemas operativos de routers",
+        "Protocolos de enrutamiento dinámicos",
+        "Protocolos Vector distancia",
+        "Protocolos RIP y EIGRP",
+        "Optimización de tamaño de tablas de enrutamiento",
+        "Enrutamiento Estático, Enrutamiento RIP v1",
+        "Enrutamiento RIP v2"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas, videos y talleres",
+  "estrategiaEvaluacion": "Observación, pruebas escritas, proyecto, simulación, pruebas de ejecución o desempeño y portafolio"
+}
+{
+  "codigo": "SBDII",
+  "nombreAsignatura": "Sistemas de Base de Datos II",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "VII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Sistemas de Base de Datos I"
+  ],
+  "asignaturasAporte": [
+    "Desarrollo de Software"
+  ],
+  "justificacion": "La unidad curricular Sistemas de Bases de Datos II contribuye a la formación de ingenieros en informática éticos competentes en el desarrollo de software de aplicación, específicamente un sistema de bases de datos utilizando un manejador de base de datos objeto-relacional (OR). Afianza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Algoritmos y Programación III, Ingeniería del Software y Sistemas de Bases de Datos I, especialmente en lo que se refiere al aprendizaje crítico, reflexivo, colaborativo y autónomo favoreciendo el aumento de las actitudes de liderazgo, compromiso con el bienestar del otro y compromiso con la excelencia. El proyecto que se diseña e implementa durante el semestre es de aplicación práctica inmediata ayudando al estudiante a enriquecer su currículo profesional aún antes de graduarse",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,4,5]
+        },
+        {
+          "unidad": 6,
+          "criterios": [1,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        },
+        {
+          "unidad": 6,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 5,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Sistemas de Bases de Datos en las Organizaciones",
+      "subtemas": [
+        "Ciclo de Vida de los Sistemas Informáticos",
+        "Tipos de Sistemas de Bases de Datos"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Enfoques de Diseño conceptual de Bases de Datos",
+      "subtemas": [
+        "Modelo Entidad-Relación",
+        "Enfoque centralizado vs. Enfoque por vistas",
+        "Integración de vistas"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Bases de Datos Orientadas a Objetos (BDOO)",
+      "subtemas": [
+        "Antecedentes y conceptos básicos del paradigma OO",
+        "Diseño de bases de datos OO",
+        "Bases de datos objeto-relacionales (OR)",
+        "Lenguaje OO para manipulación de una base de datos"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Almacenes de Datos (DW)",
+      "subtemas": [
+        "Conceptos, propiedades, características",
+        "Ciclo de vida de un DW",
+        "Diseño de un DW: ETT. Tipos de Modelos. Tipos de Tablas",
+        "Data Marts",
+        "OLAP",
+        "Data Mining",
+        "Soluciones de Inteligencia de Negocios (BI)"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Diseño e Implementación de Bases de Datos",
+      "subtemas": [
+        "Triggers y programas almacenados (store procedures)",
+        "Manejo de transacciones: Definición y propiedades de una transacción. Mecanismos y herramientas para garantizar la integridad de datos. Concurrencia y Recuperación",
+        "Administración y Respaldo de un Sistema de Bases de Datos",
+        "Seguridad y Control de Acceso: Seguridad discrecional. Roles. Seguridad multinivel. Auditoría de Bases de Datos"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Bases de Datos Distribuidas",
+      "subtemas": [
+        "Conceptos y propiedades",
+        "Diseño de una base de datos distribuida",
+        "Concurrencia y recuperación distribuidas"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Planteamiento y resolución de problemas, Aprendizaje autónomo, Exposiciones, Revisión documental (fuentes digitales o impresas), Formulación de preguntas (generadoras y guías), Talleres; Estudios de casos, Método de proyectos",
+  "estrategiaEvaluacion": "Casos de estudio, Portafolio, Autoevaluación y Coevaluación, Pruebas escritas, Informes, Pruebas de ejecución o desempeño, Proyecto"
+}
+{
+  "codigo": "DS",
+  "nombreAsignatura": "Desarrollo de Software",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 6,
+  "semestre": "VIII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 0,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Sistemas de Bases de Datos II", "Metodología del Software"
+  ],
+  "asignaturasAporte": [
+    "Pasantía","Trabajo Instrumental de Grado", "Gestión de Proyectos de Software"
+  ],
+  "justificacion": "La unidad curricular Desarrollo de Software contribuye a la formación de Ingenieros en Informática éticos competentes en el desarrollo de software en diferentes plataformas, más específicamente se desarrolla un sistema de información utilizando un manejador de base de datos objeto-relacional(OR) para el almacenamiento de los datos y un sistema n-capas programado utilizando técnicas del paradigma de programación orientado a objetos. Afianza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Algoritmos y Programación III, Ingeniería del Software, Sistemas de Bases de Datos I, Sistemas de Bases de Datos II y Metodología del Software, especialmente en lo que se refiere al aprendizaje crítico, reflexivo, colaborativo y autónomo favoreciendo el aumento de las actitudes de liderazgo, compromiso con el bienestar del otro y compromiso con la excelencia. El proyecto que se diseña e implementa durante el semestre es de aplicación práctica de la vida real, ayudando al estudiante a enriquecer su currículo profesional aún antes de graduarse",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 2,
+          "criterios": [1,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1]
+        },
+        {
+          "unidad": 6,
+          "criterios": [2,3]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 3,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 2,
+          "criterios": [3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Requisitos del Software",
+      "subtemas": [
+        "Repaso de técnicas para el levantamiento de requisitos del software",
+        "Repaso de casos de uso y diagramas de casos de uso (UML)"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Análisis y Diseño de Software Orientado a Objetos",
+      "subtemas": [
+        "Diseño orientado a objetos",
+        "UML para diseño",
+        "Modelo del Dominio",
+        "Diseño guiado por el dominio (MDD)",
+        "Fundamentos de Arquitectura",
+        "Componentes",
+        "Diagrama de componentes (UML)",
+        "Patrones de diseño"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Construcción de Software Orientado a Objetos",
+      "subtemas": [
+        "Estrategias para la construcción y documentación del código",
+        "Manejo de excepciones y tolerancia a fallos en aplicaciones multicapas",
+        "Depuración y uso de herramientas de depuración",
+        "Uso de herramientas para la construcción del software"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Pruebas de Sistemas Informáticos",
+      "subtemas": [
+        "Fundamentos de pruebas del software y tipos de pruebas",
+        "Estrategias y técnicas para la automatización de pruebas",
+        "Desarrollo guiado por pruebas",
+        "Patrones para la implementación de pruebas unitarias"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Implantación de Sistemas Informáticos",
+      "subtemas": [
+        "Control de versiones",
+        "Tipos de control de versiones (centralizados vs. distribuidos)",
+        "Generación de entregas (software releases)",
+        "Diagrama de despliegue (UML)",
+        "Documentación técnica",
+        "Preparación de ambientes de producción"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Gerencia de Proyectos",
+      "subtemas": [
+        "Fundamentos y conceptos",
+        "Planificación de proyecto de software",
+        "Estimación de costos"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Consultas en diferentes fuentes: digitales, impresas, bibliográficas; Wiki; Preguntas generadoras y preguntas guías; Discusión; Resolución de ejercicios y problemas; Método de proyectos; Video; Conferencia; Aprendizaje basado en problemas",
+  "estrategiaEvaluacion": "Observación, Técnica de la pregunta reflexiva, Pruebas escritas y orales, Resolución de ejercicios y problemas, Proyectos, Pruebas objetivas, Pruebas de libro abierto, Rúbrica"
+}
+{
+  "codigo": "INII",
+  "nombreAsignatura": "Inglés II",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Sin Catedra",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "VIII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Inglés I"
+  ],
+  "asignaturasAporte": [
+    "Inglés Técnico"
+  ],
+  "justificacion": "La unidad curricular Inglés II contribuirá al desarrollo de la competencia general *aprender a interactuar en el contexto global* y además permitirá capacitar a los Ingenieros Informáticos para que tenga una mejor comunicación y un mejor desempeño en las actividades académicas y profesionales que desarrollen en ámbitos nacionales e internacionales. Esta unidad curricular complementará los aspectos estudiados en Inglés I lo cual permitirá desarrollar una comunicación oral y escrita mucho más asertiva y con mayor nivel de desempeño",
+  "competencias": [
+    {
+      "competencia": "CG4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [5]
+        },
+        {
+          "unidad": 4,
+          "criterios": [1,2,3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Let’s talk about people",
+      "subtemas": [
+        "Personality and lifestyle",
+        "Adjetivos. Comparativos",
+        "Activities and leisure time",
+        "Adverbios"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Let’s talk about what is happening in the world!",
+      "subtemas": [
+        "News",
+        "Voz pasiva"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Let’s write",
+      "subtemas": [
+        "Aspectos que considerar al escribir un ensayo: conjunciones, linkers, puntuación",
+        "Estructura del ensayo: academic essay (five paragraph essay)"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Let’s talk about places and experiences!",
+      "subtemas": [
+        "Travel and experiences",
+        "Condicionales",
+        "Phrasal Verbs"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Let’s talk about your life!",
+      "subtemas": [
+        "Stories",
+        "Reported Speech"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Exposición, discusión, dramatizaciones o juegos de roles, formulación de preguntas y trabajo en equipo.  Con respecto a las de aprendizaje se incluirán estrategias metacognoscitivas y de adquisición, de almacenamiento y de utilización. El uso de la tecnología será elemental en esta materia tanto para la presentación de los contenidos por parte del profesor —a través de herramientas como Presentaciones en Power Point, videos, artículos de periódicos internacionales, Google Drive…—, como para las actividades que han de realizar los alumnos —a través de herramientas como Google Docs, foros, quices en línea…—",
+  "estrategiaEvaluacion": "Evaluaciones que permitan identificar el uso de la gramática, el vocabulario y algunas expresiones en contextos determinados, Actividades para desarrollar la producción escrita (ensayos), Exámenes escritos que incluyan comprensión escrita y auditiva y producción escrita y oral, Proyecto en grupo. Apoyo en las TIC"
+}
+{
+  "codigo": "IO",
+  "nombreAsignatura": "Investigación de Operaciones",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Gestión de Proyecto",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "VIII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 0,
+    "laboratorios": 2
+  },
+  "prelacion_requisito":[
+    "Cálculo Numérico", "Estadística y probabilidades"
+  ],
+  "asignaturasAporte": [
+    "Evaluación de Sist. Informáticos"
+  ],
+  "justificacion": "La unidad curricular Investigación de Operaciones contribuye a que el estudiante se Familiarice y simule problemas de teoría de colas y modelos de inventario. Contribuye con el desarrollo de las competencias generales: aprender a aprender con calidad y aprender a trabajar con el otro, en particular, en lo que respecta al desarrollo de la capacidad de análisis, abstracción, la formulación y resolución eficaz de problemas. También, contribuye al desarrollo de competencias en el modelado para la toma de decisiones, con énfasis en el modelado matemático de situaciones reales o simuladas, claves para el desarrollo del ingeniero Informático",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,3,4,5]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2]
+        },
+        {
+          "unidad": 6,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 2,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Teoría de Colas",
+      "subtemas": [
+        "Características",
+        "Probabilidad de llegadas",
+        "Modelo de probabilidades estables",
+        "Modelos de Colas de Poisson",
+        "Redes de Colas"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Modelos de Inventario",
+      "subtemas": [
+        "Conceptos y modelos básicos de Inventarios",
+        "Modelo general de Inventario",
+        "Modelo de Lote Óptimo (EOQ)",
+        "Modelo con Faltantes",
+        "Descuentos por cantidad",
+        "Cambio de precio conocido",
+        "Análisis ABC",
+        "Modelo con demanda variable"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Simulación",
+      "subtemas": [
+        "Introducción a la simulación",
+        "Generación de números aleatorios",
+        "Simulación de Montecarlo",
+        "Simulación Discreta: Simulación de Colas y Simulación de Inventarios",
+        "Desarrollo de un proyecto en la computadora"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Regresión",
+      "subtemas": [
+        "Regresión lineal simple",
+        "Medición del ajuste de regresión: coeficiente de regresión",
+        "Supuestos del modelo de regresión",
+        "Prueba de significancia",
+        "Análisis de regresión múltiple",
+        "Regresión no lineal"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Pronósticos",
+      "subtemas": [
+        "Introducción",
+        "Tipos de pronósticos",
+        "Series de Tiempo",
+        "Descomposición",
+        "Promedios móviles",
+        "Suavización exponencial",
+        "Proyección de tendencias",
+        "Variaciones estacionales"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Programación No Lineal",
+      "subtemas": [
+        "Introducción a la PNL",
+        "Resolución de problemas utilizado la computadora",
+        "Función Objetivo No Lineal y Restricciones Lineales",
+        "Función Objetivo No Lineal y Restricciones No Lineales",
+        "Función Objetivo Lineal y Restricciones No Lineales"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Tareas, Preguntas guías, Debates, Exámenes Rápidos, Ejercicios en los temas prácticos, Uso de casos reales, Desarrollo de un programa de simulación mediante el uso de la computadora, Desarrollo de un proyecto en etapas a lo largo del semestre (varias entregas)",
+  "estrategiaEvaluacion": "Evaluación independiente de las obligaciones previas a las clases, Autoevaluación, Evaluaciones cruzadas, Exámenes formales parciales, Rúbrica para evaluar el proyecto, Logros durante el desarrollo de los casos de modelado, Resultados del programa desarrollado, Destreza en el manejo del computador para resolver problemas, Desarrollo y resultados de los casos reales de modelado"
+}
+{
+  "codigo": "RCIII",
+  "nombreAsignatura": "Redes de Computadores III",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 3,
+  "semestre": "VIII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 0,
+    "practica_seminario": 0,
+    "laboratorios": 3
+  },
+  "prelacion_requisito":[
+    "Redes de Computadores II"
+  ],
+  "justificacion": "La unidad curricular tiene como propósito que el estudiante diseñe, administre y mantenga el modelo de comunicación de los sistemas de redes de computadores, lo cual favorece en el manejo de las redes de datos y voz en los ambientes LAN y WAN, y así el estudiante pone en práctica y consolida el conocimiento adquirido en el área de Redes",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Fundamentos de Enrutamiento con OSPF",
+      "subtemas": [
+        "Protocolos de estado de enlace",
+        "Características de OSPF",
+        "Definición de adyacencias",
+        "Tipos de paquetes",
+        "Configuración de OSPF en un área",
+        "Tipos de redes según OSPF",
+        "Tipos de routers en OSPF",
+        "Tipos de LSAs",
+        "Interconexión de múltiples áreas OSPF",
+        "Enlaces virtuales con OSPF",
+        "Configuración de OSPF para múltiples áreas",
+        "Configuración del protocolo OSPF en los router",
+        "Verificación de adyacencias",
+        "Configuración de OSFP de varias áreas",
+        "Enlaces Virtuales",
+        "Configuración de OSPF en redes multiacceso"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Fundamentos de Voz sobre IP",
+      "subtemas": [
+        "Redes de voz tradicionales",
+        "El sistema telefónico",
+        "Tecnología de Voz sobre IP",
+        "Protocolos de señalización IP",
+        "Voz sobre IP aplicada",
+        "QoS en redes integradas",
+        "Configuración de redes de voz y datos",
+        "Configuración de directorios telefónicos en los router",
+        "Creación de redes de datos y voz con el uso de la telefonía IP"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Protocolo IPV6",
+      "subtemas": [
+        "Características Básicas",
+        "Estructura de una dirección IPV6",
+        "Configuración de una dirección IPV6 en equipos de red",
+        "Creación de redes con el protocolo IPV6",
+        "Configuración de una red con el protocolo IPV6",
+        "Pruebas de conexión de los distintos equipos en una red"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Fundamentos de Diseño de Red",
+      "subtemas": [
+        "Evaluación de desempeño",
+        "Objetivos de diseño de redes LAN",
+        "Modelos de tráfico",
+        "Diseño de red en capas",
+        "Ubicación de los servidores",
+        "Análisis de requisitos",
+        "Planificación de cableado horizontal y vertical, especificaciones del centro de Cableado",
+        "Herramientas de monitoreo y gestión de redes",
+        "Proyecto del diseño, construcción y configuración de una red de datos y voz con el uso del simulador"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones), preguntas generadoras y preguntas guías, resolución de ejercicios y problemas y aprendizaje basado en problemas, videos y talleres",
+  "estrategiaEvaluacion": "Observación, pruebas escritas, proyecto, simulación, pruebas de ejecución o desempeño y portafolio"
+}
+{
+  "codigo": "STG",
+  "nombreAsignatura": "Seminario de Trabajo de Grado",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Prácticas Profesionales",
+  "regimen": "Semestral",
+  "uc": 3,
+  "semestre": "VIII",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 0,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Metodología del Software"
+  ],
+  "asignaturasAporte": [
+    "Trabajo Especial de Grado", "Trabajo Instrumental de Grado"
+  ],
+  "justificacion": "La unidad curricular Trabajo de Grado consiste en un estudio sistematizado de un problema teórico o práctico, cuya solución se da a través de la aplicación, extensión o profundización de los conocimientos adquiridos a lo largo de los estudios realizados en la carrera. Para su realización y culminación exitosa el estudiante se debe valer de las habilidades y herramientas aprendidas a lo largo de su proceso de formación, las cuales le permitirán formular el problema de estudio, plantear la hipótesis de solución que sea apropiada para gestionar su trabajo como un proyecto. La primera etapa del Trabajo de Grado es precisamente la conceptualización y presentación del problema a estudiar, la elección del modelo metodológico de guía y apoyo para la realización de tal trabajo y la investigación inicial sobre la que se sustentará el desarrollo del mismo. Sobre estas actividades iniciales versará la unidad curricular Seminario de Trabajo de Grado. Se realizará a través de encuentros virtuales apoyados en una plataforma de e-learning donde se alojarán los recursos y sucederán los intercambios de comunicaciones, trabajos y materiales entre estudiantes y profesor, promoviendo la conformación de una comunidad de aprendizaje que permita la construcción colaborativa de conocimientos para favorecer el desarrollo de las competencias a trabajar",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [2,4]
+        },
+        {
+          "unidad": 6,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 7,
+          "criterios": [1,2]
+        },
+        {
+          "unidad": 8,
+          "criterios": [2]
+        },
+        {
+          "unidad": 9,
+          "criterios": [2]
+        },
+        {
+          "unidad": 10,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CG4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [2]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Inducción Virtual",
+      "subtemas": [
+        "Comunidades de aprendizaje e intercambio"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Inicio del Proyecto",
+      "subtemas": [
+        "Normativa TEG (Trabajo Especial de Grado) y TIG (Trabajo Instrumental de Grado)",
+        "Elección de modalidad y tema del Trabajo de Grado"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Planteamiento del Problema",
+      "subtemas": [
+        "Definición del problema u oportunidad",
+        "Propuesta de solución"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Marco Metodológico",
+      "subtemas": [
+        "Marco Metodológico",
+        "Planificación del proyecto"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Planificación del proyecto",
+      "subtemas": [
+        "Revisión Documental",
+        "Marco Referencial / Teórico"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Elaboración del Planteamiento del Problema",
+      "subtemas": [
+        "Propuesta del Trabajo de Grado inicial"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Elaboración del Cronograma, Marco Metodológico y Referencial",
+      "subtemas": [
+        "Propuesta del Trabajo de Grado final"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Contrato de aprendizaje, Aprendizaje autónomo y colaborativo, Seminario e-Moderating, e-Learning (guías, sesiones de aprendizaje, foros-dudas), Wikis, Foros-discusión, Revisión documental (fuentes digitales o impresas)",
+  "estrategiaEvaluacion": "Informes, Estudio de casos, Foros"
+}
+{
+  "codigo": "INT",
+  "nombreAsignatura": "Inglés Técnico",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Sin Catedra",
+  "regimen": "Semestral",
+  "uc": 4,
+  "semestre": "IX",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 1,
+    "practica_semnario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito": [
+    "Inglés II"
+  ],
+  "justificacion": "La unidad curricular Inglés Técnico capacita al estudiante para ocupar su puesto como asertivos comunicadores articulados, intelectuales críticos y creativos y participantes activos en la sociedad. Adicionalmente prepara a los Ingenieros Informáticos para que tengan una mejor comunicación y un mejor desempeño en las actividades académicas, profesionales y comerciales que desarrollen en ámbitos nacionales e internacionales. Esta unidad curricular complementará los aspectos estudiados en Inglés I y II lo cual permitirá desarrollar una comunicación oral y escrita mucho más asertiva y con mayor nivel de desempeño. Contribuye con el desarrollo de la competencia general: aprender a interactuar en el contexto global",
+  "competencias": [
+    {
+      "competencia": "CG4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [5]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Modelo explicativo del proceso de comprensión de la lectura",
+      "subtemas": [
+        "Teoría del esquema. Aplicación de la teoría del esquema al proceso lector en el texto",
+        "Adjetivos. Comparativos",
+        "Activities and leisure time",
+        "Adverbios"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Identificación de los diferentes elementos que dan cohesión al texto",
+      "subtemas": [
+        "Cohesión: Referencia. Identificación de referencia en textos",
+        "Cohesión: Repetición. Identificación de repetición en textos",
+        "Sustitución y elipsis. Identificación de sustitución y elipsis en textos",
+        "Sustantivos generales",
+        "Conectores",
+        "Denotaciones y connotaciones. Identificación de denotaciones y connotaciones en textos"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Decodificación del mensaje",
+      "subtemas": [
+        "Aspectos Identificación del punto de vista del autor"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Representación gráfica del texto",
+      "subtemas": [
+        "Mapa tela de araña. Escala, comparación y contraste",
+        "Cadena de eventos. Mapa problema-solución",
+        "Mapa conceptual y espina de pescado",
+        "Aplicación de los tipos de representaciones gráficas de estos modelos"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Técnicas de lectura",
+      "subtemas": [
+        "Skimming. Aplicación de la técnica de lectura Skimming en textos",
+        "Scanning. Aplicación de la técnica de lectura scannig en textos"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Inglés técnico y comercial",
+      "subtemas": [
+        "Cómo interpretar manuales",
+        "Cómo redactar memos, e-mail, entrevistas, entre otros documentos",
+        "Cómo elaborar un CV",
+        "Cómo crear un sitio web (presentación oral)"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Métodos de exposición, discusión, dramatizaciones o juegos de roles, formulación de preguntas y trabajo en equipo, presentaciones, videos, artículos de periódicos internacionales y foros",
+  "estrategiaEvaluacion": "Ejercicios para identificar vocabulario, comprensión y algunas expresiones en contextos determinados y se harán igualmente ejercicios de aplicación. También se realizarán quices constantemente sobre los contenidos vistos. Cada unidad tendrá un examen global"
+}
+{
+  "codigo": "SC",
+  "nombreAsignatura": "Seguridad Computacional",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "IX",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 0,
+    "laboratorios": 2
+  },
+  "prelacion_requisito":[
+    "Redes de Computadores I"
+  ],
+  "justificacion": "La apertura de los sistemas computacionales, gracias a las facilidades de conexiones remotas, es producto de las ventajas que ofrecen las redes informáticas. Sin embargo, este beneficio impone la necesidad de controles para: proteger los datos, verificar la identidad del usuario y asegurar el correcto funcionamiento de los programas. Ante esta realidad, la unidad curricular Seguridad Computacional persigue la formación de ingenieros en informática competentes en el diseño y desarrollo de sistemas de redes seguros y aplicaciones de software confiables. La función del ingeniero en informática es evitar que los usuarios sufran de atentados contra la privacidad de la información, suplantaciones de identidad o modificaciones de sus datos. El usuario deposita su confianza en el ingeniero en informática por lo que el manejo ético de la información confidencial por parte del ingeniero es fundamental, ya que, es el responsable de la seguridad de sus clientes. La seguridad computacional dentro del plan de estudios se complementa con las unidades curriculares de redes de computadores, arquitectura del computador y sistemas de operación. Es por ello que resulta indispensable trabajar en grupos interdisciplinarios donde además de dominar aspectos técnicos deben tomarse en cuenta aspectos psicológicos. El factor humano en el área de seguridad, en general, es vital ya que es un proceso incómodo en el que el usuario debe aceptar las imposiciones que implican un ambiente de trabajo seguro y confiable. A fin de cuenta el ingeniero debe hacer sentir al usuario seguro y confiado de la tecnología que utiliza",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [4,5]
+        },
+        {
+          "unidad": 6,
+          "criterios": [4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 3,
+          "criterios": [1,2]
+        },
+        {
+          "unidad": 4,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Principios y conceptos básicos de seguridad",
+      "subtemas": [
+        "Características de un sistema seguro (Teoría)",
+        "Principios de hacking benéfico (Teoría)",
+        "Estrategias de respeto al copyright usando copyleft (Teoría)",
+        "Definición de políticas de seguridad (Teoría)",
+        "Principios básicos de un sistema operativo de código abierto (Laboratorio)"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Criptografía simétrica y de clave pública",
+      "subtemas": [
+        "Principios de cifrado simétrico y asimétrico o de clave pública (Teoría)",
+        "Propiedades de los algoritmos de clave pública (Teoría)",
+        "Algoritmos de negociado de clave simétrica (Teoría)",
+        "Mecanismo de cifrado irreversible (Teoría)",
+        "Desafíos de la seguridad en mercados competitivos (Teoría)",
+        "Comandos básicos de seguridad en sistemas operativos de código abierto (Laboratorio)",
+        "Comandos de conexión y transferencia de archivos segura (Laboratorio)"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Autentificación y firma digital",
+      "subtemas": [
+        "Algoritmos de autentificación con clave simétrica (Teoría)",
+        "Autentificación con centros de claves o KDC (Teoría)",
+        "Autentificación con algoritmos de hash (Teoría)",
+        "Autentificación con algoritmos de clave pública (Teoría)",
+        "Principios de firma digital (Teoría)",
+        "Generar claves públicas y privadas para cifrar y firmar documentos (Laboratorio)"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Certificación digital",
+      "subtemas": [
+        "Infraestructura de certificación digital o PKI (Teoría)",
+        "Tipos de Autoridades de Certificación y estampillado digital (Teoría)",
+        "Problemas de las normas de revocación de certificados (Teoría)",
+        "Tipo de certificados (Teoría)",
+        "Problemas legales y técnicos de la infraestructura PKI (Teoría)",
+        "Infraestructura local de certificación y firma digital (gpg) (Laboratorio)",
+        "Certificados digitales con autoridad de certificación distribuida (Teoría)",
+        "Revocación de claves públicas con certificación distribuida (Teoría)",
+        "Manejo de claves públicas y privadas por repositorio (Teoría y Laboratorio)",
+        "Confianza de las claves públicas (Teoría y Laboratorio)",
+        "Generación y autofirma de certificados digitales (Laboratorio)",
+        "Instalación de servidor Web con certificados de ambos actores: cliente y servidor (Laboratorio)"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Seguridad en redes",
+      "subtemas": [
+        "Modelo de capas seguras para aplicaciones en red (Teoría)",
+        "Modalidades de pago electrónico (Teoría)",
+        "Gobierno electrónico seguro (Teoría)",
+        "Protección de canales mediante redes privadas virtuales o VPN (Teoría)",
+        "Inspección de redes con sistemas de detección de intrusos (Teoría)",
+        "Servidores de dominio seguros (Teoría)",
+        "Seguridad en las redes inalámbricas (Teoría)",
+        "Filtrado de información a través de cortafuegos (Teoría y Laboratorio)",
+        "Programación de aplicaciones cliente/servidor seguras (Teoría y Laboratorio)",
+        "Librerías seguras para montar enlaces cifrados con autentificación (Teoría y Laboratorio)"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Ataques y medidas preventivas y correctivas",
+      "subtemas": [
+        "Tipos particulares de ataques: virus, troyanos, gusanos, spywares y otras amenazas (Teoría)",
+        "Técnicas de hacking benéfico (Teoría)",
+        "Fases de la informática forense (Teoría y Laboratorio)",
+        "Inspección y auditoría de redes para hacking benéfico (Laboratorio)"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales con presentación de casos de estudio, Visualización de películas y lectura de libros o artículos en el área de seguridad asociado a evaluaciones críticas y de discusión, Demostraciones de la infraestructura tecnológica local y en redes, Talleres tipo cuestionario para resolver ejercicios práctico de seguridad y redes, Proyecto de envergadura para aplicar técnicas de diseño y desarrollo de sistemas seguros",
+  "estrategiaEvaluacion": "Pruebas escritas, Cuestionarios de laboratorios, Proyectos individuales y en grupos, Trabajos críticos"
+}
+{
+  "codigo": "ESI",
+  "nombreAsignatura": "Evaluación de Sistemas Informáticos",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Evaluación de Sistemas Informáticos",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "X",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 4,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Investigación de Operaciones"
+  ],
+  "justificacion": "Evaluación de Sistemas Informáticos tiene como propósito que los estudiantes sean competentes en aplicar métodos y técnicas para desarrollar un proceso de evaluación permitiendo identificar fallas de control y brindar recomendaciones sobre un sistema informático. Contribuye con el desarrollo de las competencias generales: aprender a aprender con calidad y aprender a trabajar con el otro, en particular, en lo que respecta al desarrollo de la capacidad de análisis, abstracción, la formulación y resolución eficaz de problemas, ya sea de forma individual o en equipo; contribuye con el desarrollo de la competencia profesional básica del ingeniero: modela para la toma de desiciones, ya que simula matemáticamente situaciones reales y contribuye con la competencia específica profesional: gestiona proyectos informáticos. Todas ellas claves para el desempeño exitoso de un Ingeniero den Informática que domina su profesión.",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [3,5]
+        },
+        {
+          "unidad": 2,
+          "criterios": [1,3,5]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,3,4,5]
+        },
+        {
+          "unidad": 5,
+          "criterios": [1,2]
+        },
+        {
+          "unidad": 6,
+          "criterios": [1,2,3,4]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,5]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB2",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,4]
+        },
+        {
+          "unidad": 2,
+          "criterios": [1,2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción a la Evaluación de Rendimiento",
+      "subtemas": [
+        "Medidas de Rendimiento",
+        "Objetivos de una evaluación",
+        "Técnicas de solución",
+        "Métricas de rendimiento",
+        "Desempeño promedio y variabilidad"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Análisis Comparativo de Rendimiento",
+      "subtemas": [
+        "Errores de medidas experimentales",
+        "Cuantificación de errores",
+        "Comparación de alternativas",
+        "Análisis operacional"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Caracterización de las Cargas",
+      "subtemas": [
+        "Representabilidad de un modelo de carga",
+        "Agrupamiento (clustering)",
+        "Acceso a servidores web"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Planeación de la Capacidad",
+      "subtemas": [
+        "Capacidad Adecuada",
+        "Niveles de gestión y planificación",
+        "Métodos de predicción",
+        "Capacidad bajo demanda",
+        "Planificación de escenarios muy variables"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Programas Benchmark",
+      "subtemas": [
+        "Tipos de Programas Benchmark",
+        "Estrategias Benchmark",
+        "Ejemplos"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Diseño de Experimentos",
+      "subtemas": [
+        "Tipos de Experimentos",
+        "Experimentos con 2 factores",
+        "ANOVA",
+        "Experimentos 2^k"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Auditorías de Sistemas Informáticos",
+      "subtemas": [
+        "Elementos Fundamentales",
+        "Control interno",
+        "Metodología para realizar auditorías",
+        "Informes de auditoría",
+        "Técnicas especiales de evaluación de sistemas de información"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Tareas, Preguntas Guías, Debates, Exámenes Rápidos, Ejercicios y problemas en los temas prácticos, Uso de casos reales, Desarrollo de un programa de simulación mediante el uso de Arena, Desarrollo de un proyecto en etapas a lo largo del semestre (varias entregas)",
+  "estrategiaEvaluacion": "Evaluación independiente de las obligaciones previas a las clases. Autoevaluación y evaluaciones cruzadas. Exámenes formales (2 parciales). Rúbrica para evaluar el proyecto. Logros durante el desarrollo de los casos de modelado. Resultados del programa desarrollado y destreza en el manejo de programa Arena. Desarrollo y resultados de los casos reales de modelado"
+}
+{
+  "codigo": "SD",
+  "nombreAsignatura": "Sistemas Distribuidos",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Telemática",
+  "regimen": "Semestral",
+  "uc": 5,
+  "semestre": "IX",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Redes de Comptadores II"
+  ],
+  "justificacion": "La unidad curricular Sistemas Distribuidos contribuye a que el estudiante comprenda los fundamentos relacionados con el diseño, funcionamiento y construcción de sistemas y aplicaciones distribuidas. Afianza y amplía las competencias adquiridas por los estudiantes en unidades curriculares previas como Estructura del Computador, Sistemas Operativos y Redes de Computadores I y II. Contribuye con el desarrollo de las competencias generales: aprender a aprender con calidad y aprender a trabajar con el otro, en particular, en lo que respecta al desarrollo de la capacidad de análisis, abstracción, la formulación y resolución eficaz de problemas, ya sea en forma individual o en equipo; contribuye con el desarrollo de la competencia específica profesional del Ingeniero en Informática: desarrolla software de aplicación con énfasis en el diseño e implementación de software de aplicación sobre arquitecturas centralizadas y distribuidas. Todas ellas claves para el desempeño exitoso de un Ingeniero en Informática ético que domina su profesión",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 2,
+          "criterios": [1,3,4]
+        },
+        {
+          "unidad": 5,
+          "criterios": [1,5]
+        },
+        {
+          "unidad": 6,
+          "criterios": [1,2,3]
+        },
+        {
+          "unidad": 10,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE4",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 2,
+          "criterios": [3,4]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "Introducción a los Sistemas Distribuidos",
+      "subtemas": [
+        "Definición",
+        "Características de un sistema distribuido",
+        "Redes e interconexión",
+        "Desafíos",
+        "Arquitecturas",
+        "Ejemplos"
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Procesos e Hilos",
+      "subtemas": [
+        "Definición",
+        "Hilos en sistemas distribuidos",
+        "La virtualización en los sistemas distribuidos",
+        "Migración de código",
+        "Planificación de procesos en entornos distribuidos"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Comunicación en sistemas distribuidos",
+      "subtemas": [
+        "Fundamentos",
+        "Arquitectura de redes",
+        "Sockets",
+        "Llamadas a procedimientos remotos: Definición, aspectos de diseño, ejemplos",
+        "Tipos de comunicación"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Sincronización en ambientes distribuidos",
+      "subtemas": [
+        "Introducción",
+        "Relojes",
+        "Sincronización de relojes físicos",
+        "Tiempo lógico y relojes lógicos",
+        "El algoritmo de Lamport",
+        "Exclusión mutua distribuida",
+        "Transacciones y control de concurrencia",
+        "Interbloqueo en sistemas distribuidos"
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Replicación",
+      "subtemas": [
+        "Modelo de sistema y comunicación en grupo",
+        "Servicios tolerantes a fallos",
+        "Servicios con alta disponibilidad",
+        "Transacciones con datos replicados"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Sistemas de archivos distribuidos",
+      "subtemas": [
+        "Introducción",
+        "Arquitectura",
+        "Casos de estudio"
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Objetos Distribuidos",
+      "subtemas": [
+        "Arquitectura de objetos distribuidos",
+        "Invocación a métodos remotos",
+        "La arquitectura de Java RMI"
+      ]
+    },
+    {
+      "tema": 8,
+      "descripcion": "Web Services",
+      "subtemas": [
+        "Introducción",
+        "SOA",
+        "La evolución de la Web",
+        "Definición de Web Service",
+        "SOAP"
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Clases magistrales (para ilustrar los contenidos se utilizan presentaciones preguntas generadoras y preguntas guías, estudios de casos, lectura en formato digital, prueba a libro abierto.",
+  "estrategiaEvaluacion": "Pruebas escritas, proyectos que funcionen, defensa de proyectos realizados"
+}
+{
+  "codigo": "GPS",
+  "nombreAsignatura": "Gestión de Proyectos de Software",
+  "carrera": "Ingeniería Informática",
+  "departamento": "Ingeniería del Software",
+  "regimen": "Semestral",
+  "uc": 6,
+  "semestre": "X",
+  "tipoAsignatura": "Obligatoria",
+  "horasSemanales": {
+    "teoricas": 2,
+    "practica_seminario": 2,
+    "laboratorios": 0
+  },
+  "prelacion_requisito":[
+    "Desarrollo de Software"
+  ],
+  "justificacion": "La unidad curricular Gestión de Proyectos de Software tiene por objetivo la formación de ingenieros en informática éticos y competentes en la disciplina de Gestión de Proyectos específicamente orientada a la planificación, ejecución y control de proyectos de TI (Tecnologías de Información). Complementa las competencias que el futuro ingeniero adquiere en otras unidades curriculares, previas del plan de estudio que en conjunto con diversas metodologías, técnicas, herramientas y estrategias gerenciales le permite ser competente para gestionar proyectos informáticos exitosos alineados a los principios éticos de una sociedad de información",
+  "competencias": [
+    {
+      "competencia": "CG1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3,4]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2,3,4,5]
+        },
+        {
+          "unidad": 6,
+          "criterios": [1,2,3,4]
+        },
+        {
+          "unidad": 8,
+          "criterios": [4,5]
+        }
+      ]
+    },
+    {
+      "competencia": "CG3",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [2,3]
+        }
+      ]
+    },
+    {
+      "competencia": "CPB1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 1,
+          "criterios": [1,2,3]
+        },
+        {
+          "unidad": 2,
+          "criterios": [2]
+        },
+        {
+          "unidad": 3,
+          "criterios": [1,2]
+        }
+      ]
+    },
+    {
+      "competencia": "CPE1",
+      "unidadesCompetencia": [
+        {
+          "unidad": 2,
+          "criterios": [1,2,3]
+        }
+      ]
+    }
+  ],
+  "unidadTematica":[
+    {
+      "tema": 1,
+      "descripcion": "La naturaleza de los proyectos de Tecnología de Información (TI).",
+      "subtemas": [
+        "¿Por qué fallan los proyectos de TI?; diferentes enfoques para lograr el éxito.",
+        "La gerencia de proyectos: ¿qué es un proyecto?; atributos de un proyecto.",
+        "El ciclo de vida del proyecto de TI y el ciclo de vida del desarrollo del producto TI.",
+        "Project Management Institute (PMI): Management Body of Knowledge (PMBOK); Project Management Knowledge Areas."
+      ]
+    },
+    {
+      "tema": 2,
+      "descripcion": "Conceptualización e iniciación de proyectos de TI.",
+      "subtemas": [
+        "Metodología de proyectos de TI: Conceptualización e iniciación, desarrollo del plan del proyecto, ejecución y control del proyecto, cierre del proyecto, evaluación del éxito o fracaso del proyecto.",
+        "Metodologías de desarrollo de productos de TI.",
+        "Caso de negocio: ¿Qué es un caso de negocio?; desarrollo de un caso de negocio Selección y aprobación de proyectos de TI"
+      ]
+    },
+    {
+      "tema": 3,
+      "descripcion": "Desarrollo del plan para proyectos de TI",
+      "subtemas": [
+        "Procesos de la gerencia de proyectos: iniciación, planificación, ejecución, control y cierre.",
+        "Gerencia de la integración del proyecto: plan de desarrollo del proyecto, plan de ejecución, plan de cambio",
+        "El plan de desarrollo del proyecto: contenido",
+        "El marco de trabajo de la planificación del proyecto"
+      ]
+    },
+    {
+      "tema": 4,
+      "descripcion": "Gestión de Recursos Humanos en proyectos de TI",
+      "subtemas": [
+        "Organización y planificación del proyecto: organización formal (funcional, proyectizada, matricial), organización informal (dolientes/stakeholders).",
+        "El equipo del proyecto: roles del director del proyecto, reclutamiento y selección del equipo del proyecto, desempeño del equipo, equipo de proyecto y administración de conocimientos, lecciones aprendidas",
+        "El ambiente del proyecto de TI."
+      ]
+    },
+    {
+      "tema": 5,
+      "descripcion": "Gestión del Alcance en proyectos de TI",
+      "subtemas": [
+        "Actividades, Procesos de la gestión del alcance del proyecto de TI: iniciación del alcance, definición del alcance, verificación del alcance, control de cambio del alcance"
+      ]
+    },
+    {
+      "tema": 6,
+      "descripcion": "Gestión del Tiempo en proyectos de TI",
+      "subtemas": [
+        "Estructura de la División del Trabajo (EDT): paquetes de trabajo, entregables e hitos, desarrollo de la EDT.",
+        "Estimación del proyecto: adivinanza/suposición, técnica Delphi, caja de tiempo, estimación de abajo hacia arriba, estimación de arriba hacia abajo.",
+        "Métricas de la ingeniería del software: líneas de código (LOC), puntos de función (PF), COCOMO, heurística, herramientas automatizadas de estimación."
+      ]
+    },
+    {
+      "tema": 7,
+      "descripcion": "Gestión del Costo en proyectos de TI.",
+      "subtemas": [
+        "Desarrollo de la programación del proyecto",
+        "Herramientas de software para la gestión de proyectos",
+        "Desarrollo del presupuesto del proyecto"
+      ]
+    },
+    {
+      "tema": 8,
+      "descripcion": "Gestión del Riesgo en proyectos de TI",
+      "subtemas": [
+        "Procesos de la gestión del riesgo del proyecto: planificación, valoración, estrategia, monitoreo y control, respuesta y evaluación del riesgo",
+        "Identificación de riesgos en proyectos de TI: marco de trabajo para la administración del riesgo en proyectos TI, aplicación, herramientas y técnicas",
+        "Análisis y valoración de riesgos",
+        "Monitoreo y control de riesgos",
+        "Respuesta y evaluación de riesgos"
+      ]
+    },
+    {
+      "tema": 9,
+      "descripcion": "Gestión de las Comunicaciones en proyectos de TI",
+      "subtemas": [
+        "Monitoreo y control del avance del proyecto",
+        "El plan de comunicaciones del proyecto",
+        "Métricas del proyecto",
+        "Valor ganado (EV).",
+        "Reportes de progreso y desempeño",
+        "Distribución de la información del proyecto"
+      ]
+    },
+    {
+      "tema": 10,
+      "descripcion": "Gestión de la Calidad en proyectos de TI",
+      "subtemas": [
+        "Historia de la calidad",
+        "Sistemas de Calidad: ISO, Six Sigma, TickIT, CMM.",
+        "El plan de calidad en el proyecto de TI."
+      ]
+    },
+    {
+      "tema": 11,
+      "descripcion": "La Gerencia del Cambio Organizacional, La Resistencia y el Conflicto en proyectos de TI.",
+      "subtemas": [
+        "La naturaleza del cambio: impacto, el cambio como un proceso, respuesta emocional, cambio gerencial.",
+        "Plan de cambio en el proyecto de TI.",
+        "Lidiando con la resistencia y el conflicto."
+      ]
+    },
+    {
+      "tema": 12,
+      "descripcion": "Implementación, Cierre y Evaluación de proyectos de TI.",
+      "subtemas": [
+        "Estrategias de implementación: corte, paralelo, fases, piloto.",
+        "Cierre técnico.",
+        "Cierre administrativo: aceptación del cliente, informe final de entrega, reunión y presentación final, finiquito.",
+        "Evaluación: revisión “postmortem”, clínica y lecciones aprendidas, evaluación de la actuación individual, auditoria del proyecto, evaluación del éxito."
+      ]
+    }
+  ],
+  "estrategiaAprendizaje": "Los contenidos serán presentados mediante: Exposición (empleando mapas mentales y presentaciones), Discusiones, Videos, Talleres, Estudio de Casos, Método Proyectos.",
+  "estrategiaEvaluacion": "Observación, Exámenes, Tareas, Proyectos, Pruebas Objetivas (Quiz), Rúbricas."
+}

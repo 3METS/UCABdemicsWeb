@@ -1,0 +1,117 @@
+{
+  "carrera": "Ingeniería Informática",
+  "asignaturas": [
+    {
+      "codigo": "II",
+      "descripcion": "Introducción a la Informática"
+    },
+    {
+      "codigo": "API",
+      "descripcion": "Algoritmos y Programación I"
+    },
+    {
+      "codigo": "LC",
+      "descripcion": "Lógica Computacional"
+    },
+    {
+      "codigo": "APII",
+      "descripcion": "Algoritmos y Programación II"
+    },
+    {
+      "codigo": "MD",
+      "descripcion": "Matemáticas Discretas"
+    },
+    {
+      "codigo": "APIII",
+      "descripcion": "Algoritmos y Programación III"
+    },
+    {
+      "codigo": "EC",
+      "descripcion": "Estructura del Computador"
+    },
+    {
+      "codigo": "CE",
+      "descripcion": "Circuitos Electrónicos"
+    },
+    {
+      "codigo": "IS",
+      "descripcion": "Ingeniería del Software"
+    },
+    {
+      "codigo": "IHC",
+      "descripcion": "Interacción Humano-Computador"
+    },
+    {
+      "codigo": "SO",
+      "descripcion": "Sistemas de Operación"
+    },
+    {
+      "codigo": "AC",
+      "descripcion": "Arquitectura del Computador"
+    },
+    {
+      "codigo": "RCI",
+      "descripcion": "Redes de Computadores I"
+    },
+    {
+      "codigo": "SBDI",
+      "descripcion": "Sistemas de Base de Datos I"
+    },
+    {
+      "codigo": "INI",
+      "descripcion": "Inglés I"
+    },
+    {
+      "codigo": "MS",
+      "descripcion": "Metodología del Software"
+    },
+    {
+      "codigo": "RCII",
+      "descripcion": "Redes de Computadores II"
+    },
+    {
+      "codigo": "SBDII",
+      "descripcion": "Sistemas de Base de Datos II"
+    },
+    {
+      "codigo": "DS",
+      "descripcion": "Desarrollo de Software"
+    },
+    {
+      "codigo": "INII",
+      "descripcion": "Inglés II"
+    },
+    {
+      "codigo": "IO",
+      "descripcion": "Investigación de Operaciones"
+    },
+    {
+      "codigo": "RCIII",
+      "descripcion": "Redes de Computadores III"
+    },
+    {
+      "codigo": "STG",
+      "descripcion": "Seminario de Trabajo de Grado"
+    },
+    {
+      "codigo": "INT",
+      "descripcion": "Inglés Técnico"
+    },
+    {
+      "codigo": "SC",
+      "descripcion": "Seguridad Computacional"
+    },
+    {
+      "codigo": "ESI",
+      "descripcion": "Evaluación de Sistemas Informáticos"
+    },
+    {
+      "codigo": "SD",
+      "descripcion": "Sistemas Distribuidos"
+    },
+    {
+      "codigo": "GPS",
+      "descripcion": "Gestión de Proyectos de Software"
+    }
+  ]
+}

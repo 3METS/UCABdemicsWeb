@@ -18,6 +18,17 @@ class PeriodoService {
     }
   }
 
+  async buscarPrimero(data) {
+    const result = await this.MongoDB.get(this.collection, data);
+    if (result) return result;
+    return 'No existe';
+  }
+
+  async buscarVarios(data) {
+    const result = await this.MongoDB.getAll(this.collection, data);
+    return result;
+  }
+
   async buscarCodigos() {
     const result = await this.MongoDB.getAll(this.collection, {});
     if (result.length > 0) return result;

@@ -67,14 +67,20 @@ class MongoLib {
     return this.connect()
       .then((db) => {
         return db.collection(collection).insertOne(data);
-      })
-      .then((result) => result.insertedId);
+      });
   }
 
   update(collection, query, data) {
     return this.connect().then((db) => {
       return db.collection(collection).updateOne(query, { $set: data });
     });
+  }
+
+  updateOption(collection, query, data, option) {
+    return this.connect()
+      .then((db) => {
+        return db.collection(collection).updateOne(query, { $set: data }, option);
+      });
   }
 
   delete(collection, id) {
