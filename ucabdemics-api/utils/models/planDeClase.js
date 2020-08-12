@@ -1,7 +1,7 @@
 const joi = require('joi');
-const { contenidoIdSchema } = require('./contenidoProgramatico');
-const { competenciaIdSchema } = require('./competencia');
-const { periodoAcademicoIdSchema } = require('./periodoAcademico');
+const { asignaturaIdSchema } = require('./Asginatura');
+const { competenciaIdSchema } = require('./Competencia');
+const { periodoAcademicoIdSchema } = require('./PeriodoAcademico');
 
 const planClaseIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
@@ -55,9 +55,9 @@ const evaluacionSchema = joi.array().items(evaluacionItemSchema);
 const contenidosSchema = joi.array().items(contenidoItemSchema);
 // **********************************************
 
-const createPlanClaseSchema = {
+const createPlanClaseSchema = joi.object({
   escuela: escuelaSchema.required(),
-  contenidoProgramatico: contenidoIdSchema.required(),
+  contenidoProgramatico: asignaturaIdSchema.required(),
   seccion: seccionSchema.required(),
   periodo: periodoSchema.required(),
   asignatura: asignaturaSchema.required(),
@@ -65,11 +65,11 @@ const createPlanClaseSchema = {
   competencias: competenciasSchema.required(),
   contenidos: contenidosSchema.required(),
   evaluaciones: evaluacionSchema.required(),
-};
+});
 
-const updatePlanClaseSchema = {
+const updatePlanClaseSchema = joi.object({
   escuela: escuelaSchema,
-  contenidoProgramatico: contenidoIdSchema,
+  contenidoProgramatico: asignaturaIdSchema,
   seccion: seccionSchema,
   periodo: periodoSchema,
   asignatura: asignaturaSchema,
@@ -77,7 +77,7 @@ const updatePlanClaseSchema = {
   competencias: competenciasSchema,
   contenidos: contenidosSchema,
   evaluaciones: evaluacionSchema,
-};
+});
 
 module.exports = {
   planClaseIdSchema,

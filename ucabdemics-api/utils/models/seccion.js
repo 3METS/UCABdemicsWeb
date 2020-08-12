@@ -2,44 +2,40 @@ const joi = require('joi');
 
 const seccionIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
-const asignaturaIdSchema = require('./asignatura').asignaturaIdSchema;
-const profesorIdSchema = require('./profesor').profesorIdSchema;
-const periodoAcademicoIdSchema = require('./periodoAcademico')
-  .periodoAcademicoIdSchema;
-const planClaseIdSchema = require('./planDeClase').planClaseIdSchema;
-const contenidosSchema = require('./planDeClase').createPlanClase.contenidos;
+const { asignaturaIdSchema } = require('./Asignatura');
+const { profesorIdSchema } = require('./Profesor');
+const { periodoAcademicoIdSchema } = require('./PeriodoAcademico');
+const { planClaseIdSchema } = require('./PlanDeClase');
 
-const horarioSchema = {
+const horarioSchema = joi.object({
   horaInicio: joi.string().max(10),
   duracion: joi.number().integer().min(1).max(6),
   dia: joi.string().max(10),
   aula: joi.string().max(10),
-};
+});
 
 const horariosSchema = joi.array().items(horarioSchema);
 
-const createSeccion = {
+const createSeccionSchema = joi.object({
   nrc: seccionIdSchema.required(),
   asignatura: asignaturaIdSchema.required(),
   profesor: profesorIdSchema.required(),
   horarios: horariosSchema.required(),
   periodoAcademico: periodoAcademicoIdSchema.required(),
   planDeClase: planClaseIdSchema.required(),
-  seguimiento: contenidosSchema.required(),
-};
+});
 
-const updateSeccion = {
+const updateSeccionSchema = joi.object({
   nrc: seccionIdSchema,
   asignatura: asignaturaIdSchema,
   profesor: profesorIdSchema,
   horarios: horariosSchema,
   periodoAcademico: periodoAcademicoIdSchema,
   planDeClase: planClaseIdSchema,
-  seguimiento: contenidosSchema,
-};
+});
 
 module.exports = {
   seccionIdSchema,
-  createSeccion,
-  updateSeccion,
+  createSeccionSchema,
+  updateSeccionSchema,
 };

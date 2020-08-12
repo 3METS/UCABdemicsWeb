@@ -1,12 +1,12 @@
 const joi = require('joi');
 const { competenciaIdSchema } = require('./competencia');
-const { contenidoIdSchema } = require('./contenidoProgramatico');
+const { asignaturaIdSchema } = require('./Asignatura');
 
 const carreraIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
 const nombreSchema = joi.string().min(10).max(80);
 const competenciasSchema = joi.array().items(competenciaIdSchema).sparse();
-const asignaturasSchema = joi.array().items(contenidoIdSchema).sparse();
+const asignaturasSchema = joi.array().items(asignaturaIdSchema).sparse();
 
 const createCarrera = joi.object({
   nombre: nombreSchema.required(),
