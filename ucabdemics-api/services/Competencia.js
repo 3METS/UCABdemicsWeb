@@ -58,10 +58,9 @@ class CompetenciaService {
     }
   }
 
-  async buscarVarios(data) {
-    // Recibe un array con las competencias. Ex: ["CG2","CPE1"]
-    // const query = { "codigo": { $in: data } };
-    const result = await this.MongoDB.getAll(this.collection, data);
+    async buscarVarios (data){ // Recibe un array con las competencias. Ex: ["CG2","CPE1"]
+        const query = { "codigo": { $in: data } };
+        const result = await this.MongoDB.getAll(this.collection, data);
 
     if (result.length > 0) {
       return result;
