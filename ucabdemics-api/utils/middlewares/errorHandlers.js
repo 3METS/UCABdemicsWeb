@@ -1,5 +1,5 @@
 const { config } = require('../../config/index');
-const boom = require('@hapi/boom');
+const boom = require('boom');
 
 function withStack(error, stack) {
   if (config.dev) {
@@ -20,7 +20,7 @@ function logErrors(error, req, res, next) {
   next(error);
 }
 
-function errorHandler(err, req, res, next) {
+function errorHandler(err, req, res) {
   const {
     output: { statusCode, payload },
   } = err;

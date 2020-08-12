@@ -1,10 +1,24 @@
-const mongoFunction = require('../lib/db').MongoLib;
+const MongoLib = require('../lib/db');
 //const { ObjectId } = require('mongodb');
 
 class CompetenciaService {
   constructor() {
-    this.MongoDB = new mongoFunction();
+    this.MongoDB = new MongoLib();
     this.collection = 'competencias';
+  }
+
+  async getCompetencias({ competencia }) {
+    const query = { competencia };
+    const competencias = await this.MongoDB.getAll(
+      this.collection,
+      query || null
+    );
+    return competencias || [];
+  }
+
+  async getCompetencia({ competenciaId }) {
+    const competencia = await this.MongoDB.get(this.collection, competenciaId);
+    return competencia || [];
   }
 
   async crear(data) {
@@ -69,4 +83,4 @@ class CompetenciaService {
   }
 }
 
-module.exports = { CompetenciaService };
+module.exports = CompetenciaService;

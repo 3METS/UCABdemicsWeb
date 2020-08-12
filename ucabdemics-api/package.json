@@ -11,14 +11,14 @@
     "start": "cross-env NODE_ENV=production node index"
   },
   "dependencies": {
-    "@hapi/boom": "^9.1.0",
-    "@hapi/joi": "^17.1.1",
+    "boom": "^7.3.0",
     "bull": "^3.16.0",
     "cors": "^2.8.5",
     "docxtemplater": "^3.17.9",
     "dotenv": "^8.2.0",
     "exceljs": "^4.1.1",
     "express": "^4.17.1",
+    "joi": "^17.2.0",
     "mongodb": "^3.5.9",
     "nodemailer": "^6.4.10",
     "passport": "^0.4.1",

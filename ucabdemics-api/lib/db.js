@@ -6,7 +6,7 @@ const USER = encodeURIComponent(config.dbUser);
 const PASSWORD = encodeURIComponent(config.dbPassword);
 const DB_NAME = encodeURIComponent(config.dbName);
 
-const uri = `mongodb+srv://${USER}:${PASSWORD}@${config.dbHost}/${DB_NAME}?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${USER}:${PASSWORD}@ucabdemicscluster-hratr.gcp.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
 
 class MongoLib {
   constructor() {
@@ -15,16 +15,19 @@ class MongoLib {
       useUnifiedTopology: true,
     });
     this.dbName = DB_NAME;
+    this.isRejected = false;
   }
 
   connect() {
-    if (!MongoLib.connection) {
+    if (!MongoLib.connection || this.isRejected === true) {
       MongoLib.connection = new Promise((resolve, reject) => {
         this.client.connect((err) => {
           if (err) {
+            this.isRejected = true;
             console.log(err);
             reject(err);
           } else {
+            this.isRejected = false;
             console.log('Connected successfuly');
             resolve(this.client.db(this.dbName));
           }
@@ -45,42 +48,22 @@ class MongoLib {
     });
   }
 
-  getAllProjection(collection, query, projection) {
+  get(collection, id) {
     return this.connect().then((db) => {
-      return db.collection(collection).find(query, projection).toArray();
-    });
-  }
-
-  get(collection, query) {
-    return this.connect().then((db) => {
-      return db.collection(collection).findOne(query);
-    });
-  }
-
-  getProjection(collection, query, projection) {
-    return this.connect().then((db) => {
-      return db.collection(collection).findOne(query, projection);
+      return db.collection(collection).findOne({ _id: ObjectId(id) });
     });
   }
 
   create(collection, data) {
-    return this.connect()
-      .then((db) => {
-        return db.collection(collection).insertOne(data);
-      });
-  }
-
-  update(collection, query, data) {
     return this.connect().then((db) => {
-      return db.collection(collection).updateOne(query, { $set: data });
+      return db.collection(collection).insertOne(data);
     });
   }
 
-  updateOption(collection, query, data, option) {
-    return this.connect()
-      .then((db) => {
-        return db.collection(collection).updateOne(query, { $set: data }, option);
-      });
+  update(collection, id, data) {
+    return this.connect().then((db) => {
+      return db.collection(collection).updateOne({ _id: id }, { $set: data });
+    });
   }
 
   delete(collection, id) {

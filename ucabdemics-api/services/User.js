@@ -3,112 +3,115 @@ const profesor = require('./Profesor').ProfesorService;
 const { ObjectId } = require('mongodb');
 
 class UsuarioService {
-    constructor(){
-        this.MongoDB = new mongoFunction();
-        this.Profesor = new profesor();
-        this.collection = "usuarios";
-    };
+  constructor() {
+    this.MongoDB = new mongoFunction();
+    this.Profesor = new profesor();
+    this.collection = 'usuarios';
+  }
 
-    async crear(user){
-        const result = await this.MongoDB.get(this.collection, user);
+  async createUser({ user }) {
+    const result = await this.MongoDB.get(this.collection, user);
 
-        if (!result){
-            const createdUserId = await this.MongoDB.create(this.collection, user);
-            return createdUserId;
-        }else{
-            return "Este usuario ya existe";
-        }
-    };
-
-    async agregarProfesor (userID, profesorID){
-        const query = { "_id": ObjectId(userID) };
-        const exist = await this.MongoDB.get(this.collection, query );
-
-        if(exist == null){
-            return null;
-        }else{
-            const data = { profesor: profesorID};
-            const result = await this.MongoDB.update(this.collection, query, data);
-            if (result.result.nModified > 0){
-                return true;
-            }else{
-                return false;
-            }
-        }
+    if (!result) {
+      const createdUserId = await this.MongoDB.create(this.collection, user);
+      return createdUserId.insertedId;
+    } else {
+      return 'Este usuario ya existe';
     }
+  }
 
-    async signIn(data){
-        const query = {
-            correo: data.correo, 
-            contrasenia: data.contrasenia};
-        const userData = await this.MongoDB.get(this.collection, query);
-        const profesorData = await this.Profesor.buscar({ _id: ObjectId(userData.profesor) });
-        
-        if ((userData != null) && (profesorData != null)){
-            return {
-                user: userData,
-                profesor: profesorData,
-                status: "2"
-            };
-        }else{
-            if (userData != null){
-                return {
-                    user: userData,
-                    profesor: null,
-                    status: "1"
-                };
-            }else{
-                return {
-                    user: null,
-                    profesor: null,
-                    status: "0"
-                };
-            }
-        }
+  async agregarProfesor(userID, profesorID) {
+    const query = { _id: ObjectId(userID) };
+    const exist = await this.MongoDB.get(this.collection, query);
+
+    if (exist == null) {
+      return null;
+    } else {
+      const data = { profesor: profesorID };
+      const result = await this.MongoDB.update(this.collection, query, data);
+      if (result.result.nModified > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+
+  async signIn(data) {
+    const query = {
+      correo: data.correo,
+      contrasenia: data.contrasenia,
     };
+    const userData = await this.MongoDB.get(this.collection, query);
+    const profesorData = await this.Profesor.buscar({
+      _id: ObjectId(userData.profesor),
+    });
 
-    async modificar (user, data){
-        const query = {
-            correo: user.correo
+    if (userData != null && profesorData != null) {
+      return {
+        user: userData,
+        profesor: profesorData,
+        status: '2',
+      };
+    } else {
+      if (userData != null) {
+        return {
+          user: userData,
+          profesor: null,
+          status: '1',
         };
-        const result = await this.MongoDB.update(this.collection, query, data);
-
-        if (result.result.nModified > 0){
-            return true;
-        }else{
-            return false;
-        }
-    };
-
-    async buscar (query){
-        const result = await this.MongoDB.get(this.collection, query);
-
-        if(result != null ){
-            return result;
-        }else{
-            return null;
-        }
-    };
-
-    async buscarVarios (query){
-        const result = await this.MongoDB.getAll(this.collection, query);
-
-        if (result.length > 0){
-            return result;
-        }else{
-            return null;
-        }
+      } else {
+        return {
+          user: null,
+          profesor: null,
+          status: '0',
+        };
+      }
     }
+  }
 
-    async eliminar (id){
-        const result = await this.MongoDB.delete(this.collection, id);
+  async modificar(user, data) {
+    const query = {
+      correo: user.correo,
+    };
+    const result = await this.MongoDB.update(this.collection, query, data);
 
-        if (result.deletedCount > 0){
-            return true;
-        }else{
-            return false;
-        }
+    if (result.result.nModified > 0) {
+      return true;
+    } else {
+      return false;
     }
+  }
+
+  async buscar(query) {
+    const result = await this.MongoDB.get(this.collection, query);
+
+    if (result != null) {
+      return result;
+    } else {
+      return null;
+    }
+  }
+
+  async buscarVarios(query) {
+    const result = await this.MongoDB.getAll(this.collection, query);
+
+    if (result.length > 0) {
+      return result;
+    } else {
+      return null;
+    }
+  }
+
+  async eliminar(id) {
+    const result = await this.MongoDB.delete(this.collection, id);
+
+    if (result.deletedCount > 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 module.exports = { UsuarioService };

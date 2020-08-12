@@ -1,59 +1,86 @@
-const joi = require('@hapi/joi');
+const joi = require('joi');
+const { contenidoIdSchema } = require('./contenidoProgramatico');
+const { competenciaIdSchema } = require('./competencia');
+const { periodoAcademicoIdSchema } = require('./periodoAcademico');
 
-const planClaseIdSchema =  joi.string().max(30);
-const contenidoIdSchema =  joi.string().max(30);
+const planClaseIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
-const escuelaSchema = joi.string().max(100);
+const escuelaSchema = joi.string().min(10).max(100);
+const seccionSchema = joi.string().min(3).max(3);
+const periodoSchema = periodoAcademicoIdSchema;
+const asignaturaSchema = joi.string().min(10).max(70);
+const profesorSchema = joi.string().min(5).max(30);
+const competenciasSchema = joi.array().items(competenciaIdSchema);
+
+const subtemaItemSchema = {
+  subtema: joi.string().regex(/^[0-9]{2}-[0-9]{2}$/),
+  progreso: joi.number().integer().min(0).max(100).default(0),
+};
+const unidadTematicaItemSchema = {
+  temas: joi.array().items(joi.number().integer().min(1)),
+  subtemas: joi.array().items(subtemaItemSchema),
+};
+const evaluacionFechayPonderacionShema = {
+  tipo: joi.string().min(5).max(50),
+  tecnica: joi.string().min(10).max(50),
+  instrumento: joi.string().min(10).max(50),
+  evidencia: joi.string().min(10).max(70),
+  fecha: joi.array().items(joi.string().regex(/^[0-9]{2}-[0-9]{2}-[0-9]{4}$/)),
+  ponderacion: joi.number().integer(),
+};
+const contenidoItemSchema = {
+  fechaSemana: joi
+    .array()
+    .items(joi.string().regex(/^[0-9]{2}-[0-9]{2}-[0-9]{4}$/)),
+  unidadesCompetencia: joi
+    .array()
+    .items(joi.string().regex(/^[0-9A-Z]{6}-[0-9]{2}$/)),
+  criterios: joi
+    .array()
+    .items(joi.string().regex(/^[0-9A-Z]{6}-[0-9]{2}-[0-9]{2}$/)),
+  unidadTematica: unidadTematicaItemSchema,
+  actividadesDocente: joi.array().items(joi.string().min(10).max(200)),
+  actividadesEstudiante: joi.array().items(joi.string().min(10).max(200)),
+  evaluaciones: joi.array().items(evaluacionFechayPonderacionShema),
+};
+
+const evaluacionItemSchema = {
+  evidencia: joi.string().min(5).max(70),
+  fecha: joi.array().items(joi.string().regex(/^[0-9]{2}-[0-9]{2}-[0-9]{4}$/)),
+  temas: joi.array().items(joi.string().regex(/^[0-9]{2}-[0-9]{2}$/)),
+};
+
+const evaluacionSchema = joi.array().items(evaluacionItemSchema);
+
+const contenidosSchema = joi.array().items(contenidoItemSchema);
 // **********************************************
-const actividadDocente = joi.string().max(300);
-const actividadEstudiante = joi.string().max(300);
 
-const unidadTematica = {
-    codigo : joi.number().integer().min(0),
-    tema :joi.string().max(300),
-    subtema : joi.string().max(300),
-    porcentajeProgreso : joi.number().min(0)
+const createPlanClaseSchema = {
+  escuela: escuelaSchema.required(),
+  contenidoProgramatico: contenidoIdSchema.required(),
+  seccion: seccionSchema.required(),
+  periodo: periodoSchema.required(),
+  asignatura: asignaturaSchema.required(),
+  profesor: profesorSchema.required(),
+  competencias: competenciasSchema.required(),
+  contenidos: contenidosSchema.required(),
+  evaluaciones: evaluacionSchema.required(),
 };
 
-const evaluacionSchema = {
-    codigo : joi.number().integer().min(0),
-    nombre : joi.string().max(300),
-    status : joi.boolean().default(false), //Para saber si está pendiente o ya se realizó false=pendiente
-    ponderacion : joi.number().min(0),
-    fecha : joi.string().max(50),
-    tipo : joi.string().max(300),
-    instrumento : joi.string().max(300),
-    tecnica : joi.string().max(300),
-    temas : joi.array().items(unidadTematica.tema)
+const updatePlanClaseSchema = {
+  escuela: escuelaSchema,
+  contenidoProgramatico: contenidoIdSchema,
+  seccion: seccionSchema,
+  periodo: periodoSchema,
+  asignatura: asignaturaSchema,
+  profesor: profesorSchema,
+  competencias: competenciasSchema,
+  contenidos: contenidosSchema,
+  evaluaciones: evaluacionSchema,
 };
 
-const contenidoSchema = {
-    codigo : contenidoIdSchema,
-    fechaSemana : joi.string().max(50),
-    actividadesDocente : joi.array().items(actividadDocente),
-    actividadesEstudiante : joi.array().items(actividadEstudiante),
-    unidadesTematicas : joi.array().items(unidadTematica),
-    evaluaciones : joi.array().items(evaluacionSchema)
+module.exports = {
+  planClaseIdSchema,
+  createPlanClaseSchema,
+  updatePlanClaseSchema,
 };
-
-const contenidosSchema = joi.array().items(contenidoSchema);
-// **********************************************
-
-const createPlanClase ={
-    codigo : planClaseIdSchema.required(),
-    escuela : escuelaSchema.required(),
-    contenidos : contenidosSchema.required()
-};
-
-const updatePlanClase = {
-    codigo : planClaseIdSchema,
-    escuela : escuelaSchema,
-    contenidos : contenidosSchema
-  };
-  
-  module.exports = {
-    planClaseIdSchema,
-    contenidoIdSchema,
-    createPlanClase,
-    updatePlanClase
-  };

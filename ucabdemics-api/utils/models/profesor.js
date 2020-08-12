@@ -1,9 +1,9 @@
-const joi = require('@hapi/joi');
+const joi = require('joi');
 
 const carreraIdSchema = require('./carrera').carreraIdSchema;
 const seccionIdSchema = require('./seccion').seccionIdSchema;
 
-const profesorIdSchema = joi.string().max(30);
+const profesorIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
 const nombreSchema = joi.string().max(80);
 const correoSchema = joi.string().max(100);

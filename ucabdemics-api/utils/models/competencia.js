@@ -1,39 +1,36 @@
-const joi = require('@hapi/joi');
+const joi = require('joi');
 
-const competenciaIdSchema = joi.string().max(30);
+const competenciaIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
-const nombreSchema = joi.string().max(80);
-const descripcionSchema = joi.string();
+const nombreSchema = joi.string().min(2).max(10);
+const descripcionSchema = joi.string().min(10).max(80);
 // *******************************************
-const criterioSchema = joi.string();
+const criterioSchema = joi.string().min(10).max(100);
 
 const unidadSchema = {
-  unidad : joi.number().integer().min(0),
-  nombre : joi.string().max(300),
-  descripcion: joi.string(),
-  criterios : joi.array().items(criterioSchema)
+  unidad: joi.number().integer().min(1),
+  nombre: joi.string().min(10).max(300),
+  descripcion: descripcionSchema,
+  criterios: joi.array().items(criterioSchema),
 };
 
-const unidadesSchema = joi.array().items(unidadSchema)
+const unidadesSchema = joi.array().items(unidadSchema);
 // *******************************************
 
-
-const createCompetencia ={
-  codigo : competenciaIdSchema.required(),
+const createCompetencia = {
   nombre: nombreSchema.required(),
   descripcion: descripcionSchema.required(),
-  unidadesCompetencia: unidadesSchema.required()
+  unidadesCompetencia: unidadesSchema.required(),
 };
 
 const updateCompetencia = {
-  codigo : competenciaIdSchema,
   nombre: nombreSchema,
   descripcion: descripcionSchema,
-  unidadesCompetencia: unidadesSchema
-  };
-  
+  unidadesCompetencia: unidadesSchema,
+};
+
 module.exports = {
   competenciaIdSchema,
   createCompetencia,
-  updateCompetencia
+  updateCompetencia,
 };
