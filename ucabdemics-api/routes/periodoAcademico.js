@@ -5,7 +5,7 @@ const {
   periodoAcademicoIdSchema,
   createPeriodoAcademico,
   updatePeriodoAcademico,
-} = require('../utils/models/PeriodoAcademico');
+} = require('../utils/models/periodoAcademico');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');

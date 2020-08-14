@@ -5,7 +5,7 @@ const {
   solicitudIdSchema,
   createSolicitudSchema,
   updateSolicitudSchema,
-} = require('../utils/models/Solicitud');
+} = require('../utils/models/solicitud');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');

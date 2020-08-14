@@ -5,7 +5,7 @@ const {
   profesorIdSchema,
   createProfesorSchema,
   updateProfesorSchema,
-} = require('../utils/models/Profesor');
+} = require('../utils/models/profesor');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');

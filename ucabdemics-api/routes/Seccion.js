@@ -5,7 +5,7 @@ const {
   seccionIdSchema,
   createSeccionSchema,
   updateSeccionSchema,
-} = require('../utils/models/Seccion');
+} = require('../utils/models/seccion');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');

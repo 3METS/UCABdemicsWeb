@@ -5,7 +5,7 @@ const {
   planClaseIdSchema,
   createPlanClaseSchema,
   updatePlanClaseSchema,
-} = require('../utils/models/PlanDeClase');
+} = require('../utils/models/planDeClase');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');

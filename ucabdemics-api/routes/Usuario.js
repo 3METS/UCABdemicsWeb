@@ -5,7 +5,7 @@ const {
   usuarioIdSchema,
   createUsuarioSchema,
   updateUsuarioSchema,
-} = require('../utils/models/Usuario');
+} = require('../utils/models/usuario');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');

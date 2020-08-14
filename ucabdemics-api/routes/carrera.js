@@ -5,7 +5,7 @@ const {
   carreraIdSchema,
   createCarreraSchema,
   updateCarreraSchema,
-} = require('../utils/models/Carrera');
+} = require('../utils/models/carrera');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
