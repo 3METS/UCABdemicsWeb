@@ -5,14 +5,11 @@ const solicitudIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 const { profesorIdSchema } = require('./Profesor');
 const { seccionIdSchema } = require('./Seccion');
 
-const tipoSchema = joi
-  .string()
-  .max(50)
-  .valid('Pendiente', 'Rechazado', 'Procesado');
+const tipoSchema = joi.string().max(50).valid('Aula', 'VideoBeam');
 const horaInicioSchema = joi.string().min(5).max(12);
 const duracionSchema = joi.number().integer().min(1);
 const fechaSchema = joi.string().min(12).max(12);
-const statusSchema = joi.string();
+const statusSchema = joi.string().valid('Pendiente', 'Rechazado', 'Procesado');
 
 const createSolicitudSchema = joi.object({
   tipo: tipoSchema.required(),
