@@ -1,88 +1,55 @@
-const mongoFunction = require('../lib/db').MongoLib;
-//const { ObjectId } = require('mongodb');
+const MongoLib = require('../lib/db');
 
 class SeccionService {
   constructor() {
-    this.MongoDB = new mongoFunction();
+    this.MongoDB = new MongoLib();
     this.collection = 'secciones';
   }
 
-  async crear(data) {
-    const query = { nrc: data.nrc };
-    const exist = await this.MongoDB.get(this.collection, query);
+  async getSecciones({ nrc, asignatura, planClase, profesor, periodo }) {
+    const query = { nrc, asignatura, planClase, profesor, periodo };
 
-    if (exist == null) {
-      const result = await this.MongoDB.create(this.collection, data);
-      if (result != null) {
-        return result;
-      } else {
-        return 'Error';
+    Object.keys(query).forEach((key) => {
+      if (query[key] === undefined) {
+        delete query[key];
       }
+    });
+
+    const secciones = await this.MongoDB.getAll(this.collection, query || null);
+    return secciones || [];
+  }
+
+  async getSeccion({ id }) {
+    const seccion = await this.MongoDB.get(this.collection, id);
+    return seccion || [];
+  }
+
+  async createSeccion({ seccion }) {
+    const exist = await this.getSecciones({ nrc: seccion.nrc });
+    if (exist.length) {
+      throw new Error('La seccion ya existe');
     } else {
-      return 'Ya existe';
+      return await this.MongoDB.create(this.collection, seccion);
     }
   }
 
-  async modificarSinHorario(query, data) {
-    const result = await this.MongoDB.update(this.collection, query, data);
-
-    if (result.result.nModified > 0) {
-      return true;
+  async updateSeccion({ id, seccion }) {
+    const exist = await this.getSeccion({ id });
+    if (exist.length) {
+      return await this.MongoDB.update(this.collection, id, seccion);
     } else {
-      return false;
+      throw new Error('La seccion no existe');
     }
   }
 
-  async modificarHorario(NRC, diaOrigen, horaI, data) {
-    const query = {
-      nrc: NRC,
-    };
-    const info = {
-      'horarios.$[filter].horaInicio': data.horaInicio,
-      'horarios.$[filter].horaFinal': data.horaFinal,
-      'horarios.$[filter].diaSemana': data.diaSemana,
-      'horarios.$[filter].aula': data.aula,
-    };
-    const option = {
-      arrayFilters: [
-        { 'filter.diaSemana': diaOrigen },
-        { 'filter.horaInicio': horaI },
-      ],
-    };
-
-    const result = await this.MongoDB.updateOption(
-      this.collection,
-      query,
-      info,
-      option
-    );
-
-    if (result.result.nModified > 0) {
-      return true;
+  async deleteSeccion({ id }) {
+    const exist = await this.getSeccion({ id });
+    if (exist.length) {
+      return await this.MongoDB.delete(this.collection, id);
     } else {
-      return false;
-    }
-  }
-
-  async buscar(query) {
-    const result = await this.MongoDB.get(this.collection, query);
-
-    if (result != null) {
-      return result;
-    } else {
-      return null;
-    }
-  }
-
-  async eliminar(id) {
-    const result = await this.MongoDB.delete(this.collection, id);
-
-    if (result.deletedCount > 0) {
-      return true;
-    } else {
-      return false;
+      throw new Error('La seccion no existe');
     }
   }
 }
 
-module.exports = { SeccionService };
+module.exports = SeccionService;

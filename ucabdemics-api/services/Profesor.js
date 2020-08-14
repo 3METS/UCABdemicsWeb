@@ -1,76 +1,58 @@
-const mongoFunction = require('../lib/db').MongoLib;
-const { ObjectId } = require('mongodb');
+const MongoLib = require('../lib/db');
 
 class ProfesorService {
   constructor() {
-    this.MongoDB = new mongoFunction();
+    this.MongoDB = new MongoLib();
     this.collection = 'profesores';
   }
 
-  async crear(profesor, userID) {
-    const query = {
-      correo: profesor.correo,
-    };
-    const existeProfesor = await this.MongoDB.get(this.collection, query);
-    const existeUsuario = await this.MongoDB.get('usuarios', {
-      _id: ObjectId(userID),
+  async getProfesores({ cedula, nombre, profesor }) {
+    const query = { cedula, nombre, profesor };
+
+    Object.keys(query).forEach((key) => {
+      if (query[key] === undefined) {
+        delete query[key];
+      }
     });
 
-    if (
-      !existeProfesor &&
-      existeUsuario != null &&
-      existeUsuario.correo == profesor.correo
-    ) {
-      const profesorId = await this.MongoDB.create(this.collection, profesor);
+    const profesores = await this.MongoDB.getAll(
+      this.collection,
+      query || null
+    );
+    return profesores || [];
+  }
 
-      return profesorId;
+  async getProfesor({ id }) {
+    const profesor = await this.MongoDB.get(this.collection, id);
+    return profesor || [];
+  }
+
+  async createProfesor({ profesor }) {
+    const exist = await this.getProfesores({ cedula: profesor.cedula });
+    if (exist.length) {
+      throw new Error('El profesor ya existe');
     } else {
-      return 'Este usuario ya existe';
+      return await this.MongoDB.create(this.collection, profesor);
     }
   }
 
-  async modificar(profesor, data) {
-    const query = {
-      correo: profesor.correo,
-    };
-    const result = await this.MongoDB.update(this.collection, query, data);
-
-    if (result.result.nModified > 0) {
-      return true;
+  async updateProfesor({ id, profesor }) {
+    const exist = await this.getProfesor({ id });
+    if (exist.length) {
+      return await this.MongoDB.update(this.collection, id, profesor);
     } else {
-      return false;
+      throw new Error('El profesor no existe');
     }
   }
 
-  async buscar(query) {
-    const result = await this.MongoDB.get(this.collection, query);
-
-    if (result != null) {
-      return result;
+  async deleteProfesor({ id }) {
+    const exist = await this.getProfesor({ id });
+    if (exist.length) {
+      return await this.MongoDB.delete(this.collection, id);
     } else {
-      return null;
-    }
-  }
-
-  async buscarVarios(query) {
-    const result = await this.MongoDB.getAll(this.collection, query);
-
-    if (result.length > 0) {
-      return result;
-    } else {
-      return null;
-    }
-  }
-
-  async eliminar(id) {
-    const result = await this.MongoDB.delete(this.collection, id);
-
-    if (result.deletedCount > 0) {
-      return true;
-    } else {
-      return false;
+      throw new Error('El profesor no existe');
     }
   }
 }
 
-module.exports = { ProfesorService };
+module.exports = ProfesorService;

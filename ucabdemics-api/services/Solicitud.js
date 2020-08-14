@@ -1,69 +1,63 @@
-const mongoFunction = require('../lib/db').MongoLib;
-//const { ObjectId } = require('mongodb');
+const MongoLib = require('../lib/db');
 
 class SolicitudService {
   constructor() {
-    this.MongoDB = new mongoFunction();
+    this.MongoDB = new MongoLib();
     this.collection = 'solicitudes';
   }
 
-  async crear(data) {
-    const exist = await this.MongoDB.get(this.collection, data);
+  async getSolicitudes({ status, seccion, profesor, fecha }) {
+    const query = { status, seccion, profesor, fecha };
 
-    if (exist == null) {
-      const result = await this.MongoDB.create(this.collection, data);
-      if (result != null) {
-        return result;
-      } else {
-        return 'Error';
+    Object.keys(query).forEach((key) => {
+      if (query[key] === undefined) {
+        delete query[key];
       }
+    });
+
+    const solicitudes = await this.MongoDB.getAll(
+      this.collection,
+      query || null
+    );
+    return solicitudes || [];
+  }
+
+  async getSolicitud({ id }) {
+    const solicitud = await this.MongoDB.get(this.collection, id);
+    return solicitud || [];
+  }
+
+  async createSolicitud({ solicitud }) {
+    const exist = await this.getSolicitudes({
+      seccion: solicitud.seccion,
+      profesor: solicitud.profesor,
+      fecha: solicitud.fecha,
+      tipo: solicitud.tipo,
+    });
+    if (exist.length) {
+      throw new Error('La solicitud ya existe');
     } else {
-      return 'Ya existe';
+      return await this.MongoDB.create(this.collection, solicitud);
     }
   }
 
-  async buscar(query) {
-    const result = await this.MongoDB.get(this.collection, query);
-
-    if (result != null) {
-      return result;
+  async updateSolicitud({ id, solicitud }) {
+    const exist = await this.getSolicitud({ id });
+    if (exist.length) {
+      return await this.MongoDB.update(this.collection, id, solicitud);
     } else {
-      return null;
+      throw new Error('La solicitud no existe');
     }
   }
 
-  async buscarFecha(fecha) {
-    //Recibe la fecha (el tipo de dato) para buscar las solicitudes realizadas
-    const query = { fecha: fecha };
-    const result = await this.MongoDB.getAll(this.collection, query);
-
-    if (result.length > 0) {
-      return result;
+  async deleteSolicitud({ id }) {
+    const exist = await this.getSolicitud({ id });
+    if (exist.length) {
+      return await this.MongoDB.delete(this.collection, id);
     } else {
-      return null;
-    }
-  }
-
-  async modificar(query, data) {
-    //Es necesario recibir en query todos los datos de la solicitud
-    const result = await this.MongoDB.update(this.collection, query, data);
-
-    if (result.result.nModified > 0) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  async eliminar(id) {
-    const result = await this.MongoDB.delete(this.collection, id);
-
-    if (result.deletedCount > 0) {
-      return true;
-    } else {
-      return false;
+      throw new Error('La solicitud no existe');
     }
   }
 }
 
-module.exports = { SolicitudService };
+module.exports = SolicitudService;

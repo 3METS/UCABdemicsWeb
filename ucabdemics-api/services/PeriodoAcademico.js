@@ -1,66 +1,55 @@
-const mongoFunction = require('../lib/db').MongoLib;
+const MongoLib = require('../lib/db');
 
 class PeriodoService {
   constructor() {
-    this.MongoDB = new mongoFunction();
+    this.MongoDB = new MongoLib();
     this.collection = 'periodos-academico';
   }
 
-    async crear(data) {
-        const exist = await this.MongoDB.get(this.collection, {
-        codigo: data.codigo,
-        });
-        if (exist == null) {
-        const result = await this.MongoDB.create(this.collection, data);
-            return result;
-        } else {
-            return 'Ya existe';
-        }
-    }   
+  async getPeriodos({ termino, fechaInicio }) {
+    const query = { termino, fechaInicio };
 
-    async buscar(data){
-        const result = await this.MongoDB.get(this.collection, data);
-        if (result)
-            return result;
-        return "No existe"
+    Object.keys(query).forEach((key) => {
+      if (query[key] === undefined) {
+        delete query[key];
+      }
+    });
+
+    const periodos = await this.MongoDB.getAll(this.collection, query || null);
+    return periodos || [];
+  }
+
+  async getPeriodo({ id }) {
+    const periodo = await this.MongoDB.get(this.collection, id);
+    return periodo || [];
+  }
+
+  async createPeriodo({ periodo }) {
+    const exist = await this.getPeriodos({ termino: periodo.termino });
+    if (exist.length) {
+      throw new Error('El periodo ya existe');
+    } else {
+      return await this.MongoDB.create(this.collection, periodo);
     }
+  }
 
-    async buscarVarios(data){
-        const result = await this.MongoDB.getAll(this.collection, data);
-        if (result)
-            return result;
-        return "No existe"
+  async updatePeriodo({ id, periodo }) {
+    const exist = await this.getPeriodo({ id });
+    if (exist.length) {
+      return await this.MongoDB.update(this.collection, id, periodo);
+    } else {
+      throw new Error('El periodo no existe');
     }
+  }
 
-    async buscarCodigos (){
-        const result = await this.MongoDB.getAll(this.collection,{});
-        if (result.length > 0)
-            return result;
-        else
-            return null;
+  async deletePeriodo({ id }) {
+    const exist = await this.getPeriodo({ id });
+    if (exist.length) {
+      return await this.MongoDB.delete(this.collection, id);
+    } else {
+      throw new Error('El periodo no existe');
     }
-
-    async modificar (codigo, data){
-        const result = await this.MongoDB.update(this.collection, codigo, data);
-
-        if (result.result.nModified > 0){
-            return true;
-        }else{
-            return false;
-        }
-    }
-
-    async eliminar(codigo) {
-        const busqueda = await this.MongoDB.get(this.collection, codigo);
-        const id = busqueda._id.toString();
-        const result = await this.MongoDB.delete(this.collection, id);
-
-        if (result.deletedCount > 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+  }
 }
 
-module.exports = { PeriodoService };
+module.exports = PeriodoService;
