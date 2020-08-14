@@ -8,8 +8,8 @@ const docManagerApi = require('./routes/docManager');
 
 //DB APIS
 const asignaturaApi = require('./routes/Asignatura');
-const competenciaApi = require('./routes/competencia');
-const carreraApi = require('./routes/Carrera');
+const competenciaApi = require('./routes/Competencia');
+const carreraApi = require('./routes/carrera');
 const periodoApi = require('./routes/PeriodoAcademico');
 const profesorApi = require('./routes/Profesor');
 const planDeClaseApi = require('./routes/PlanDeClase');

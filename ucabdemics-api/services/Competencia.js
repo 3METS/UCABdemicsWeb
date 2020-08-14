@@ -8,10 +8,14 @@ class CompetenciaService {
 
   async getCompetencias({ competencia }) {
     const query = { competencia };
-    const competencias = await this.MongoDB.getAll(
-      this.collection,
-      query || null
-    );
+
+    Object.keys(query).forEach((key) => {
+      if (query[key] === undefined) {
+        delete query[key];
+      }
+    });
+
+    const competencias = await this.MongoDB.getAll(this.collection, query);
     return competencias || [];
   }
 
