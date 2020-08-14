@@ -1,46 +1,100 @@
-const apiService = require('../services/Carrera').CarreraService;
+const express = require('express');
+const CarreraService = require('../services/Carrera');
 
-const createCarrera = require('../models/carrera').createCarrera;
-const updateCarrera = require('../models/carrera').updateCarrera;
+const {
+  carreraIdSchema,
+  createCarreraSchema,
+  updateCarreraSchema,
+} = require('../utils/models/Carrera');
+const {
+  validationHandler,
+} = require('../utils/middlewares/validationHandlers');
 
-const { validationHandler } = require('../utils/middlewares/validationHandlers');
+function carreraApi(app) {
+  const router = express.Router();
 
+  app.use('/api/carreras', router);
 
+  const carreraService = new CarreraService();
 
-function carreraRoute(app){
+  router.get('/', async (req, res, next) => {
+    const { nombre, competencia, asignatura } = req.query;
+    try {
+      const carreras = await carreraService.getCarreras({
+        nombre,
+        competencia,
+        asignatura,
+      });
+      res.status(200).json(carreras);
+    } catch (err) {
+      next(err);
+    }
+  });
 
-    this.carreraService = new apiService();
+  router.get(
+    '/:id',
+    validationHandler(carreraIdSchema, 'params'),
+    async (req, res, next) => {
+      const { id } = req.params;
+      try {
+        const carrera = await carreraService.getCarrera({
+          id,
+        });
+        res.status(200).json(carrera);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
-    app.post('/crear/carrera',validationHandler(createCarrera), async function(req,res){
-        const {body : carrera} = req;
-        console.log(carrera);
-        try {
-            const data = await this.carreraService.crear(carrera);
-            res.json({
-                data:data
-            })
-        } catch (error) {
-            console.log(error);
-        }
-        
-    });
+  router.post(
+    '/',
+    validationHandler(createCarreraSchema),
+    async (req, res, next) => {
+      const { body: carrera } = req;
+      try {
+        const insertedCarreraId = await carreraService.createCarrera({
+          carrera,
+        });
+        res.status(201).json(insertedCarreraId);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
-     
-    app.get('/buscarAsignaturas/carrera',validationHandler(updateCarrera), async function(req,res){
-        const body = req.body;
-        try {
-            const data = await this.periodoService.buscarAsignaturas(body);
-            res.json({
-                data:data
-            })
-        } catch (error) {
-            console.log(error);
-        }
-        
-    });
+  router.put(
+    ':id',
+    validationHandler(carreraIdSchema, 'params'),
+    validationHandler(updateCarreraSchema),
+    async (req, res, next) => {
+      const { id } = req.params;
+      const { body: carrera } = req;
+      try {
+        const updetedCarreraId = await carreraService.updateCarrera({
+          id,
+          carrera,
+        });
+        res.status(200).json(updetedCarreraId);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
-
-    
-
+  router.delete(
+    '/:id',
+    validationHandler(carreraIdSchema, 'params'),
+    async (req, res, next) => {
+      const { id } = req.params;
+      try {
+        const deletedCarreraId = await carreraService.deleteCarrera({ id });
+        res.status(200).json(deletedCarreraId);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 }
-module.exports = carreraRoute;
+
+module.exports = carreraApi;
