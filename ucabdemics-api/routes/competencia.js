@@ -1,7 +1,7 @@
 const express = require('express');
 const CompetenciaService = require('../services/Competencia');
 
-const { competenciaIdSchema } = require('../utils/models/competencia');
+const { competenciaIdSchema } = require('../utils/models/Competencia');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
@@ -19,10 +19,7 @@ function competenciaApi(app) {
       const competencias = await competenciaService.getCompetencias({
         competencia,
       });
-      res.status(200).json({
-        data: competencias,
-        message: 'competencias listadas',
-      });
+      res.status(200).json(competencias);
     } catch (err) {
       next(err);
     }
@@ -35,12 +32,9 @@ function competenciaApi(app) {
       const { id } = req.params;
       try {
         const competencia = await competenciaService.getCompetencia({
-          competenciaId: id,
+          id,
         });
-        res.status(200).json({
-          data: competencia,
-          message: 'competencia extraida',
-        });
+        res.status(200).json(competencia);
       } catch (err) {
         next(err);
       }

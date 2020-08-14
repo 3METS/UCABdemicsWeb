@@ -1,17 +1,17 @@
 const express = require('express');
-const DocManagementService = require('../services/DocManagement');
+const DocManagerService = require('../services/DocManager');
 
 function docManagerApi(app) {
   const router = express.Router();
 
   app.use('/api/docManager', router);
 
-  const docManagementService = new DocManagementService();
+  const docManagerService = new DocManagerService();
 
   router.get('/plan/', (req, res, next) => {
     const { period, seccion, asignatura } = req.query;
 
-    const filePath = docManagementService.getFile({
+    const filePath = docManagerService.getFile({
       period,
       seccion,
       asignatura,
@@ -26,7 +26,7 @@ function docManagerApi(app) {
   router.post('/plan', async (req, res, next) => {
     const { period, seccion, asignatura } = req.body;
     try {
-      const job = await docManagementService.writeClassPlan({
+      const job = await docManagerService.writeClassPlan({
         data: { period, seccion, asignatura },
       });
       res.status(200).json({ job, message: 'generating document' });

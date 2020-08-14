@@ -16,10 +16,7 @@ function asignaturaApi(app) {
         semestre,
         departamento,
       });
-      res.status(200).json({
-        data: asignaturas,
-        message: 'contenidos listados',
-      });
+      res.status(200).json(asignaturas);
     } catch (err) {
       next(err);
     }
@@ -31,10 +28,7 @@ function asignaturaApi(app) {
       const asignatura = await asignaturaService.getAsignatura({
         id,
       });
-      res.status(200).json({
-        data: asignatura,
-        message: 'asignatura extraido',
-      });
+      res.status(200).json(asignatura);
     } catch (err) {
       next(err);
     }

@@ -1,80 +1,99 @@
-const apiService = require('../services/PeriodoAcademico').PeriodoService;
+const express = require('express');
+const PeriodoAcademicoService = require('../services/PeriodoAcademico');
 
-const createPeriodoAcademico = require('../models/periodoAcademico').createPeriodoAcademico;
-const updatePeriodoAcademico = require('../models/periodoAcademico').updatePeriodoAcademico;
+const {
+  periodoAcademicoIdSchema,
+  createPeriodoAcademico,
+  updatePeriodoAcademico,
+} = require('../utils/models/PeriodoAcademico');
+const {
+  validationHandler,
+} = require('../utils/middlewares/validationHandlers');
 
-const { validationHandler } = require('../utils/middlewares/validationHandlers');
+function periodoApi(app) {
+  const router = express.Router();
 
+  app.use('/api/periodosAcademicos', router);
 
+  const periodoService = new PeriodoAcademicoService();
 
-function periodoAcademicoRoute(app){
+  router.get('/', async (req, res, next) => {
+    const { termino, fechaInicio } = req.query;
+    try {
+      const periodos = await periodoService.getPeriodos({
+        termino,
+        fechaInicio,
+      });
+      res.status(200).json(periodos);
+    } catch (err) {
+      next(err);
+    }
+  });
 
-    this.periodoService = new apiService();
-    var params;
-     
-    app.get('/buscarVarios/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
-        const body = req.body;
-        try {
-            const data = await this.periodoService.buscarVarios(body);
-            res.json({
-                data:data
-            })
-        } catch (error) {
-            console.log(error);
-        }
-        
-    });
+  router.get(
+    '/:id',
+    validationHandler(periodoAcademicoIdSchema, 'params'),
+    async (req, res, next) => {
+      const { id } = req.params;
+      try {
+        const periodo = await periodoService.getPeriodo({
+          id,
+        });
+        res.status(200).json(periodo);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
-    // app.get('/buscar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){
-    //     const body = req.body;
-    //     try {
-    //         const data = await this.periodoService.buscar(body);
-    //         res.json({
-    //             data:data
-    //         })
-    //     } catch (error) {
-    //         console.log(error);
-    //     }
-    // });
-    
-    app.post('/crear/periodoAcademico',validationHandler(createPeriodoAcademico), async function(req,res){
-        const {body : periodo} = req;
-        try {
-            const data = await this.periodoService.crear(periodo);
-            res.json({
-                data:data
-            })
-        } catch (error) {
-            console.log(error);
-        }
-        
-    });
+  router.post(
+    '/',
+    validationHandler(createPeriodoAcademico),
+    async (req, res, next) => {
+      const { body: periodo } = req;
+      try {
+        const insertedPeridoId = await periodoService.createPeriodo({
+          periodo,
+        });
+        res.status(201).json(insertedPeridoId);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
-    app.get('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){//Buscar el periodo quese modificara
-        const body = req.body;
-        const data = await this.periodoService.buscar(body);
-        params = data;
-        res.json({
-            data:data
-        })
-    });
+  router.put(
+    ':id',
+    validationHandler(periodoAcademicoIdSchema, 'params'),
+    validationHandler(updatePeriodoAcademico),
+    async (req, res, next) => {
+      const { id } = req.params;
+      const { body: periodo } = req;
+      try {
+        const updetedPeriodoId = await periodoService.updatePeriodo({
+          id,
+          periodo,
+        });
+        res.status(200).json(updetedPeriodoId);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 
-    app.post('/modificar/periodoAcademico',validationHandler(updatePeriodoAcademico), async function(req,res){//Hace las modificaciones
-        const body = req.body;
-        const data = await this.periodoService.modificar(params,body);
-        res.json({
-            data:data
-        })
-    });
-
-    app.delete('/eliminar/periodoAcademico', validationHandler(updatePeriodoAcademico),async function(req,res){
-        const body = req.body;
-        const data = await this.periodoService.eliminar(body);
-        res.json({
-            data:data
-        })
-    });
-
-
+  router.delete(
+    '/:id',
+    validationHandler(periodoAcademicoIdSchema, 'params'),
+    async (req, res, next) => {
+      const { id } = req.params;
+      try {
+        const deletedPeriodoId = await periodoService.deletePeriodo({ id });
+        res.status(200).json(deletedPeriodoId);
+      } catch (err) {
+        next(err);
+      }
+    }
+  );
 }
-module.exports = periodoAcademicoRoute;
+
+module.exports = periodoApi;

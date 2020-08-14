@@ -1,5 +1,5 @@
 const express = require('express');
-const MailService = require('../services/mail');
+const MailService = require('../services/Mail');
 
 function MailApi(app) {
   const router = express.Router();
