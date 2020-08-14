@@ -1,7 +1,7 @@
 const express = require('express');
 const CompetenciaService = require('../services/Competencia');
 
-const { competenciaIdSchema } = require('../utils/models/Competencia');
+const { competenciaIdSchema } = require('../utils/models/competencia');
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
