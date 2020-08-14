@@ -6,7 +6,7 @@ const asignaturaIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
 const codigoSchema = joi.string().max(5);
 const nombreAsignaturaSchema = joi.string().min(10).max(70);
-const carreraSchema = joi.array().items(carreraIdSchema).sparse();
+const carreraSchema = joi.array().items(carreraIdSchema);
 const departamentoSchema = joi.string().min(10).max(50);
 const regimenSchema = joi.string().min(5).max(20);
 const ucSchema = joi.number().integer().min(1);
