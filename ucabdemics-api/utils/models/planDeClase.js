@@ -18,7 +18,7 @@ const subtemaItemSchema = {
 };
 const unidadTematicaItemSchema = {
   temas: joi.array().items(joi.number().integer().min(1)),
-  subtemas: joi.array().items(subtemaItemSchema),
+  subtemas: joi.array().items(subtemaItemSchema).min(1),
 };
 const evaluacionFechayPonderacionShema = {
   tipo: joi.string().min(5).max(50),
@@ -38,7 +38,7 @@ const contenidoItemSchema = {
   criterios: joi
     .array()
     .items(joi.string().regex(/^[0-9A-Z]{6}-[0-9]{2}-[0-9]{2}$/)),
-  unidadTematica: unidadTematicaItemSchema,
+  unidadTematica: joi.array().items(unidadTematicaItemSchema),
   actividadesDocente: joi.array().items(joi.string().min(10).max(200)),
   actividadesEstudiante: joi.array().items(joi.string().min(10).max(200)),
   evaluaciones: joi.array().items(evaluacionFechayPonderacionShema),
@@ -51,9 +51,7 @@ const evaluacionItemSchema = {
 };
 
 const evaluacionSchema = joi.array().items(evaluacionItemSchema);
-
 const contenidosSchema = joi.array().items(contenidoItemSchema);
-// **********************************************
 
 const createPlanClaseSchema = joi.object({
   escuela: escuelaSchema.required(),

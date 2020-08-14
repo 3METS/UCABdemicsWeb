@@ -15,9 +15,10 @@ const horarioSchema = joi.object({
 });
 
 const horariosSchema = joi.array().items(horarioSchema);
+const nrcSchema = joi.string().min(5).max(5);
 
 const createSeccionSchema = joi.object({
-  nrc: seccionIdSchema.required(),
+  nrc: nrcSchema.required(),
   asignatura: asignaturaIdSchema.required(),
   profesor: profesorIdSchema.required(),
   horarios: horariosSchema.required(),
@@ -26,7 +27,7 @@ const createSeccionSchema = joi.object({
 });
 
 const updateSeccionSchema = joi.object({
-  nrc: seccionIdSchema,
+  nrc: nrcSchema,
   asignatura: asignaturaIdSchema,
   profesor: profesorIdSchema,
   horarios: horariosSchema,

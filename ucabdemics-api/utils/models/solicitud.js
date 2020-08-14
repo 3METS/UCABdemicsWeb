@@ -5,7 +5,10 @@ const solicitudIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 const { profesorIdSchema } = require('./Profesor');
 const { seccionIdSchema } = require('./Seccion');
 
-const tipoSchema = joi.string().max(50);
+const tipoSchema = joi
+  .string()
+  .max(50)
+  .valid('Pendiente', 'Rechazado', 'Procesado');
 const horaInicioSchema = joi.string().min(5).max(12);
 const duracionSchema = joi.number().integer().min(1);
 const fechaSchema = joi.string().min(12).max(12);

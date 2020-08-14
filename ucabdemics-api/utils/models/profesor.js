@@ -4,29 +4,27 @@ const { carreraIdSchema } = require('./Carrera');
 const { seccionIdSchema } = require('./Seccion');
 
 const profesorIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
-
+const cedulaSchema = joi.string().min(7);
 const nombreSchema = joi.string().max(80);
-const correoSchema = joi.string().max(100);
 
 const seccionesSchema = joi.array().items(seccionIdSchema);
 
-const createProfesor = joi.object({
-  cedula: profesorIdSchema.required(),
+const createProfesorSchema = joi.object({
+  cedula: cedulaSchema.required(),
   nombre: nombreSchema.required(),
   carrera: carreraIdSchema.required(),
   secciones: seccionesSchema,
 });
 
-const updateProfesor = joi.object({
-  cedula: profesorIdSchema,
+const updateProfesorSchema = joi.object({
+  cedula: cedulaSchema,
   nombre: nombreSchema,
-  correo: correoSchema,
   carrera: carreraIdSchema,
   secciones: seccionesSchema,
 });
 
 module.exports = {
   profesorIdSchema,
-  createProfesor,
-  updateProfesor,
+  createProfesorSchema,
+  updateProfesorSchema,
 };

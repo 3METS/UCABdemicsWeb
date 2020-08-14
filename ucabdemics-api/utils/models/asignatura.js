@@ -1,5 +1,5 @@
 const joi = require('joi');
-const { competenciaIdSchema } = require('./competencia');
+const { competenciaIdSchema } = require('./Competencia');
 const { carreraIdSchema } = require('./Carrera');
 
 const asignaturaIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
@@ -10,15 +10,22 @@ const carreraSchema = joi.array().items(carreraIdSchema).sparse();
 const departamentoSchema = joi.string().min(10).max(50);
 const regimenSchema = joi.string().min(5).max(20);
 const ucSchema = joi.number().integer().min(1);
-const semestreSchema = joi.string().min(1).max(2);
-const tipoAsignaturaSchema = joi.string().min(5).max(20);
-const horasShema = joi.number().integer().min(0).default(0);
-const horasSemanalesItemSchema = {
-  teoricas: horasShema,
-  practicaSeminario: horasShema,
-  laboratorio: horasShema,
-};
-const horasSemanalesSchema = joi.object().keys(horasSemanalesItemSchema);
+const semestreSchema = joi
+  .string()
+  .min(1)
+  .max(4)
+  .valid('I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X');
+const tipoAsignaturaSchema = joi
+  .string()
+  .min(5)
+  .max(20)
+  .valid('Obligatoria', 'Electiva');
+const horasSchema = joi.number().integer().min(0).default(0);
+const horasSemanalesSchema = joi.object({
+  teoricas: horasSchema,
+  practicaSeminario: horasSchema,
+  laboratorio: horasSchema,
+});
 
 const asignaturaAporteSchema = joi.array().items(asignaturaIdSchema);
 const prelacionRequisitoSchema = joi.array().items(asignaturaIdSchema);
@@ -27,11 +34,10 @@ const unidadCompetenciaSchema = {
   unidad: joi.number().integer().min(1),
   criterios: joi.array().items(joi.number().integer()),
 };
-const competenciaSchema = {
+const competenciasSchema = joi.array().items({
   competencia: competenciaIdSchema,
   unidadesCompetencia: joi.array().items(unidadCompetenciaSchema),
-};
-const competenciasSchema = joi.array().items(competenciaSchema);
+});
 const temasSchema = {
   tema: joi.number().integer().min(1),
   descripcion: joi.string().min(5).max(70),
