@@ -1,4 +1,4 @@
-const BullService = require('./Bull');
+const BullService = require('./bull');
 
 class MailService {
   constructor() {
