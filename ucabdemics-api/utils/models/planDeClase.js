@@ -1,7 +1,7 @@
 const joi = require('joi');
-const { asignaturaIdSchema } = require('./Asignatura');
-const { competenciaIdSchema } = require('./Competencia');
-const { periodoAcademicoIdSchema } = require('./PeriodoAcademico');
+const { asignaturaIdSchema } = require('./asignatura');
+const { competenciaIdSchema } = require('./competencia');
+const { periodoAcademicoIdSchema } = require('./periodoAcademico');
 
 const planClaseIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 

@@ -1,7 +1,7 @@
 const joi = require('joi');
 
-const { carreraIdSchema } = require('./Carrera');
-const { seccionIdSchema } = require('./Seccion');
+const { carreraIdSchema } = require('./carrera');
+const { seccionIdSchema } = require('./seccion');
 
 const profesorIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 const cedulaSchema = joi.string().min(7);

@@ -1,5 +1,5 @@
 const joi = require('joi');
-const { competenciaIdSchema } = require('./Competencia');
+const { competenciaIdSchema } = require('./competencia');
 
 const asignaturaIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 

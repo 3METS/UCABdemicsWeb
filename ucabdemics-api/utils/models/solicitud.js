@@ -2,8 +2,8 @@ const joi = require('joi');
 
 const solicitudIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
-const { profesorIdSchema } = require('./Profesor');
-const { seccionIdSchema } = require('./Seccion');
+const { profesorIdSchema } = require('./profesor');
+const { seccionIdSchema } = require('./seccion');
 
 const tipoSchema = joi.string().max(50).valid('Aula', 'VideoBeam');
 const horaInicioSchema = joi.string().min(5).max(12);

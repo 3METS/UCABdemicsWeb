@@ -2,9 +2,9 @@ const joi = require('joi');
 
 const seccionIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
-const { asignaturaIdSchema } = require('./Asignatura');
-const { periodoAcademicoIdSchema } = require('./PeriodoAcademico');
-const { planClaseIdSchema } = require('./PlanDeClase');
+const { asignaturaIdSchema } = require('./asignatura');
+const { periodoAcademicoIdSchema } = require('./periodoAcademico');
+const { planClaseIdSchema } = require('./planDeClase');
 
 const horarioSchema = joi.object({
   horaInicio: joi.string().max(10),

@@ -1,7 +1,7 @@
 const joi = require('joi');
 
 const usuarioIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
-const { profesorIdSchema } = require('./Profesor');
+const { profesorIdSchema } = require('./profesor');
 
 const correoSchema = joi.string().max(300);
 const passwordSchema = joi.string().max(30);

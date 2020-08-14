@@ -1,6 +1,9 @@
 const express = require('express');
 const AsignaturaService = require('../services/Asignatura');
-
+const { asignaturaIdSchema } = require('../utils/models/asignatura');
+const {
+  validationHandler,
+} = require('../utils/middlewares/validationHandlers');
 function asignaturaApi(app) {
   const router = express.Router();
   app.use('/api/asignaturas', router);
@@ -22,17 +25,21 @@ function asignaturaApi(app) {
     }
   });
 
-  router.get('/:id', async (req, res, next) => {
-    const { id } = req.params;
-    try {
-      const asignatura = await asignaturaService.getAsignatura({
-        id,
-      });
-      res.status(200).json(asignatura);
-    } catch (err) {
-      next(err);
+  router.get(
+    '/:id',
+    validationHandler(asignaturaIdSchema, 'params'),
+    async (req, res, next) => {
+      const { id } = req.params;
+      try {
+        const asignatura = await asignaturaService.getAsignatura({
+          id,
+        });
+        res.status(200).json(asignatura);
+      } catch (err) {
+        next(err);
+      }
     }
-  });
+  );
 }
 
 module.exports = asignaturaApi;
