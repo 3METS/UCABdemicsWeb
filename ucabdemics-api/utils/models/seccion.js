@@ -3,7 +3,6 @@ const joi = require('joi');
 const seccionIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 
 const { asignaturaIdSchema } = require('./Asignatura');
-const { profesorIdSchema } = require('./Profesor');
 const { periodoAcademicoIdSchema } = require('./PeriodoAcademico');
 const { planClaseIdSchema } = require('./PlanDeClase');
 
@@ -20,7 +19,10 @@ const nrcSchema = joi.string().min(5).max(5);
 const createSeccionSchema = joi.object({
   nrc: nrcSchema.required(),
   asignatura: asignaturaIdSchema.required(),
-  profesor: profesorIdSchema.required(),
+  profesor: joi
+    .string()
+    .regex(/^[0-9a-fA-F]{24}$/)
+    .required(),
   horarios: horariosSchema.required(),
   periodoAcademico: periodoAcademicoIdSchema.required(),
   planDeClase: planClaseIdSchema.required(),
@@ -29,7 +31,7 @@ const createSeccionSchema = joi.object({
 const updateSeccionSchema = joi.object({
   nrc: nrcSchema,
   asignatura: asignaturaIdSchema,
-  profesor: profesorIdSchema,
+  profesor: joi.string().regex(/^[0-9a-fA-F]{24}$/),
   horarios: horariosSchema,
   periodoAcademico: periodoAcademicoIdSchema,
   planDeClase: planClaseIdSchema,

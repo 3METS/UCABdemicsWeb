@@ -1,5 +1,5 @@
 const joi = require('joi');
-const { asignaturaIdSchema } = require('./Asginatura');
+const { asignaturaIdSchema } = require('./Asignatura');
 const { competenciaIdSchema } = require('./Competencia');
 const { periodoAcademicoIdSchema } = require('./PeriodoAcademico');
 
