@@ -4,6 +4,7 @@ const boom = require('boom');
 const jwt = require('jsonwebtoken');
 const ApiKeysService = require('../services/apiKeys');
 const UserService = require('../services/Usuario');
+const MailService = require('../services/mail');
 
 const { config } = require('../config/index');
 const {
@@ -20,6 +21,7 @@ function authApi(app) {
 
   const apiKeysService = new ApiKeysService();
   const userService = new UserService();
+  const mailService = new MailService();
 
   router.post('/sign-in', async (req, res, next) => {
     const { apiKeyToken } = req.body;
@@ -72,7 +74,10 @@ function authApi(app) {
     async (req, res, next) => {
       const { body: user } = req;
       try {
-        const createdUserId = userService.createUsuario({ usuario: user });
+        const createdUserId = await userService.createUsuario({
+          usuario: user,
+        });
+        await mailService.sendWelcome({ email: user.email });
         res.status(200).json(createdUserId);
       } catch (err) {
         next(err);
