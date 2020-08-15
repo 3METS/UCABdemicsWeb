@@ -16,6 +16,7 @@ const subtemaItemSchema = {
   subtema: joi.string().regex(/^[0-9]{2}-[0-9]{2}$/),
   progreso: joi.number().integer().min(0).max(100).default(0),
 };
+
 const unidadTematicaItemSchema = {
   temas: joi.array().items(joi.number().integer().min(1)),
   subtemas: joi.array().items(subtemaItemSchema).min(1),

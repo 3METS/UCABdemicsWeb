@@ -57,7 +57,7 @@ function authApi(app) {
           };
 
           const token = jwt.sign(payload, config.authJwtSecret, {
-            expiresIn: '15m',
+            expiresIn: '180d',
           });
 
           return res.status(200).json({ token, user: { id, email, profesor } });
