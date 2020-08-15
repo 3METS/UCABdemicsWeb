@@ -3,21 +3,24 @@ const joi = require('joi');
 const usuarioIdSchema = joi.string().regex(/^[0-9a-fA-F]{24}$/);
 const { profesorIdSchema } = require('./profesor');
 
-const correoSchema = joi.string().max(300);
+const emailSchema = joi.string();
 const passwordSchema = joi.string().max(30);
+const isAdminSchema = joi.boolean();
 
 const createUsuarioSchema = joi.object({
-  correo: correoSchema.required(),
+  email: emailSchema.required(),
   password: passwordSchema.required(),
   repeatPassword: joi.ref('password'),
-  profesor: profesorIdSchema.required(),
+  profesor: profesorIdSchema,
+  isAdmin: isAdminSchema.required(),
 });
 
 const updateUsuarioSchema = joi.object({
-  correo: correoSchema,
+  email: emailSchema,
   password: passwordSchema,
   repeatPassword: joi.ref('password'),
   profesor: profesorIdSchema,
+  isAdmin: isAdminSchema,
 });
 
 module.exports = {

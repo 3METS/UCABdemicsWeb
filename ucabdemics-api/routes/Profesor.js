@@ -1,4 +1,6 @@
+require('../utils/auth/strategies/jwt');
 const express = require('express');
+const passport = require('passport');
 const ProfesorService = require('../services/Profesor');
 
 const {
@@ -9,6 +11,7 @@ const {
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
+const scopesValidationHandler = require('../utils/middlewares/scopesValidationHandler');
 
 function profesorApi(app) {
   const router = express.Router();
@@ -17,22 +20,29 @@ function profesorApi(app) {
 
   const profesorService = new ProfesorService();
 
-  router.get('/', async (req, res, next) => {
-    const { cedula, nombre, profesor } = req.query;
-    try {
-      const profesores = await profesorService.getProfesores({
-        cedula,
-        nombre,
-        profesor,
-      });
-      res.status(200).json(profesores);
-    } catch (err) {
-      next(err);
+  router.get(
+    '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:profesores']),
+    async (req, res, next) => {
+      const { cedula, nombre, profesor } = req.query;
+      try {
+        const profesores = await profesorService.getProfesores({
+          cedula,
+          nombre,
+          profesor,
+        });
+        res.status(200).json(profesores);
+      } catch (err) {
+        next(err);
+      }
     }
-  });
+  );
 
   router.get(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:profesores']),
     validationHandler(profesorIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;
@@ -49,6 +59,8 @@ function profesorApi(app) {
 
   router.post(
     '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['create:profesores']),
     validationHandler(createProfesorSchema),
     async (req, res, next) => {
       const { body: profesor } = req;
@@ -65,6 +77,8 @@ function profesorApi(app) {
 
   router.put(
     ':id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['update:profesores']),
     validationHandler(profesorIdSchema, 'params'),
     validationHandler(updateProfesorSchema),
     async (req, res, next) => {
@@ -84,6 +98,8 @@ function profesorApi(app) {
 
   router.delete(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['delete:profesores']),
     validationHandler(profesorIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;

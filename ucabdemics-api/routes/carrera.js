@@ -1,4 +1,6 @@
+require('../utils/auth/strategies/jwt');
 const express = require('express');
+const passport = require('passport');
 const CarreraService = require('../services/Carrera');
 
 const {
@@ -9,6 +11,7 @@ const {
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
+const scopesValidationHandler = require('../utils/middlewares/scopesValidationHandler');
 
 function carreraApi(app) {
   const router = express.Router();
@@ -17,22 +20,29 @@ function carreraApi(app) {
 
   const carreraService = new CarreraService();
 
-  router.get('/', async (req, res, next) => {
-    const { nombre, competencia, asignatura } = req.query;
-    try {
-      const carreras = await carreraService.getCarreras({
-        nombre,
-        competencia,
-        asignatura,
-      });
-      res.status(200).json(carreras);
-    } catch (err) {
-      next(err);
+  router.get(
+    '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:carreras']),
+    async (req, res, next) => {
+      const { nombre, competencia, asignatura } = req.query;
+      try {
+        const carreras = await carreraService.getCarreras({
+          nombre,
+          competencia,
+          asignatura,
+        });
+        res.status(200).json(carreras);
+      } catch (err) {
+        next(err);
+      }
     }
-  });
+  );
 
   router.get(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:carreras']),
     validationHandler(carreraIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;
@@ -49,6 +59,8 @@ function carreraApi(app) {
 
   router.post(
     '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['create:carreras']),
     validationHandler(createCarreraSchema),
     async (req, res, next) => {
       const { body: carrera } = req;
@@ -65,6 +77,8 @@ function carreraApi(app) {
 
   router.put(
     ':id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['update:carreras']),
     validationHandler(carreraIdSchema, 'params'),
     validationHandler(updateCarreraSchema),
     async (req, res, next) => {
@@ -84,6 +98,8 @@ function carreraApi(app) {
 
   router.delete(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['delete:carreras']),
     validationHandler(carreraIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;

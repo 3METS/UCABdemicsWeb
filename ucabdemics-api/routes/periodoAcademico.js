@@ -1,4 +1,6 @@
+require('../utils/auth/strategies/jwt');
 const express = require('express');
+const passport = require('passport');
 const PeriodoAcademicoService = require('../services/PeriodoAcademico');
 
 const {
@@ -9,6 +11,7 @@ const {
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
+const scopesValidationHandler = require('../utils/middlewares/scopesValidationHandler');
 
 function periodoApi(app) {
   const router = express.Router();
@@ -17,21 +20,28 @@ function periodoApi(app) {
 
   const periodoService = new PeriodoAcademicoService();
 
-  router.get('/', async (req, res, next) => {
-    const { termino, fechaInicio } = req.query;
-    try {
-      const periodos = await periodoService.getPeriodos({
-        termino,
-        fechaInicio,
-      });
-      res.status(200).json(periodos);
-    } catch (err) {
-      next(err);
+  router.get(
+    '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:periodos-academico']),
+    async (req, res, next) => {
+      const { termino, fechaInicio } = req.query;
+      try {
+        const periodos = await periodoService.getPeriodos({
+          termino,
+          fechaInicio,
+        });
+        res.status(200).json(periodos);
+      } catch (err) {
+        next(err);
+      }
     }
-  });
+  );
 
   router.get(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:periodos-academico']),
     validationHandler(periodoAcademicoIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;
@@ -48,6 +58,8 @@ function periodoApi(app) {
 
   router.post(
     '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['create:periodos-academico']),
     validationHandler(createPeriodoAcademico),
     async (req, res, next) => {
       const { body: periodo } = req;
@@ -64,6 +76,8 @@ function periodoApi(app) {
 
   router.put(
     ':id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['update:periodos-academico']),
     validationHandler(periodoAcademicoIdSchema, 'params'),
     validationHandler(updatePeriodoAcademico),
     async (req, res, next) => {
@@ -83,6 +97,8 @@ function periodoApi(app) {
 
   router.delete(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['delete:periodos-academico']),
     validationHandler(periodoAcademicoIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;

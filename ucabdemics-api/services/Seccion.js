@@ -35,7 +35,7 @@ class SeccionService {
 
   async updateSeccion({ id, seccion }) {
     const exist = await this.getSeccion({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.update(this.collection, id, seccion);
     } else {
       throw new Error('La seccion no existe');
@@ -44,7 +44,7 @@ class SeccionService {
 
   async deleteSeccion({ id }) {
     const exist = await this.getSeccion({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.delete(this.collection, id);
     } else {
       throw new Error('La seccion no existe');

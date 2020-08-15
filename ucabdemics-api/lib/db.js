@@ -43,7 +43,7 @@ class MongoLib {
   }
 
   getAll(collection, query) {
-    return this.connect().then((db) => {
+    return this.connect().then(async (db) => {
       return db.collection(collection).find(query).toArray();
     });
   }

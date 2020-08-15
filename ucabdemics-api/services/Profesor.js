@@ -38,7 +38,7 @@ class ProfesorService {
 
   async updateProfesor({ id, profesor }) {
     const exist = await this.getProfesor({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.update(this.collection, id, profesor);
     } else {
       throw new Error('El profesor no existe');
@@ -47,7 +47,7 @@ class ProfesorService {
 
   async deleteProfesor({ id }) {
     const exist = await this.getProfesor({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.delete(this.collection, id);
     } else {
       throw new Error('El profesor no existe');

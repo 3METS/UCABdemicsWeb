@@ -35,7 +35,7 @@ class PeriodoService {
 
   async updatePeriodo({ id, periodo }) {
     const exist = await this.getPeriodo({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.update(this.collection, id, periodo);
     } else {
       throw new Error('El periodo no existe');
@@ -44,7 +44,7 @@ class PeriodoService {
 
   async deletePeriodo({ id }) {
     const exist = await this.getPeriodo({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.delete(this.collection, id);
     } else {
       throw new Error('El periodo no existe');

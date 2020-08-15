@@ -1,4 +1,5 @@
 const MongoLib = require('../lib/db');
+const bcrypt = require('bcrypt');
 
 class UsuarioService {
   constructor() {
@@ -6,8 +7,8 @@ class UsuarioService {
     this.collection = 'usuarios';
   }
 
-  async getUsuarios({ correo, profesor }) {
-    const query = { correo, profesor };
+  async getUsuarios({ email, profesor }) {
+    const query = { email, profesor };
 
     Object.keys(query).forEach((key) => {
       if (query[key] === undefined) {
@@ -15,7 +16,7 @@ class UsuarioService {
       }
     });
 
-    const usuarios = await this.MongoDB.getAll(this.collection, query || null);
+    const usuarios = await this.MongoDB.getAll(this.collection, query);
     return usuarios || [];
   }
 
@@ -25,17 +26,21 @@ class UsuarioService {
   }
 
   async createUsuario({ usuario }) {
-    const exist = await this.getUsuarios({ correo: usuario.correo });
+    const exist = await this.getUsuarios({ email: usuario.email });
     if (exist.length) {
       throw new Error('El usuario ya existe');
     } else {
-      return await this.MongoDB.create(this.collection, usuario);
+      const hashedPassword = await bcrypt.hash(usuario.password, 10);
+      return await this.MongoDB.create(this.collection, {
+        ...usuario,
+        password: hashedPassword,
+      });
     }
   }
 
   async updateUsuario({ id, usuario }) {
     const exist = await this.getUsuario({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.update(this.collection, id, usuario);
     } else {
       throw new Error('El usuario no existe');
@@ -44,7 +49,7 @@ class UsuarioService {
 
   async deleteUsuario({ id }) {
     const exist = await this.getUsuario({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.delete(this.collection, id);
     } else {
       throw new Error('El usuario no existe');

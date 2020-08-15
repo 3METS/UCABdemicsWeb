@@ -1,10 +1,14 @@
 const app = require('express')();
+const passport = require('passport');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const { config } = require('./config/index');
 
 const mailApi = require('./routes/mail');
 const docManagerApi = require('./routes/docManager');
+
+//AUTH API
+const authApi = require('./routes/auth');
 
 //DB APIS
 const asignaturaApi = require('./routes/Asignatura');
@@ -15,7 +19,6 @@ const profesorApi = require('./routes/Profesor');
 const planDeClaseApi = require('./routes/PlanDeClase');
 const solicitudApi = require('./routes/Solicitud');
 const seccionApi = require('./routes/Seccion');
-const usuarioApi = require('./routes/Usuario');
 
 const {
   logErrors,
@@ -31,6 +34,7 @@ app.use(require('cors')());
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(passport.initialize());
 
 //Routes
 mailApi(app);
@@ -42,8 +46,8 @@ periodoApi(app);
 profesorApi(app);
 seccionApi(app);
 planDeClaseApi(app);
-usuarioApi(app);
 solicitudApi(app);
+authApi(app);
 
 //Direcciona a 404 not found
 app.use(notFoundHandler);

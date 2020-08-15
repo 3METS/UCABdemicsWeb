@@ -54,7 +54,7 @@ class PlanDeClaseService {
 
   async updatePlanDeClase({ id, planDeClase }) {
     const exist = await this.getPlanDeClase({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.update(this.collection, id, planDeClase);
     } else {
       throw new Error('El Plan De Clase no existe');
@@ -63,7 +63,7 @@ class PlanDeClaseService {
 
   async deletePlanDeClase({ id }) {
     const exist = await this.getPlanDeClase({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.delete(this.collection, id);
     } else {
       throw new Error('El Plan De Clase no existe');

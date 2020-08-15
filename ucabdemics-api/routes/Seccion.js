@@ -1,4 +1,6 @@
+require('../utils/auth/strategies/jwt');
 const express = require('express');
+const passport = require('passport');
 const SeccionService = require('../services/Seccion');
 
 const {
@@ -9,6 +11,7 @@ const {
 const {
   validationHandler,
 } = require('../utils/middlewares/validationHandlers');
+const scopesValidationHandler = require('../utils/middlewares/scopesValidationHandler');
 
 function seccionApi(app) {
   const router = express.Router();
@@ -17,24 +20,31 @@ function seccionApi(app) {
 
   const seccionService = new SeccionService();
 
-  router.get('/', async (req, res, next) => {
-    const { nrc, asignatura, planClase, profesor, periodo } = req.query;
-    try {
-      const secciones = await seccionService.getSecciones({
-        nrc,
-        asignatura,
-        planClase,
-        profesor,
-        periodo,
-      });
-      res.status(200).json(secciones);
-    } catch (err) {
-      next(err);
+  router.get(
+    '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:secciones']),
+    async (req, res, next) => {
+      const { nrc, asignatura, planClase, profesor, periodo } = req.query;
+      try {
+        const secciones = await seccionService.getSecciones({
+          nrc,
+          asignatura,
+          planClase,
+          profesor,
+          periodo,
+        });
+        res.status(200).json(secciones);
+      } catch (err) {
+        next(err);
+      }
     }
-  });
+  );
 
   router.get(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['read:secciones']),
     validationHandler(seccionIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;
@@ -51,6 +61,8 @@ function seccionApi(app) {
 
   router.post(
     '/',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['create:secciones']),
     validationHandler(createSeccionSchema),
     async (req, res, next) => {
       const { body: seccion } = req;
@@ -67,6 +79,8 @@ function seccionApi(app) {
 
   router.put(
     ':id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['update:secciones']),
     validationHandler(seccionIdSchema, 'params'),
     validationHandler(updateSeccionSchema),
     async (req, res, next) => {
@@ -86,6 +100,8 @@ function seccionApi(app) {
 
   router.delete(
     '/:id',
+    passport.authenticate('jwt', { session: false }),
+    scopesValidationHandler(['delete:secciones']),
     validationHandler(seccionIdSchema, 'params'),
     async (req, res, next) => {
       const { id } = req.params;

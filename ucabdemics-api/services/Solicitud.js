@@ -43,7 +43,7 @@ class SolicitudService {
 
   async updateSolicitud({ id, solicitud }) {
     const exist = await this.getSolicitud({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.update(this.collection, id, solicitud);
     } else {
       throw new Error('La solicitud no existe');
@@ -52,7 +52,7 @@ class SolicitudService {
 
   async deleteSolicitud({ id }) {
     const exist = await this.getSolicitud({ id });
-    if (exist.length) {
+    if (exist._id) {
       return await this.MongoDB.delete(this.collection, id);
     } else {
       throw new Error('La solicitud no existe');

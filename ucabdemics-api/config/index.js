@@ -12,7 +12,11 @@ const config = {
   email: process.env.EMAIL,
   emailPassword: process.env.EMAIL_PASSWORD,
   credentialPath: process.env.CREDENTIAL_PATH,
-  jobTypes: process.env.JOB_TYPES ? process.env.JOB_TYPES.split(',') : [],
+  defaultAdminPassword: process.env.DEFAULT_ADMIN_PASSWORD,
+  defaultUserPassword: process.env.DEFAULT_USER_PASSWORD,
+  authJwtSecret: process.env.AUTH_JWT_SECRET,
+  publicApiKeyToken: process.env.PUBLIC_API_KEY_TOKEN,
+  adminApiKeyToken: process.env.ADMIN_API_KEY_TOKEN,
 };
 
 module.exports = { config };
