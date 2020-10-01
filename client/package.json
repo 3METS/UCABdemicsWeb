@@ -18,7 +18,8 @@
     "rsuite": "^4.8.2"
   },
   "scripts": {
-    "start": "react-app-rewired start",
+    "start-client": "react-app-rewired start",
+    "start": "yarn build && (cd .. && cd ucabdemics-api && yarn start)",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject"
