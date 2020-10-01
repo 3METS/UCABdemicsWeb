@@ -1,0 +1,67 @@
+.form {
+  height: 100%;
+  padding: 4rem;
+}
+
+.full-image {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+.header {
+  padding-bottom: 3.5rem;
+}
+
+.custom-button {
+  background: rgb(64, 180, 229);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 180, 229, 1) 0%,
+    rgba(6, 202, 82, 1) 100%
+  );
+  height: 2.5rem;
+}
+
+.split-button-text {
+  font-size: 0.7rem;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.selected-button {
+  font-weight: bold;
+  color: #2ea4db;
+}
+
+.unselected-button {
+  font-weight: normal;
+  color: #828282;
+}
+
+.row {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.row-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.forgot-button {
+  color: #047732;
+  font-weight: bold;
+}
+
+.primary-text {
+  color: #2ea4db;
+}
+
+.gray-text {
+  color: #828282;
+}
+
+.input:focus {
+  color: #2ea4db;
+}
